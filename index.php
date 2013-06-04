@@ -40,6 +40,8 @@ get_header(); ?>
 				<!-- begin main post content area -->
                 <div class="main-container">
                     <div class="feature-left">
+                    
+                    
                         <article class="left-container">
                             <div class="fig-area">
                                 <figure class="drive">
