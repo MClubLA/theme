@@ -12,6 +12,39 @@
  */
 
 get_header(); ?>
+				<!-- feature slider -->
+                <div class="top-container">
+                    <figure class="left-bar">
+                        <img src="include/images/m-car1.jpg" alt="MCLUB-E36"/>
+                    </figure>
+                    <article class="right-bar">
+                        <h3 class="heading">SCOTT CHU x MCLUB</h3>
+                        <h4 class="sub-heading">E36 Photoshoot</h4>
+                        <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at pretium nisl.
+                            Donec feugiat est interdum sem fringilla tempor. Proin quis dui risus. 
+                            Phasellus enim turpis, ultrices id molestie id, vestibulum quis ligula. 
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                            Pellentesque bibendum libero non orci elementum varius. Quisque et volutpat ipsum. Aenean nec purus velit, a tempus arcu. 
+                            Phasellus sed metus purus, cursus pulvinar enim. Sed eu lorem libero.
+                        </p>
+                        <p class="para">
+                            In ut velit erat. Nunc ac faucibus est. Curabitur in elit nisl, id gravida nisi. Vivamus pharetra ipsum sit amet erat laoreet vehicula.
+                            Nam eget mi lectus, id feugiat nisi. Pellentesque semper, magna sit amet porta porta, mi libero gravida ligula, 
+                            sed placerat eros ante commodo mauris. Phasellus in orci sem, ut porta justo. Aliquam non tincidunt velit. Vivamus non nibh hendrerit augue aliquam ornare id ac purus.
+                        </p>
+                        <span class="date">11 October, 2012</span>
+                    </article>
+                </div>
+				<!-- end feature slider -->
+
+
+
+
+
+
+
+
+
 
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
