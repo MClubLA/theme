@@ -1,0 +1,129 @@
+/*reset css starts here*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video{margin:0;padding: 0;	border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+ol, ul {list-style: none;}
+/*reset css ends here*/
+html,body{height:100%;}
+.clear { clear:both; }
+a:focus { outline:none; }
+a { text-decoration:none; outline:none;}
+a:hover { text-decoration:underline; cursor:pointer; }
+input { -webkit-appearance: none;}
+input[type="button"], input[type="submit"]{cursor:pointer;}
+img{max-width:100%;}
+/*reset css ends here*/
+body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#555555;}
+.outer-wrapper{width: 100%;float: left;}
+/*.outer-wrapper{width: 100%;background:url("images/header-bg.jpg") repeat-x;float: left;}*/
+
+.wrapper{margin:0 auto; padding:0px; width:1144px;}
+
+/*Header section css*/
+.logo{float: left;margin-top: 0.5%;width: 13%;margin-left: 0.5%;}
+.header{float:left; width:100%;background:url("images/header-bg.jpg") repeat-x; margin: 0px -9999px 0px -9999px; padding: 0px 9999px 0px 9999px;}
+.navigation{float: left;width: 60%;}
+.navigation ul{text-align:center; display:block;width: 100%;}
+.navigation ul li{ background: url("images/saprator.jpg") no-repeat left center;display:inline-block; width:23%; *display:inline;*zoom:1; }
+.navigation ul li a{font-size:1.9em; color:#fff; display:block;line-height:361%;font-style: italic;padding: 0 37%;}
+.navigation ul li a:hover{background: url("images/nav-bg.jpg") repeat-x 0 0;}
+.navigation ul li .active-nav{background: url("images/nav-bg.jpg") repeat-x 0 0;}
+/*Search Box Css*/
+.search{ float: right; width: 18.5%; margin-top: 2%;background: #fff;}
+.search input{font-family: 'atrament-web'; color: #c7c7c7; }
+.search input.textbx{line-height: 20px;border: none;font-family: 'Times New Roman';background:#fff; float: left; font-size:12px; height:27px;width: 84%; color:#000; text-indent:8px;}
+.search input.submitbtn{float: right;border: none;  height:29px; width:14%; cursor: pointer;background:#fff url(images/magnifier.png) no-repeat 0px 3px;}
+/*top container Section*/
+.top-container{float: left;margin: 7% 0 0 0;background: #f3f3f3;width: 97.7%;padding: 1.3% 0 1.3% 2.3%;}
+.left-bar{float: left;width: 65%;}
+.right-bar{float:right;padding: 1% 2% 0 3px;width: 31%;}
+.heading,.sub-heading{font: 1.4em 'Times New Roman';}
+.solid-border{background: url("images/border-bottom.jpg") repeat-x bottom center!important;border: none!important;}
+.sub-heading{border-bottom: 1px dashed #7f7f7f;padding-bottom: 4%;width: 57%;}
+.para,.date{font: 1.1em 'Times New Roman';}
+.date{padding-top: 1%;display: block;}
+.right-bar .date,.para{padding-top: 2%;display: block;}
+/*Main container CSS*/
+.main-container{width: 100%;float: left;padding-top: 57px;}
+.fig-area{float: left;width: 46%;}
+.fig-area .tags{display: block;width: 100%;}
+.fig-area .tags .tags-head{font: 1.0em 'Times New Roman';color: #555555;}
+.fig-area .tags ul{display: block;width: 71%;padding-left: 8%;}
+.fig-area .tags ul li{float: left;margin: 4% 2% 0 0;width: 35%;}
+.feature-left{float: left;width: 58%;}
+.left-container{float: left;width: 100%;padding-bottom: 7%;}
+.left-container .drive{display: block;}
+.left-container .content{float: left;width: 48%;}
+.gary-btn{background-color: #999999!important;}
+.btn {background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 10px 'Times New Roman';padding: 3% 0 5%;text-align: center;border-radius:3px;}
+.more{font: 1.1em 'Times New Roman';color: #555555;text-decoration: underline;}
+/*Right Container css*/
+.right-container{float: right;margin: 0 11% 0 0;width: 24%;border-left: 1px solid #d7d7d7;padding-left: 3%;}
+.people-post{float: left;width: 100%;padding-top: 3%;padding-bottom: 23%;}
+.people-post li{float: left;width: 100%;border-bottom: #f4f4f4 1px solid;padding: 2% 0;}
+.people-post li .pic{float: left;width: 25%;padding-top: 3%;}
+.people-post li .msg{float: left;width: 74%;}
+.msg p{font:1.2em 'Times New Roman';}
+.msg span{color: #808080;font:1.1em 'Times New Roman';}
+
+.post{background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 11px 'Times New Roman';padding: 2% 0 3% 4%;text-align: left;border-radius:3px;}
+
+
+
+/*footer css*/
+#footer{float: left;background: #333333;width: 100%;}
+.foot-logo{float: left;margin-bottom: 10%;width: 17%;}
+
+/*********************2nd page****************************/
+/**breadcum css start here**/
+.breadcum{ float: left;padding: 59px 0 11px 0;width: 100%;}
+.breadcum li{ float: left;padding: 0 11px 0 5px;background: url("images/breadcum-arrow.gif") no-repeat scroll right 2px transparent;}
+.breadcum li a{color: #b1b1b0; font: 1.1em 'Times New Roman';}
+.breadcum li.active a,.breadcum li a:hover{text-decoration: none;}
+.breadcum li.first{padding-left: 0;}
+.breadcum li.last{background: none;}
+/**breadcum css end here**/
+.textBox{float: left;margin-left: 14%;width: 70%;margin-top: 2%}
+.video-area{background: #898989;float: left;width: 100%;}
+.clickable-area{width: 100%;text-align: center;display: block;}
+.textHd{float: left;border-bottom: 1px solid #000;width: 100%;padding: 10px 0 5px 0;}
+.textHd .headine2{float: left;font: 1.8em 'Times New Roman';color: #363636;}
+.textHd .headine2 small{font: 11px 'Times New Roman'!important;color: #686868;}
+.para2{font: 1.4em 'Times New Roman'}
+.textHd .textSocial{float: right;}
+.textHd .textSocial li{float: left;margin-left: 13px;}
+.textInfo{float: left;padding: 2% 0 13% 5%;text-align: justify;width: 92%;}
+.textLeft{display: inline-block;padding-top: 3%;width: 50%;}
+.for-right{float: right;}
+.textRight{float: right;font-size: 1.9em;font-style: italic;line-height: 170%;padding: 12% 8% 0 0;text-align: center;width: 32%;font: 2.0em 'Times New Roman';color: #707070;}
+.textRight2{float: left;padding: 12% 4% 0 0;width: 23%;}
+.text-pic{float: left;padding: 2% 0 3% 0;width: 98%;}
+
+
+
+/* nav */
+.nav {display: none;float: left;}
+.nav ul {
+margin: 0;
+padding: 0;
+}
+.nav li {
+margin: 0 5px 10px 0;
+padding: 0;
+list-style: none;
+display: inline-block;
+}
+.nav a {
+padding: 3px 12px;
+text-decoration: none;
+color: #fff;
+line-height: 100%;
+}
+.nav a:hover {
+color: #f1f1f1;
+}
+.nav .current a {
+background: #fff;
+color: #fff;
+border-radius: 5px;
+}
