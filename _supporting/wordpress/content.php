@@ -1,12 +1,45 @@
 <?php
 /**
  * The default template for displaying content. Used for both single and index/archive/search.
- *
- * @package WordPress
- * @subpackage Twenty_Twelve
- * @since Twenty Twelve 1.0
  */
 ?>
+
+                    
+                    
+                        <article id="post-<?php the_ID(); ?>" class="left-container">
+                            <div class="fig-area">
+                                <figure class="drive">
+                                    <img src="include/images/m-car2.jpg" alt="img"/>
+                                </figure>
+                                <div class="tags">
+                                    <h3 class="tags-head">TAGS:</h3>
+                                    <ul>
+                                        <li><a class="btn" href="#">Events</a></li>
+                                        <li><a class="btn gary-btn" href="#">1ST Tuesdays</a></li>
+                                        <li><a class="btn gary-btn" href="#">Meet-Ups</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <article class="content">
+                                <h3 class="heading">MCLUB LA: </h3>
+                                <h4 class="sub-heading solid-border">Drive & Cool</h4>
+                                <span class="date">11 October, 2012</span>
+                                <p class="para">Morbi lacinia commodo dui, sed hendrerit arcu blandit non. Etiam sit amet diam est, ac ultrices magna. 
+                                    Pellentesque suscipit congue nunc, in congue dui sollicitudin vitae. Nunc ut quam ipsum. Donec porttitor, lorem et rutrum commodo, 
+                                    mi erat varius tellus, ultrices egestas sapien urna vitae lacus. Donec nec diam nibh, a iaculis justo. Ut enim diam, 
+                                    venenatis id commodo in, ultricies ut diam. Donec porttitor varius nibh quis laoreet. Nunc hendrerit cursus neque,
+                                    eget mollis ante dignissim eget. Donec cursus, ligula ac porttitor ornare, enim tortor aliquam nisi, vel rhoncus risus magna vel leo.
+                                    Vestibulum augue leo, commodo volutpat laoreet sed, posuere nec sapien. Fusce iaculis, diam et lacinia sodales, augue elit commodo erat,
+                                    quis volutpat nulla felis ut tortor. Donec adipiscing justo at massa ultricies feugiat. Ut viverra nibh eget dui rutrum ac feugiat risus vehicula.
+                                    Phasellus gravida mauris at metus lacinia pellentesque...(<a class="more" href="#">More</a>)
+                                </p>
+                            </article>
+                        </article>
+                    </div>
+<!-- end main post content area -->
+
+
+
 
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
