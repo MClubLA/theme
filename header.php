@@ -21,8 +21,8 @@
         <title><?php wp_title( '|', true, 'right' ); ?></title>
 		<link rel="profile" href="http://gmpg.org/xfn/11" />
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-        <link rel="stylesheet" type="text/css" href="include/style.css"/>
-        <link rel="stylesheet" type="text/css" href="include/responsive.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css"/>
         
 		<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
         <!--[if lt IE 9]>

@@ -12,6 +12,8 @@
  */
 
 get_header(); ?>
+
+<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 				<!-- feature slider -->
                 <div class="top-container">
                     <figure class="left-bar">
@@ -36,7 +38,7 @@ get_header(); ?>
                     </article>
                 </div>
 				<!-- end feature slider -->
-
+<?php endif; ?>
 				<!-- begin main post content area -->
                 <div class="main-container">
                     <div class="feature-left">
