@@ -30,7 +30,6 @@
         <![endif]-->
         
         <?php // TODO ::: MODIFY JS LOADS ?>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery/jquery-scrolltofixed-min.js"></script>
         
