@@ -4,13 +4,7 @@
  */
 ?>                  
                         <article id="post-<?php the_ID(); ?>" class="left-container">
-			<?php if ( is_single() ) : ?>
-			<h1 class="entry-title"><?php the_title(); ?></h1>
-			<?php else : ?>
-			<h1 class="entry-title">
-				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
-			</h1>
-			<?php endif; // is_single() ?>
+
 
                             <div class="fig-area">
                                 <figure class="drive">
@@ -18,26 +12,27 @@
                                 </figure>
                                 <div class="tags">
                                     <h3 class="tags-head">TAGS:</h3>
-                                    <ul>
-                                        <li><a class="btn" href="#">Events</a></li>
-                                        <li><a class="btn gary-btn" href="#">1ST Tuesdays</a></li>
-                                        <li><a class="btn gary-btn" href="#">Meet-Ups</a></li>
-                                    </ul>
+			<?php twentytwelve_entry_meta(); ?>
+			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
                                 </div>
                             </div>
-                            <article class="content">
-                                <h3 class="heading">MCLUB LA: </h3>
-                                <h4 class="sub-heading solid-border">Drive & Cool</h4>
-                                <span class="date">11 October, 2012</span>
-                                <p class="para">Morbi lacinia commodo dui, sed hendrerit arcu blandit non. Etiam sit amet diam est, ac ultrices magna. 
-                                    Pellentesque suscipit congue nunc, in congue dui sollicitudin vitae. Nunc ut quam ipsum. Donec porttitor, lorem et rutrum commodo, 
-                                    mi erat varius tellus, ultrices egestas sapien urna vitae lacus. Donec nec diam nibh, a iaculis justo. Ut enim diam, 
-                                    venenatis id commodo in, ultricies ut diam. Donec porttitor varius nibh quis laoreet. Nunc hendrerit cursus neque,
-                                    eget mollis ante dignissim eget. Donec cursus, ligula ac porttitor ornare, enim tortor aliquam nisi, vel rhoncus risus magna vel leo.
-                                    Vestibulum augue leo, commodo volutpat laoreet sed, posuere nec sapien. Fusce iaculis, diam et lacinia sodales, augue elit commodo erat,
-                                    quis volutpat nulla felis ut tortor. Donec adipiscing justo at massa ultricies feugiat. Ut viverra nibh eget dui rutrum ac feugiat risus vehicula.
-                                    Phasellus gravida mauris at metus lacinia pellentesque...(<a class="more" href="#">More</a>)
-                                </p>
+			<?php if ( is_single() ) : ?>
+			<h3 class="heading"><?php the_title(); ?></h1>
+			<?php else : ?>
+			<h3 class="heading">
+				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+			</h1>
+			<?php endif; // is_single() ?>
+		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
+		<div class="entry-summary">
+			<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
+		<?php else : ?>
+		<div class="entry-content">
+			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
+			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
+		</div><!-- .entry-content -->
+		<?php endif; ?>
                             </article>
                         </article>
                     </div>
