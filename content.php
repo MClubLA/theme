@@ -27,16 +27,9 @@
 			<?php endif; // is_single() ?>
                                             <h4 class="sub-heading solid-border">subtitle placeholder</h4>
                                 <span class="date"><?php get_the_date() ?></span>
-		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
-		<div class="entry-summary">
-			<?php the_excerpt(); ?>
-		</div><!-- .entry-summary -->
-		<?php else : ?>
 		
 			<?php the_content( "More" ); ?>
-			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
 		<!-- .entry-content -->
-		<?php endif; ?>
                             </article>
                         </article>
                     </div>
