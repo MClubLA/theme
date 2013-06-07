@@ -8,8 +8,11 @@
  * @subpackage Twenty_Twelve
  * @since Twenty Twelve 1.0
  */
-
-if (function_exists('wpp_get_mostpopular')) {
-	wpp_get_mostpopular();
-}
 ?>
+<article class="right-container">
+<?php if (function_exists('wpp_get_mostpopular')) : ?>
+<h2 class="post">Popular Posts</h2>
+
+	<?php wpp_get_mostpopular(); ?>
+<?php endif; ?>
+</article>
