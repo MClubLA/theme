@@ -53,6 +53,7 @@
                         'theme_location' => 'primary',
                         'container' => 'nav',
                         'container_class' => 'navigation'
+						'menu_class' => false
                     )); ?>
 
                     <!--mobile navigation-->
