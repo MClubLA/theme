@@ -13,6 +13,7 @@
 			<?php the_tags() ?>
                                 </div>
                             </div>
+                            <article class="content">
 			<?php if ( is_single() ) : ?>
 			<h3 class="heading"><?php the_title(); ?></h1>
 			<?php else : ?>
