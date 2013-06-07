@@ -8,11 +8,8 @@
  * @subpackage Twenty_Twelve
  * @since Twenty Twelve 1.0
  */
-?>
 
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-        <article class="right-container" role="secondary">
-        	<h2 class="post">Popular Posts</h2>
-              <?php dynamic_sidebar( 'sidebar-1' ); ?>
-		</article><!-- sidebar -->
-	<?php endif; ?>
+if (function_exists('wpp_get_mostpopular')) {
+	wpp_get_mostpopular();
+}
+?>
