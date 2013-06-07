@@ -49,9 +49,12 @@
                 <header class="header">
                     <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" rel="home" alt="img"></a>
                     <!--big nav-->
-                    <nav class="navigation" role="navigation">
-                    	<?php wp_nav_menu(); ?>
-                    </nav>
+					<?php wp_nav_menu( array(
+                        'theme_location' => 'primary',
+                        'container' => 'nav',
+                        'container_class' => 'navigation'
+                    )); ?>
+
                     <!--mobile navigation-->
                     <nav class="nav" role="navigation">
                     	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav', 'container' => 'nav' ) ); ?>
