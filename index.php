@@ -13,7 +13,7 @@
 
 get_header(); ?>
 
-<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
+<?php if ( is_home() && ! is_paged() ) : ?>
 				<!-- feature slider -->
                 <div class="top-container">
                     <figure class="left-bar">
