@@ -10,23 +10,19 @@
                                 </figure>
                                 <div class="tags">
                                      <h3 class="tags-head">TAGS:</h3>
-                                    <ul>
-                                        <li><a class="btn" href="#">Feature</a></li>
-                                        <li><a class="btn gary-btn" href="#">Scott Chu</a></li>
-                                        <li><a class="btn gary-btn" href="#">e21</a></li>
-                                    </ul>
+                                    <?php the_tags( array( 'before' => '' ) ) ?>
                                 </div>
                             </div>
 							<article class="content">
 			<?php if ( is_single() ) : ?>
-			<h3 class="heading"><?php the_title(); ?></h1>
+			<h3 class="heading solid-border"><?php the_title(); ?></h1>
 			<?php else : ?>
-			<h3 class="heading">
+			<h3 class="heading solid-border">
 				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 			</h3>
 			<?php endif; // is_single() ?>
-                                            <h4 class="sub-heading solid-border">subtitle placeholder</h4>
-                                <span class="date"><?php get_the_date() ?></span>
+                        
+  <span class="date"><?php get_the_date() ?></span>
 		
 			<?php the_content( "More" ); ?>
 		<!-- .entry-content -->
