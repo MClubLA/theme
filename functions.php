@@ -362,11 +362,6 @@ function twentytwelve_body_class( $classes ) {
 			$classes[] = 'two-sidebars';
 	}
 
-	if ( empty( $background_color ) )
-		$classes[] = 'custom-background-empty';
-	elseif ( in_array( $background_color, array( 'fff', 'ffffff' ) ) )
-		$classes[] = 'custom-background-white';
-
 	// Enable custom font class only if the font CSS is queued to load.
 	if ( wp_style_is( 'twentytwelve-fonts', 'queue' ) )
 		$classes[] = 'custom-font-enabled';
@@ -377,20 +372,6 @@ function twentytwelve_body_class( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'twentytwelve_body_class' );
-
-/**
- * Adjusts content_width value for full-width and single image attachment
- * templates, and when there are no active widgets in the sidebar.
- *
- * @since Twenty Twelve 1.0
- */
-function twentytwelve_content_width() {
-	if ( is_page_template( 'page-templates/full-width.php' ) || is_attachment() || ! is_active_sidebar( 'sidebar-1' ) ) {
-		global $content_width;
-		$content_width = 960;
-	}
-}
-add_action( 'template_redirect', 'twentytwelve_content_width' );
 
 /**
  * Add postMessage support for site title and description for the Theme Customizer.
