@@ -17,7 +17,7 @@ get_header(); ?>
 				<!-- feature slider -->
                 <div class="top-container">
                     <figure class="left-bar">
-                        <img src="include/images/m-car1.jpg" alt="MCLUB-E36"/>
+                        <img src="images/m-car1.jpg" alt="MCLUB-E36"/>
                     </figure>
                     <article class="right-bar">
                         <h3 class="heading">SCOTT CHU x MCLUB</h3>

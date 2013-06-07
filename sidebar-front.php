@@ -22,7 +22,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                         <ul class="people-post">
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-1.jpg" alt=""/>
+                                    <img src="images/people-1.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Maison Martin Margicla for H&M 2012 Fall/Winter NYC Launch Video Recap</p>
@@ -31,7 +31,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-2.jpg" alt=""/>
+                                    <img src="images/people-2.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Maison Martin Margicla for H&M 2012 Fall/WinterFootwear Collection</p>
@@ -40,7 +40,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-3.jpg" alt=""/>
+                                    <img src="images/people-3.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Ben Baller Makes Sean Kingston's 3rd Jusus piece to Matchf Rick Ross</p>
@@ -49,7 +49,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-4.jpg" alt=""/>
+                                    <img src="images/people-4.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Applying Sneaker Marketing to a 259- Year-Old Beer Compabny with Andy Chiu</p>
@@ -58,7 +58,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-5.jpg" alt=""/>
+                                    <img src="images/people-5.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>OBEY 2012 Holiday Lookbook</p>
@@ -67,7 +67,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-6.jpg" alt=""/>
+                                    <img src="images/people-6.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Apple Introduces the New iMac</p>
@@ -76,7 +76,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-7.jpg" alt=""/>
+                                    <img src="images/people-7.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Essentials: Annoushka Giltsoff of A Number of Names*</p>
@@ -85,7 +85,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-8.jpg" alt=""/>
+                                    <img src="images/people-8.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Gourmet x Mitchell & Ness Vintage Satin Jacket</p>
@@ -94,7 +94,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-9.jpg" alt=""/>
+                                    <img src="images/people-9.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Danny Brown - Witlt | Video</p>
@@ -103,7 +103,7 @@ if ( ! is_active_sidebar( 'sidebar-2' ) && ! is_active_sidebar( 'sidebar-3' ) )
                             </li>
                             <li>
                                 <figure class="pic">
-                                    <img src="include/images/people-10.jpg" alt=""/>
+                                    <img src="images/people-10.jpg" alt=""/>
                                 </figure>
                                 <div class="msg">
                                     <p>Acapulco Gold 2012 Fall Lookbook</p>
