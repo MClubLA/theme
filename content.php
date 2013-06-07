@@ -10,8 +10,7 @@
                                 </figure>
                                 <div class="tags">
                                     <h3 class="tags-head">TAGS:</h3>
-			<?php twentytwelve_entry_meta(); ?>
-			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
+			<?php the_tags() ?>
                                 </div>
                             </div>
 			<?php if ( is_single() ) : ?>
@@ -19,17 +18,19 @@
 			<?php else : ?>
 			<h3 class="heading">
 				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
-			</h1>
+			</h3>
 			<?php endif; // is_single() ?>
+                                            <h4 class="sub-heading solid-border">subtitle placeholder</h4>
+                                <span class="date"><?php get_the_date() ?></span>
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 		<div class="entry-summary">
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<?php else : ?>
-		<div class="entry-content">
-			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
+		
+			<?php the_content( "More" ); ?>
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) ); ?>
-		</div><!-- .entry-content -->
+		<!-- .entry-content -->
 		<?php endif; ?>
                             </article>
                         </article>
