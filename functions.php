@@ -389,6 +389,6 @@ add_action( 'customize_register', 'twentytwelve_customize_register' );
 
 /* Fix the excerpt */
 function new_excerpt_more( $more ) {
-	return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">More</a>';
+	return ' (<a class="more" href="'. get_permalink( get_the_ID() ) . '">More</a>)';
 }
 add_filter( 'excerpt_more', 'new_excerpt_more' );
