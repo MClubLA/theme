@@ -12,6 +12,7 @@
 
 	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
         <article class="right-container" role="secondary">
-                    			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+        	<h2 class="post">Popular Posts</h2>
+              <?php dynamic_sidebar( 'sidebar-1' ); ?>
 		</article><!-- sidebar -->
 	<?php endif; ?>
