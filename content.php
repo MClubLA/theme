@@ -10,7 +10,7 @@
                                 </figure>
                                 <div class="tags">
                                      <h3 class="tags-head">TAGS:</h3>
-                                    <?php the_tags( array( 'before' => '' ) ) ?>
+                                    <?php the_tags() ?>
                                 </div>
                             </div>
 							<article class="content">
