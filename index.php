@@ -21,7 +21,7 @@ get_header(); ?>
 					wooslider( array( 
 						'slider_type' => 'posts',
 						'smoothheight' => 'true' ), 
-						array( 'tag' => 'featured' ) 
+						//array( 'tag' => 'featured' ) 
 						);
 				}
 				?>
