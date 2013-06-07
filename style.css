@@ -68,7 +68,7 @@ body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#55
 .left-container .drive{display: block;}
 .left-container .content{float: left;width: 48%;}
 .gary-btn{background-color: #999999!important;}
-.btn {background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 10px 'Times New Roman';padding: 3% 0 5%;text-align: center;border-radius:3px;}
+.tags li a{background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 10px 'Times New Roman';padding: 3% 0 5%;text-align: center;border-radius:3px;}
 .more{font: 1.1em 'Times New Roman';color: #555555;text-decoration: underline;}
 /*Right Container css*/
 .right-container{float: right;margin: 0 11% 0 0;width: 24%;border-left: 1px solid #d7d7d7;padding-left: 3%;}
