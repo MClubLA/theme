@@ -43,29 +43,17 @@
     </head>
 
 
-    <body <?php body_class(); ?>>
+    <body <?php //body_class(); ?>>
         <div class="outer-wrapper">
             <div class="wrapper">
                 <header class="header">
                     <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" rel="home" alt="img"></a>
                     <nav class="navigation" role="navigation">
                         <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'container' => false ) ); ?>
-                        <ul>
-                            <li><a href="#">Blog</a></li>
-                            <li><a class="active-nav" href="#">Tech</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Store</a></li>
-                        </ul>
                     </nav>
                     <!--mobile navigation-->
                     <nav class="nav" role="navigation">
                     	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'container' => false ) ); ?>
-                        <ul>
-                            <li class="current"><a href="#">Blog</a></li>
-                            <li><a href="#">Tech</a></li>
-                            <li><a href="#">Forum</a></li>
-                            <li><a href="#">Store</a></li>
-                        </ul>
                     </nav>
                     <!---->
                     <div class="search">
