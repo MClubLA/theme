@@ -27,7 +27,7 @@
         		the_content();
 		} else {
          		the_excerpt( "More" );
-        endif; ?>
+		} ?>
         <!-- .entry-content -->
                             </article>
                         </article>
