@@ -28,5 +28,4 @@
 		<!-- .entry-content -->
                             </article>
                         </article>
-                    </div>
 <!-- end main post content area -->
