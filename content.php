@@ -4,8 +4,6 @@
  */
 ?>                  
                         <article id="post-<?php the_ID(); ?>" class="left-container">
-
-
                             <div class="fig-area">
                                 <figure class="drive">
                                 	<?php the_post_thumbnail(); ?>
