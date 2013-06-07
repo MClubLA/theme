@@ -53,14 +53,18 @@
                         'theme_location' => 'primary',
                         'container' => 'nav',
                         'container_class' => 'navigation',
-						'menu_class' => false,
-						'menu_id' => false
+						'menu_class' => '',
+						'menu_id' => ''
                     )); ?>
 
                     <!--mobile navigation-->
-                    <nav class="nav" role="navigation">
-                    	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav', 'container' => 'nav' ) ); ?>
-                    </nav>
+					<?php wp_nav_menu( array(
+                        'theme_location' => 'primary',
+                        'container' => 'nav',
+                        'container_class' => 'nav',
+						'menu_class' => '',
+						'menu_id' => ''
+                    )); ?>
                     <!---->
                     <div class="search">
                         <input class="submitbtn" type="submit" value=""/>
