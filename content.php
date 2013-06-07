@@ -23,9 +23,12 @@
 			<?php endif; // is_single() ?>
                         
   <span class="date"><?php get_the_date() ?></span>
-		
-			<?php the_content( "More" ); ?>
-		<!-- .entry-content -->
+		<?php if ( is_single() ) {
+        		the_content();
+		} else {
+         		the_excerpt( "More" );
+        endif; ?>
+        <!-- .entry-content -->
                             </article>
                         </article>
 <!-- end main post content area -->
