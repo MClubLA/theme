@@ -49,7 +49,11 @@
                 <header class="header">
                     <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" rel="home" alt="img"></a>
                     
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'navigation', 'container' => 'nav' ) ); ?>
+                    <?php wp_nav_menu( array( 'container' => 'nav',
+											  'container_class' => 'navigation',
+											  'theme_location' => 'primary', 
+											  'menu_class' => none
+											 ) ); ?>
                     
                     <!--mobile navigation-->
                     <nav class="nav" role="navigation">
