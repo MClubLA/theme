@@ -39,7 +39,7 @@
 			});
 		</script>
         <!-- Plugin and other dynamic header content -->
-        <?php wp_head(); ?>
+        <?php //wp_head(); ?>
     </head>
 
 
