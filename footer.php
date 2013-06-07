@@ -11,7 +11,7 @@
             </div>
             <footer id="footer"  role="contentinfo">
                 <div class="wrapper">
-                    <span class="foot-logo"><img src="include/images/bottom-logo.png" alt="MClub LA"/></span>
+                    <span class="foot-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/bottom-logo.png" alt="MClub LA"/></span>
                 </div>
             </footer>
         </div>
