@@ -20,7 +20,7 @@ get_header(); ?>
                 <?php if( function_exists(wooslider) ){
 					wooslider( array( 
 						'slider_type' => 'posts',
-						'smoothheight' => 'true' ), 
+						'smoothheight' => 'true' )
 						//array( 'tag' => 'featured' ) 
 						);
 				}
