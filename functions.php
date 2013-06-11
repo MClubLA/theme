@@ -109,14 +109,6 @@ function twentytwelve_scripts_styles() {
 
 		/* translators: To add an additional Open Sans character subset specific to your language, translate
 		   this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your own language. */
-		$subset = _x( 'no-subset', 'Open Sans font: add new subset (greek, cyrillic, vietnamese)', 'twentytwelve' );
-
-		if ( 'cyrillic' == $subset )
-			$subsets .= ',cyrillic,cyrillic-ext';
-		elseif ( 'greek' == $subset )
-			$subsets .= ',greek,greek-ext';
-		elseif ( 'vietnamese' == $subset )
-			$subsets .= ',vietnamese';
 
 		$protocol = is_ssl() ? 'https' : 'http';
 		$query_args = array(
