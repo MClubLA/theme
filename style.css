@@ -435,7 +435,6 @@ a:active {
 	float: left; 
 	font-size:12px; 
 	height:27px;
-	width: 84%; 
 	color:#000; 
 	text-indent:8px;
 }
@@ -443,10 +442,11 @@ a:active {
 .search input.submit {
 	float: right;
 	border: none;
-	height:29px; 
-	width:14%; 
+	height:23px; 
+	width: 23px; 
 	cursor: pointer;
-	background:#fff url("images/magnifier.png") no-repeat 0px 3px;
+	padding: 0 0 0 23px !important; /* Fix for Internet Explorer */
+	background: transparent url("images/magnifier.png") no-repeat 0 0;
 }
 
 
