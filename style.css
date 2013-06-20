@@ -38,7 +38,7 @@ body{ background:#fff; font:10px 'Droid Serif', serif; color:#555555;}
 
 /*Header section css*/
 .logo{float: left;margin-top: 0.5%;width: 13%;margin-left: 0.5%;}
-.header{float:left; width:100%;background:url("images/header-bg.jpg") repeat-x; margin: 0px -9999px 0px -9999px; padding: 0px 9999px 0px 9999px;}
+#header{float:left; width:100%;background:url("images/header-bg.jpg") repeat-x; margin: 0px -9999px 0px -9999px; padding: 0px 9999px 0px 9999px;}
 .navigation{float: left;width: 60%;}
 .navigation ul{text-align:center; display:block;width: 100%;}
 .navigation ul li{ background: url("images/saprator.jpg") no-repeat left center;display:inline-block; width:23%; *display:inline;*zoom:1; }
