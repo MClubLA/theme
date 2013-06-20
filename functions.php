@@ -115,6 +115,15 @@ add_action( 'widgets_init', 'mclub_widgets_init' );
  */
 function mclub_scripts() {
 
+	/**
+	*	Use latest jQuery release
+	*/
+	if( !is_admin() ){
+		wp_deregister_script('jquery');
+		wp_register_script('jquery', ("//ajax.googleapis.com/ajax/libs/jquery/1.9/jquery.min.js"), false, '');
+		wp_enqueue_script('jquery');
+	}
+
 	wp_enqueue_style( 'mclub-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'mclub-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
