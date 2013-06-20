@@ -442,11 +442,11 @@ a:active {
 .search input.submit {
 	float: right;
 	border: none;
-	height:23px; 
+	height:27px; 
 	width: 23px; 
 	cursor: pointer;
 	padding: 0 0 0 23px !important; /* Fix for Internet Explorer */
-	background: transparent url("images/magnifier.png") no-repeat 0 0;
+	background: transparent url("images/magnifier.png") no-repeat 0 3px;
 }
 
 
