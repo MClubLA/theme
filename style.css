@@ -427,7 +427,7 @@ a:active {
 	color: #c7c7c7; 
 }
 
-.search input.textbx {
+.search input.field {
 	line-height: 20px;
 	border: none;
 	font-family: 'Times New Roman';
@@ -440,13 +440,13 @@ a:active {
 	text-indent:8px;
 }
 
-.search input.submitbtn {
+.search input.submit {
 	float: right;
 	border: none;
 	height:29px; 
 	width:14%; 
 	cursor: pointer;
-	background:#fff url(images/magnifier.png) no-repeat 0px 3px;
+	background:#fff url("images/magnifier.png") no-repeat 0px 3px;
 }
 
 
