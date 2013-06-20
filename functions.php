@@ -68,6 +68,7 @@ add_action( 'after_setup_theme', 'mclub_setup' );
  *
  * Hooks into the after_setup_theme action.
  */
+/*
 function mclub_register_custom_background() {
 	$args = array(
 		'default-color' => 'ffffff',
@@ -86,7 +87,7 @@ function mclub_register_custom_background() {
 	}
 }
 add_action( 'after_setup_theme', 'mclub_register_custom_background' );
-
+*/
 /**
  * Register widgetized area and update sidebar with default widgets
  */
