@@ -146,15 +146,3 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
-
-/* MClub Code Tweaks */
-
-/**
- * Add code before header
- */
-
-function mclub_preheader_html() {
-	echo "<div class=\"wrapper\">\n";
-	return;
-}
-add_action( 'before', 'mclub_preheader_html' );
