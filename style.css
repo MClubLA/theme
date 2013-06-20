@@ -414,6 +414,8 @@ a:active {
 	margin-left: 0.5%;
 }
 
+.navigation-main ul li{  }
+
 
 
 
@@ -421,24 +423,36 @@ a:active {
 ----------------------------------------------- */
 
 .navigation-main {
-	clear: both;
-	display: block;
 	float: left;
-	width: 100%;
+	width: 60%;
 }
 .navigation-main ul {
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
+	text-align: center;
+	display: block;
+	width: 100%
 }
 .navigation-main li {
-	float: left;
-	position: relative;
+	background: url("images/nav-sep.jpg") no-repeat left center;
+	display:inline-block;
+	width:23%; 
+	*display:inline;
+	*zoom:1;
 }
+
 .navigation-main a {
 	display: block;
 	text-decoration: none;
+	color: #fff;
+	font-size: 1.9em;
+	line-height: 361%;
+	font-style: italic;
+	padding: 0 37%;
 }
+
+.navigation-main a:hover {
+	background: url("images/nav-bg.jpg") repeat-x 0 0;
+}
+
 .navigation-main ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	display: none;
@@ -468,6 +482,7 @@ a:active {
 }
 .navigation-main li.current_page_item a,
 .navigation-main li.current-menu-item a {
+	background: url("images/nav-bg.jpg") repeat-x 0 0;
 }
 
 /* Small menu */
