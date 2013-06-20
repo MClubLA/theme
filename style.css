@@ -400,23 +400,54 @@ a:active {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-.site-header{
+.site-header {
 	float:left; 
 	width:100%;
 	background:url("images/header-bg.jpg") repeat-x; margin: 0px -9999px 0px -9999px; 
 	padding: 0px 9999px 0px 9999px;
 }
 
-.logo{
+.logo {
 	float: left;
 	margin-top: 0.5%;
 	width: 13%;
 	margin-left: 0.5%;
 }
 
-.navigation-main ul li{  }
+/* Search Box */
+.search { 
+	float: right; 
+	width: 18.5%; 
+	margin-top: 2%;
+	background: #fff;
+}
 
+.search input {
+	font-family: 'atrament-web'; 
+	color: #c7c7c7; 
+}
 
+.search input.textbx {
+	line-height: 20px;
+	border: none;
+	font-family: 'Times New Roman';
+	background:#fff; 
+	float: left; 
+	font-size:12px; 
+	height:27px;
+	width: 84%; 
+	color:#000; 
+	text-indent:8px;
+}
+
+.search input.submitbtn {
+	float: right;
+	border: none;
+	height:29px; 
+	width:14%; 
+	cursor: pointer;
+	background:#fff url(images/magnifier.png) no-repeat 0px 3px;
+}
 
 
 /* =Menu
