@@ -380,6 +380,18 @@ a:active {
 	clear: both;
 }
 
+/* =MClub Global
+----------------------------------------------- */
+#page{
+	width: 100%;float: left;
+}
+.wrapper{
+	margin:0 auto; padding:0px; width:1144px;
+}
+
+/* =MClub Header
+----------------------------------------------- */
+
 /* Hide Site Title & Tagline */
 .site-title,
 .site-description {
@@ -387,6 +399,16 @@ a:active {
 	clip: rect(1px 1px 1px 1px); /* IE7 */
 	clip: rect(1px, 1px, 1px, 1px);
 }
+
+.site-header{
+	float:left; 
+	width:100%;
+	background:url("images/header-bg.jpg") repeat-x; margin: 0px -9999px 0px -9999px; 
+	padding: 0px 9999px 0px 9999px;
+}
+
+
+
 
 /* =Menu
 ----------------------------------------------- */
