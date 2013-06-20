@@ -154,7 +154,7 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 
 function mclub_preheader_html() {
-	echo '<div class="wrapper">\n';
+	echo "<div class=\"wrapper\">\n";
 	return;
 }
 add_action( 'before', 'mclub_preheader_html' );
