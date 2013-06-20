@@ -20,8 +20,6 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
-@import url("layouts/content-sidebar.css");
-
 /* =Reset
 -------------------------------------------------------------- */
 
@@ -382,6 +380,13 @@ a:active {
 	clear: both;
 }
 
+/* Hide Site Title & Tagline */
+.site-title,
+.site-description {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
 
 /* =Menu
 ----------------------------------------------- */
