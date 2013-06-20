@@ -181,7 +181,11 @@ msgid "Primary Menu"
 msgstr ""
 
 #: functions.php:95
-msgid "Sidebar"
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:103
+msgid "Main Page Top Area"
 msgstr ""
 
 #: header.php:31
