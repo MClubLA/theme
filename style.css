@@ -8,8 +8,12 @@ Template:       twentytwelve
 Version:        2013.06.20alpha
 */
 
-/* Get twentytwelve styles */
+/* Get twentytwelve styles
 @import url("../twentytwelve/style.css");
+*/
+
+/* Get google fonts */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 
 /*reset css starts here*/
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video{margin:0;padding: 0;	border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
@@ -26,7 +30,7 @@ input { -webkit-appearance: none;}
 input[type="button"], input[type="submit"]{cursor:pointer;}
 img{max-width:100%;}
 /*reset css ends here*/
-body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#555555;}
+body{ background:#fff; font:10px 'Droid Serif', serif; color:#555555;}
 .outer-wrapper{width: 100%;float: left;}
 /*.outer-wrapper{width: 100%;background:url("images/header-bg.jpg") repeat-x;float: left;}*/
 
@@ -50,17 +54,17 @@ body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#55
 .top-container{float: left;margin: 7% 0 0 0;background: #f3f3f3;width: 97.7%;padding: 1.3% 0 1.3% 2.3%;}
 .left-bar{float: left;width: 65%;}
 .right-bar{float:right;padding: 1% 2% 0 3px;width: 31%;}
-.heading,.sub-heading{font: 1.4em 'Times New Roman';}
+.heading,.sub-heading{font: 1.4em 'Droid Serif';}
 .solid-border{background: url("images/border-bottom.jpg") repeat-x bottom center!important;border: none!important;}
 .sub-heading{border-bottom: 1px dashed #7f7f7f;padding-bottom: 4%;width: 57%;}
-.para,.date{font: 1.1em 'Times New Roman';}
+.para,.date{font: 1.1em 'Droid Serif';}
 .date{padding-top: 1%;display: block;}
 .right-bar .date,.para{padding-top: 2%;display: block;}
 /*Main container CSS*/
 .main-container{width: 100%;float: left;padding-top: 57px;}
 .fig-area{float: left;width: 46%;}
 .fig-area .tags{display: block;width: 100%;}
-.fig-area .tags .tags-head{font: 1.0em 'Times New Roman';color: #555555;}
+.fig-area .tags .tags-head{font: 1.0em 'Droid Serif';color: #555555;}
 .fig-area .tags ul{display: block;width: 71%;padding-left: 8%;}
 .fig-area .tags ul li{float: left;margin: 4% 2% 0 0;width: 35%;}
 .feature-left{float: left;width: 58%;}
@@ -68,8 +72,8 @@ body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#55
 .left-container .drive{display: block;}
 .left-container .content{float: left;width: 48%;}
 .gary-btn{background-color: #999999!important;}
-.tags li a{background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 10px 'Times New Roman';padding: 3% 0 5%;text-align: center;border-radius:3px;}
-.more{font: 1.1em 'Times New Roman';color: #555555;text-decoration: underline;}
+.tags li a{background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 10px 'Droid Serif';padding: 3% 0 5%;text-align: center;border-radius:3px;}
+.more{font: 1.1em 'Droid Serif';color: #555555;text-decoration: underline;}
 /*Right Container css*/
 .right-container{float: right;margin: 0 11% 0 0;width: 24%;border-left: 1px solid #d7d7d7;padding-left: 3%;}
 .people-post{float: left;width: 100%;padding-top: 3%;padding-bottom: 23%;}
@@ -77,9 +81,9 @@ body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#55
 .people-post li .pic{float: left;width: 25%;padding-top: 3%;}
 .people-post li .msg{float: left;width: 74%;}
 .msg p{font:1.2em 'Times New Roman';}
-.msg span{color: #808080;font:1.1em 'Times New Roman';}
+.msg span{color: #808080;font:1.1em 'Droid Serif';}
 
-.post{background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 11px 'Times New Roman';padding: 2% 0 3% 4%;text-align: left;border-radius:3px;}
+.post{background: none repeat scroll 0 0 #333333;color: #FFFFFF;display: block;font: 11px 'Droid Serif';padding: 2% 0 3% 4%;text-align: left;border-radius:3px;}
 
 
 
@@ -91,7 +95,7 @@ body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#55
 /**breadcum css start here**/
 .breadcum{ float: left;padding: 59px 0 11px 0;width: 100%;}
 .breadcum li{ float: left;padding: 0 11px 0 5px;background: url("images/breadcum-arrow.gif") no-repeat scroll right 2px transparent;}
-.breadcum li a{color: #b1b1b0; font: 1.1em 'Times New Roman';}
+.breadcum li a{color: #b1b1b0; font: 1.1em 'Droid Serif';}
 .breadcum li.active a,.breadcum li a:hover{text-decoration: none;}
 .breadcum li.first{padding-left: 0;}
 .breadcum li.last{background: none;}
@@ -100,15 +104,15 @@ body{ background:#fff; font:10px 'Times New Roman', arial, sans-serif; color:#55
 .video-area{background: #898989;float: left;width: 100%;}
 .clickable-area{width: 100%;text-align: center;display: block;}
 .textHd{float: left;border-bottom: 1px solid #000;width: 100%;padding: 10px 0 5px 0;}
-.textHd .headine2{float: left;font: 1.8em 'Times New Roman';color: #363636;}
-.textHd .headine2 small{font: 11px 'Times New Roman'!important;color: #686868;}
-.para2{font: 1.4em 'Times New Roman'}
+.textHd .headine2{float: left;font: 1.8em 'Droid Serif';color: #363636;}
+.textHd .headine2 small{font: 11px 'Droid Serif'!important;color: #686868;}
+.para2{font: 1.4em 'Droid Serif'}
 .textHd .textSocial{float: right;}
 .textHd .textSocial li{float: left;margin-left: 13px;}
 .textInfo{float: left;padding: 2% 0 13% 5%;text-align: justify;width: 92%;}
 .textLeft{display: inline-block;padding-top: 3%;width: 50%;}
 .for-right{float: right;}
-.textRight{float: right;font-size: 1.9em;font-style: italic;line-height: 170%;padding: 12% 8% 0 0;text-align: center;width: 32%;font: 2.0em 'Times New Roman';color: #707070;}
+.textRight{float: right;font-size: 1.9em;font-style: italic;line-height: 170%;padding: 12% 8% 0 0;text-align: center;width: 32%;font: 2.0em 'Droid Serif';color: #707070;}
 .textRight2{float: left;padding: 12% 4% 0 0;width: 23%;}
 .text-pic{float: left;padding: 2% 0 3% 0;width: 98%;}
 
