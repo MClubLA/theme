@@ -120,7 +120,7 @@ function mclub_scripts() {
 	*/
 	if( !is_admin() ){
 		wp_deregister_script('jquery');
-		wp_register_script('jquery', ("//ajax.googleapis.com/ajax/libs/jquery/1.9/jquery.min.js"), false, '');
+		wp_register_script('jquery', ("//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"), false, null);
 		wp_enqueue_script('jquery');
 	}
 
