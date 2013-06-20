@@ -407,6 +407,13 @@ a:active {
 	padding: 0px 9999px 0px 9999px;
 }
 
+.logo{
+	float: left;
+	margin-top: 0.5%;
+	width: 13%;
+	margin-left: 0.5%;
+}
+
 
 
 
