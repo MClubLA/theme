@@ -536,6 +536,15 @@ a:active {
 	background: #f3f3f3;
 	width: 97.7%;
 	padding: 1.3% 0 1.3% 2.3%;
+	 -webkit-border-radius: 0; 
+	 -moz-border-radius: 0; 
+	 -o-border-radius: 0; 
+	 border-radius: 0; 
+	 -webkit-box-shadow: none; 
+	 -moz-box-shadow: none; 
+	 -o-box-shadow: none; 
+	 box-shadow: none; 
+	 zoom: 1;
 }
 
 
