@@ -612,6 +612,12 @@ a:active {
 	width: 60%;
 }
 
+.post .entry-header {
+	float: right;
+	width: 60%;
+	display: block;
+}
+
 .content-area {
 	float: left;
 	width: 70%;
