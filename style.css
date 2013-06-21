@@ -632,6 +632,7 @@ a:active {
 	display: block;
 	width: 71%;
 	padding-left: 8%;
+	margin: 0;
 }
 
 .entry-meta-footer .tags-links ul li {
@@ -639,7 +640,7 @@ a:active {
 	margin: 4% 2% 0 0;
 	width: 35%;
 	display: block;
-	list-style-type: none;
+
 }
 
 .entry-meta-footer .tags-links a {
