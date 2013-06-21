@@ -601,12 +601,13 @@ a:active {
 	padding-bottom: 7%;
 }
 
-.post .post-thumbnail {
+.post .entry-thumbnail {
 	display: block;
+	float: left;
 }
 
 .post .entry-summary {
-	float: left;
+	float: right;
 	width: 48%;
 }
 
