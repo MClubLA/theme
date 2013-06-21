@@ -595,6 +595,12 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.post {
+	float: left;
+	width: 100%;
+	padding-bottom: 7%;
+}
+
 .content-area {
 	float: left;
 	width: 70%;
