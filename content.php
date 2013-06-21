@@ -8,9 +8,9 @@
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
+		<div class="entry-meta-header">
 			<?php mclub_posted_on(); ?>
-		</div><!-- .entry-meta -->
+		</div><!-- .entry-meta-header -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 	<?php if ( is_search() || is_home() ) : // Only display Excerpts on Search and Home Page ?>
@@ -44,7 +44,7 @@
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<footer class="entry-meta">
+	<footer class="entry-meta-footer">
 		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
@@ -74,5 +74,5 @@
 		<?php endif; ?>
 
 		<?php edit_post_link( __( 'Edit', 'mclub' ), '<span class="sep"> | </span><span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-meta -->
+	</footer><!-- .entry-meta-footer -->
 </article><!-- #post-## -->
