@@ -563,14 +563,14 @@ a:active {
 }
 
 .layout-text-right .slide-title {
-	font: 'Droid Serif', serif;
+	font: 1em 'Droid Serif', serif;
 	border-bottom: 1px dashed #7f7f7f;
 	padding-bottom: 4%;
 	width: 57%;
 }
 
 .layout-text-right .slide-excerpt p {
-	font: 'Droid Serif', serif;
+	font: 1em 'Droid Serif', serif;
 	padding-top: 2%;
 	display: block;
 }
@@ -708,7 +708,7 @@ a:active {
 	background: none repeat scroll 0 0 #333333;
 	color: #FFFFFF;
 	display: block;
-	font: 'Droid Serif', serif;
+	font: 1em 'Droid Serif', serif;
 	padding: 2% 0 3% 4%;
 	text-align: left;
 	-webkit-border-radius: 3px; 
