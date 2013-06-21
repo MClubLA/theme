@@ -559,14 +559,14 @@ a:active {
 }
 
 .layout-text-right .slide-title {
-	font: 1.4em 'Times New Roman';
+	font: 'Times New Roman';
 	border-bottom: 1px dashed #7f7f7f;
 	padding-bottom: 4%;
 	width: 57%;
 }
 
 .layout-text-right .slide-excerpt p {
-	font: 1.1em 'Times New Roman';
+	font: 'Times New Roman';
 	padding-top: 2%;
 	display: block;
 }
@@ -586,7 +586,7 @@ a:active {
 	background: none repeat scroll 0 0 #333333;
 	color: #FFFFFF;
 	display: block;
-	font: 11px 'Times New Roman';
+	font: 'Times New Roman';
 	padding: 2% 0 3% 4%;
 	text-align: left;
 	-webkit-border-radius: 3px; 
@@ -595,6 +595,18 @@ a:active {
 	border-radius:3px;
 }
 
+.popular-posts ul {
+	float: left;
+	width: 100%;
+	padding: 3% 0 23% 0;
+}
+
+.popular-posts ul li {
+	float: left;
+	width: 100%;
+	border-bottom: #f4f4f4 1px solid;
+	padding: 2% 0;
+}
 
 /* =Content
 ----------------------------------------------- */
