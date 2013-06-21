@@ -14,7 +14,7 @@
 		echo get_the_post_thumbnail( $post_id, 'front-page-thumb', array('class' => 'post-thumbnail') );
 	} else if ( '' != mclub_post_image_search() ) {
 		// Display first image in the post
-		echo '<img width="278" height="138" src="' . mclub_post_image_search() . '" class="post-thumbnail wp-post-image" alt="m-car1" />';
+		echo '<img width="278" height="138" src="' . mclub_post_image_search() . '" class="post-thumbnail" />';
 	} else {
 		// No post thumbnail or image included in post, time for fallback
 		echo "<!--no thumbnail-->\n";
