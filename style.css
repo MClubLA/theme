@@ -613,7 +613,8 @@ a:active {
 .popular-posts ul li img {
 	float: left;
 	width: 25%;
-	padding-top: 3%;
+	padding: 3%;
+	
 }
 
 .popular-posts .wpp-excerpt {
