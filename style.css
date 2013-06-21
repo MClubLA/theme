@@ -595,6 +595,17 @@ a:active {
 	margin: 0 0 1.5em;
 }
 
+.content-area {
+	width: 100%;
+	float: left;
+	padding-top: 57px;
+}
+
+.site-content {
+	float: left;
+	width: 58%;
+}	
+
 
 /* =Asides
 ----------------------------------------------- */
