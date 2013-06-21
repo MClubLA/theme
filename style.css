@@ -625,8 +625,15 @@ a:active {
 	padding: 0 0 3% 0;
 }
 
-.post .entry-title a {
+.post .entry-header a,
+.post .entry-header a:visited {
 	text-decoration: none;
+	color: black;
+}
+
+.post .entry-header a:hover {
+	text-decoration: none;
+	color: grey;
 }
 
 .post .entry-meta-footer {
