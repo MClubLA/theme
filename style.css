@@ -608,13 +608,10 @@ a:active {
 }
 
 .content-area {
-	padding-top: 57px;
-}
-
-.site-content {
 	float: left;
 	width: 58%;
-}	
+	padding-top: 57px;
+}
 
 /* =Sidebar
 ----------------------------------------------- */
