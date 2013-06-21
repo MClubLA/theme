@@ -767,6 +767,12 @@ object {
 	width: 100%;
 }
 
+.footer-logo {
+	float: left;
+	margin-bottom: 10%;
+	width: 17%;
+}
+
 
 /* =Infinite Scroll
 ----------------------------------------------- */
