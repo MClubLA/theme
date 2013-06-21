@@ -623,15 +623,28 @@ a:active {
 	width: 40%;
 }
 
+.entry-meta-footer .tag-link-title,
 .entry-meta-footer .tags-links {
 	font-variant: small-caps;
+}
+
+.entry-meta-footer .tags-links ul {
+	display: block;
+	width: 71%;
+	padding-left: 8%;
+}
+
+.entry-meta-footer .tags-links ul li {
+	float: left;
+	margin: 4% 2% 0 0;
+	width: 35%;
 }
 
 .entry-meta-footer .tags-links a {
 	background: none repeat scroll 0 0 #333333;
 	color: #FFFFFF;
 	display: block;
-	font: 'Times New Roman';
+	font: 1em 'Times New Roman';
 	padding: 3% 0 5%;
 	text-align: center;
 	-webkit-border-radius: 3px; 
