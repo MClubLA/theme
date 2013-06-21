@@ -623,6 +623,23 @@ a:active {
 	width: 40%;
 }
 
+.entry-meta-footer .tags-links {
+	font-variant: small-caps;
+}
+
+.entry-meta-footer .tags-links a {
+	background: none repeat scroll 0 0 #333333;
+	color: #FFFFFF;
+	display: block;
+	font: 'Times New Roman';
+	padding: 3% 0 5%;
+	text-align: center;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-o-border-radius: 3px;
+	border-radius:3px;
+}
+
 .content-area {
 	float: left;
 	width: 70%;
