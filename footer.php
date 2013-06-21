@@ -11,9 +11,9 @@
 	</div><!-- #main -->
 	</div><!-- #wrapper -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
+		<div class="footer-wrapper">
 			<span class="footer-logo"><img src="<?php bloginfo('template_directory') ?>/images/bottom-logo.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></span>
-		</div><!-- .site-info -->
+		</div><!-- .footer-wrapper -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

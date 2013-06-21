@@ -767,6 +767,12 @@ object {
 	width: 100%;
 }
 
+.footer-wrapper {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 1144px;
+}
+
 .footer-logo {
 	float: left;
 	margin-bottom: 10%;
