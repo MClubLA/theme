@@ -61,7 +61,6 @@
 				$tags_list = get_the_tag_list( '<ul><li>', '</li><li>', '</li></ul>' );
 				if ( $tags_list ) :
 			?>
-			<span class="sep"> | </span>
 			<span class="tags-links">
 				<?php printf( __( 'Tags: %1$s', 'mclub' ), $tags_list ); ?>
 			</span>
@@ -73,6 +72,6 @@
 		<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'mclub' ), __( '1 Comment', 'mclub' ), __( '% Comments', 'mclub' ) ); ?></span>
 		<?php endif; ?>
 
-		<?php edit_post_link( __( 'Edit', 'mclub' ), '<span class="sep"> | </span><span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'mclub' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta-footer -->
 </article><!-- #post-## -->
