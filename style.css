@@ -605,13 +605,10 @@ a:active {
 	display: block;
 }
 
-
-
-.post .entry-content {
+.post .entry-summary {
 	float: left;
 	width: 48%;
 }
-
 
 .content-area {
 	float: left;
