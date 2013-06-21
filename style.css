@@ -620,7 +620,7 @@ a:active {
 
 .post .entry-title {
 	font: 1.4em 'Times New Roman';
-	background: url("/images/border-bottom.jpg") repeat-x bottom center !important;
+	background: url("images/border-bottom.jpg") repeat-x bottom center !important;
 	border: none !important;
 }
 
