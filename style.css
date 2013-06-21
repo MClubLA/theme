@@ -759,6 +759,14 @@ object {
 	display: none;
 }
 
+/* =Footer
+----------------------------------------------- */
+#colophon {
+	float: left;
+	background: #333;
+	width: 100%;
+}
+
 /* =Infinite Scroll
 ----------------------------------------------- */
 
