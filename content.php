@@ -12,7 +12,7 @@
 	if ( '' != get_the_post_thumbnail() ) {
 		// Display the post featured image
 		echo get_the_post_thumbnail( $post_id, 'front-page-thumb', array('class' => 'post-thumbnail') );
-	} elseif ( '' != mclub_post_image_search() {
+	} else if ( '' != mclub_post_image_search() {
 		// Display first image in the post
 		//echo '<img width="278" height="138" src="' . mclub_post_image_search() . '" class="post-thumbnail wp-post-image" alt="m-car1" />';
 	} else {
