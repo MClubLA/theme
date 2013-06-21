@@ -609,6 +609,17 @@ a:active {
 	display: block;
 }
 
+.popular-posts ul li img {
+	float: left;
+	width: 25%;
+	padding-top: 3%;
+}
+
+.popular-posts .wpp-excerpt {
+	float: left;
+	width: 74%;
+}
+
 /* =Content
 ----------------------------------------------- */
 
