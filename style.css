@@ -20,6 +20,10 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
+/* =Google Fonts Import
+----------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
 /* =Reset
 -------------------------------------------------------------- */
 
@@ -89,11 +93,6 @@ a:active { /* Improves readability when focused and also mouse hovered in all br
 a img {
 	border: 0;
 }
-
-/* =Google Fonts Import
------------------------------------------------ */
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-
 
 /* =Global
 ----------------------------------------------- */
