@@ -582,6 +582,19 @@ a:active {
 	padding-left: 3%;
 }
 
+#secondary .widget-title {
+	background: none repeat scroll 0 0 #333333;
+	color: #FFFFFF;
+	display: block;
+	font: 11px 'Times New Roman';
+	padding: 2% 0 3% 4%;
+	text-align: left;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-o-border-radius: 3px; 
+	border-radius:3px;
+}
+
 
 /* =Content
 ----------------------------------------------- */
@@ -622,6 +635,19 @@ a:active {
 	width: 24%;
 	border-left: 1px solid #d7d7d7;
 	padding-left: 3%;
+}
+
+#secondary .widget-title {
+	background: none repeat scroll 0 0 #333333;
+	color: #FFFFFF;
+	display: block;
+	font: 11px 'Times New Roman';
+	padding: 2% 0 3% 4%;
+	text-align: left;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-o-border-radius: 3px; 
+	border-radius:3px;
 }
 
 /* =Asides
