@@ -606,6 +606,7 @@ a:active {
 	width: 100%;
 	border-bottom: #f4f4f4 1px solid;
 	padding: 2% 0;
+	display: block;
 }
 
 /* =Content
