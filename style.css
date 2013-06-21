@@ -643,13 +643,13 @@ a:active {
 .popular-posts ul li img {
 	float: left;
 	width: 25%;
-	padding: 3%;
+	padding: 0 3% 0 0;
 	
 }
 
 .popular-posts .wpp-post-title {
 	float: left;
-	width: 74%;
+	width: 73%;
 }
 
 /* =Asides
