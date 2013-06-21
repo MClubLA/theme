@@ -649,7 +649,10 @@ a:active {
 
 .popular-posts .wpp-post-title {
 	float: left;
-	width: 73%;
+	width: 70%;
+}
+
+.popular-posts .wpp-date {
 }
 
 /* =Asides
