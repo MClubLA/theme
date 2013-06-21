@@ -63,7 +63,7 @@
 			?>
 			<span class="tag-link-title">TAGS</span>
 			<span class="tags-links">
-				<?php echo $tags_list ); ?>
+				<?php printf( __( '%1$s', 'mclub' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
