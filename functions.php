@@ -111,6 +111,8 @@ function mclub_scripts() {
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script( 'mclub-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
+	
+	remove_action('wp_head', 'wlwmanifest_link'); // get rid of live writer
 }
 add_action( 'wp_enqueue_scripts', 'mclub_scripts' );
 
