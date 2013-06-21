@@ -618,8 +618,7 @@ a:active {
 	display: block;
 }
 
-.post footer .entry-meta {
-	display: block;
+footer .entry-meta {
 	float: left;
 	width: 40%;
 }
