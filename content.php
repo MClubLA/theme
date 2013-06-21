@@ -5,21 +5,6 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php 
-	/**
-	 * Check for a post thumbnail to display
-	 */
-	if ( '' != get_the_post_thumbnail() ) {
-		// Display the post featured image
-		echo get_the_post_thumbnail( $post_id, 'front-page-thumb', array('class' => 'post-thumbnail') );
-	} else if ( '' != mclub_post_image_search() ) {
-		// Display first image in the post
-		echo '<img width="278" height="138" src="' . mclub_post_image_search() . '" class="post-thumbnail" />';
-	} else {
-		// No post thumbnail or image included in post, time for fallback
-		echo "<!--no thumbnail-->\n";
-	}
-	?>
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
@@ -29,14 +14,27 @@
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
-	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
+	<?php if ( is_search() || is_home() ) : // Only display Excerpts on Search and Home Page ?>
+	<?php 
+	/**
+	 * Check for a post thumbnail to display
+	 */
+	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
+	<figure class="entry-thumbnail">
+		<?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?>
+	</figure>
+	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
+	<figure class="entry-thumbnail">
+		<img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" />';
+	<?php else : // fallback ?>
+	<!--no thumbnail-->
+	<?php endif; ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_excerpt(); ?>
+		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'mclub' ),
