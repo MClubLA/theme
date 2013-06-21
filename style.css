@@ -565,6 +565,12 @@ a:active {
 	width: 57%;
 }
 
+.layout-text-right .slide-excerpt p {
+	font: 1.1em 'Times New Roman';
+	padding-top: 2%;
+	display: block;
+}
+
 /* =Content
 ----------------------------------------------- */
 
