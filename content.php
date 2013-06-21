@@ -25,6 +25,7 @@
 	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
 	<figure class="entry-thumbnail">
 		<img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" />
+	</figure>
 	<?php else : // fallback ?>
 	<!--no thumbnail-->
 	<?php endif; ?>
