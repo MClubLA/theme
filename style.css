@@ -571,6 +571,36 @@ a:active {
 	display: block;
 }
 
+/* =Content
+----------------------------------------------- */
+
+.sticky {
+}
+.hentry {
+	margin: 0 0 1.5em;
+}
+.byline {
+	display: none;
+}
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.content-area {
+	float: left;
+	width: 58%;
+	padding-top: 57px;
+}
+
 /* =Sidebar
 ----------------------------------------------- */
 
@@ -620,60 +650,6 @@ a:active {
 .popular-posts .wpp-excerpt {
 	float: left;
 	width: 74%;
-}
-
-/* =Content
------------------------------------------------ */
-
-.sticky {
-}
-.hentry {
-	margin: 0 0 1.5em;
-}
-.byline {
-	display: none;
-}
-.single .byline,
-.group-blog .byline {
-	display: inline;
-}
-.entry-content,
-.entry-summary {
-	margin: 1.5em 0 0;
-}
-.page-links {
-	clear: both;
-	margin: 0 0 1.5em;
-}
-
-.content-area {
-	float: left;
-	width: 58%;
-	padding-top: 57px;
-}
-
-/* =Sidebar
------------------------------------------------ */
-
-.widget-area {
-	float: right;
-	margin: 57px 11% 0 0;
-	width: 24%;
-	border-left: 1px solid #d7d7d7;
-	padding-left: 3%;
-}
-
-#secondary .widget-title {
-	background: none repeat scroll 0 0 #333333;
-	color: #FFFFFF;
-	display: block;
-	font: 11px 'Times New Roman';
-	padding: 2% 0 3% 4%;
-	text-align: left;
-	-webkit-border-radius: 3px; 
-	-moz-border-radius: 3px; 
-	-o-border-radius: 3px; 
-	border-radius:3px;
 }
 
 /* =Asides
