@@ -547,6 +547,16 @@ a:active {
 	 zoom: 1;
 }
 
+.layout-text-right img {
+	float: left;
+	width: 65%;
+}
+
+.layout-text-right .slide-excerpt {
+	float: right;
+	padding: 1% 2% 0 3px;
+	width: 31%;
+}
 
 /* =Content
 ----------------------------------------------- */
