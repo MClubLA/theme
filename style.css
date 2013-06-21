@@ -558,6 +558,13 @@ a:active {
 	width: 31%;
 }
 
+.layout-text-right .slide-title {
+	font: 1.4em 'Times New Roman';
+	border-bottom: 1px dashed #7f7f7f;
+	padding-bottom: 4%;
+	width: 57%;
+}
+
 /* =Content
 ----------------------------------------------- */
 
