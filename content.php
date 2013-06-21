@@ -58,12 +58,12 @@
 
 			<?php
 				/* translators: used between list items, there is a space after the comma */
-				$tags_list = get_the_tag_list( '', __( ', ', 'mclub' ) );
+				$tags_list = get_the_tag_list( '<ul><li>', '</li><li>', '</li></ul>' );
 				if ( $tags_list ) :
 			?>
 			<span class="sep"> | </span>
 			<span class="tags-links">
-				<?php printf( __( 'Tagged %1$s', 'mclub' ), $tags_list ); ?>
+				<?php printf( __( 'Tags: %1$s', 'mclub' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>

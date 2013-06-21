@@ -149,7 +149,7 @@ msgid "Posted in %1$s"
 msgstr ""
 
 #: content.php:53
-msgid "Tagged %1$s"
+msgid "Tags: %1$s"
 msgstr ""
 
 #: content.php:60
