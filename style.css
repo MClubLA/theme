@@ -642,6 +642,16 @@ a:active {
 
 }
 
+.entry-meta-footer .comments-link {
+	display: block;
+	float: left;
+}
+
+.entry-meta-footer .post-edit-link {
+	display: block;
+	float: left;
+}
+
 .entry-meta-footer .tags-links a {
 	background: none repeat scroll 0 0 #333333;
 	color: #FFFFFF;
