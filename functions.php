@@ -115,6 +115,15 @@ function mclub_scripts() {
 add_action( 'wp_enqueue_scripts', 'mclub_scripts' );
 
 /**
+ * Excerpt 'read more' customization
+ * http://codex.wordpress.org/Function_Reference/the_excerpt
+ */
+function mclub_excerpt_more( $more ) {
+	return ' (<a class="read-more" href="'. get_permalink( get_the_ID() ) . '">More</a>)';
+}
+add_filter( 'excerpt_more', 'mclub_excerpt_more' );
+
+/**
  * Custom function to search for the first image in a post
  * http://www.wprecipes.com/how-to-get-the-first-image-from-the-post-and-display-it
  */
