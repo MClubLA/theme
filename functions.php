@@ -41,29 +41,8 @@ function mclub_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-<<<<<<< HEAD
-	/* translators: If there are characters in your language that are not supported
-	   by Open Sans, translate this to 'off'. Do not translate into your own language. */
-	if ( 'off' !== _x( 'on', 'Open Sans font: on or off', 'twentytwelve' ) ) {
-		$subsets = 'latin,latin-ext';
-
-		/* translators: To add an additional Open Sans character subset specific to your language, translate
-		   this to 'greek', 'cyrillic' or 'vietnamese'. Do not translate into your own language. */
-
-		$protocol = is_ssl() ? 'https' : 'http';
-		$query_args = array(
-			'family' => 'Open+Sans:400italic,700italic,400,700',
-			'subset' => $subsets,
-		);
-		wp_enqueue_style( 'twentytwelve-fonts', add_query_arg( $query_args, "$protocol://fonts.googleapis.com/css" ), array(), null );
-	}
-
-	/*
-	 * Loads our main stylesheet.
-=======
 	/**
 	 * This theme uses wp_nav_menu() in one location.
->>>>>>> underscore_based
 	 */
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'mclub' ),
