@@ -622,6 +622,11 @@ a:active {
 	font: 1.4em 'Times New Roman';
 	background: url("images/border-bottom.jpg") repeat-x bottom center !important;
 	border: none !important;
+	padding: 0 0 3% 0;
+}
+
+.post .entry-title a {
+	text-decoration: none;
 }
 
 .post .entry-meta-footer {
