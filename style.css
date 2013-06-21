@@ -638,6 +638,8 @@ a:active {
 	float: left;
 	margin: 4% 2% 0 0;
 	width: 35%;
+	display: block;
+	list-style-type: none;
 }
 
 .entry-meta-footer .tags-links a {
