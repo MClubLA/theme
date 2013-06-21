@@ -3,72 +3,43 @@
  * The Header for our theme.
  *
  * Displays all of the <head> section and everything up till <div id="main">
+ *
+ * @package MClub LA
  */
 ?><!DOCTYPE html>
-<!--[if IE 7]>
-<html class="ie ie7" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if IE 8]>
-<html class="ie ie8" <?php language_attributes(); ?>>
-<![endif]-->
-<!--[if !(IE 7) | !(IE 8)  ]><!-->
 <html <?php language_attributes(); ?>>
-<!--<![endif]-->
-    <head>
-        <meta charset="<?php bloginfo( 'charset' ); ?>" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta description="<?php bloginfo( 'description' ); ?>" />
-        <title><?php wp_title( '|', true, 'right' ); ?></title>
-		<link rel="profile" href="http://gmpg.org/xfn/11" />
-		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css"/>
-        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/responsive.css"/>
-        
-		<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
-        <!--[if lt IE 9]>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
-        <![endif]-->
-        
-        <?php // TODO ::: MODIFY JS LOADS ?>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.9.1.js"></script>
-        <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery/jquery-scrolltofixed-min.js"></script>
-        
-        <script type="text/javascript">
-			$(document).ready(function() {
-				$('header').scrollToFixed();
-			});
-		</script>
-        <!-- Plugin and other dynamic header content -->
-        <?php wp_head(); ?>
-    </head>
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width" />
+<title><?php wp_title( '|', true, 'right' ); ?></title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<?php wp_head(); ?>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('site-header').scrollToFixed();
+	});
+</script>
+</head>
 
+<body <?php body_class(); ?>>
+<div id="page" class="hfeed site">
+	<div class="wrapper">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		</div>
+		<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php bloginfo('template_directory') ?>/images/logo.jpg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
+		<nav id="site-navigation" class="navigation-main" role="navigation">
+			<h1 class="menu-toggle"><?php _e( 'Menu', 'mclub' ); ?></h1>
+			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'mclub' ); ?>"><?php _e( 'Skip to content', 'mclub' ); ?></a></div>
 
-    <body <?php //body_class(); ?>>
-        <div class="outer-wrapper">
-            <div class="wrapper">
-                <header class="header">
-                    <a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" rel="home" alt="img"></a>
-                    <!--big nav-->
-					<?php wp_nav_menu( array(
-                        'theme_location' => 'primary',
-                        'container' => 'nav',
-                        'container_class' => 'navigation',
-						'menu_class' => '',
-						'menu_id' => ''
-                    )); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		</nav><!-- #site-navigation -->
+		<div class="search">
+		<?php get_search_form(); ?>
+		</div><!-- .search -->
+	</header><!-- #masthead -->
 
-                    <!--mobile navigation-->
-					<?php wp_nav_menu( array(
-                        'theme_location' => 'primary',
-                        'container' => 'nav',
-                        'container_class' => 'nav',
-						'menu_class' => '',
-						'menu_id' => ''
-                    )); ?>
-                    <!---->
-                    <div class="search">
-                        <input class="submitbtn" type="submit" value=""/>
-                        <input class="textbx" type="text" value="" onfocus="if(this.value=='')this.value=''" onblur="if(this.value=='')this.value=''"/>
-                    </div>
-                </header>
-                <!-- REMOVE : end of header.php -->
+	<div id="main" class="site-main">

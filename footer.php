@@ -2,19 +2,22 @@
 /**
  * The template for displaying the footer.
  *
- * Contains footer content and the closing of the
- * #main and #page div elements.
+ * Contains the closing of the id=main div and all content after
+ *
+ * @package MClub LA
  */
 ?>
-				<!-- begin footer.php -->
-                </div>
-            </div>
-            <footer id="footer"  role="contentinfo">
-                <div class="wrapper">
-                    <span class="foot-logo"><img src="<?php echo get_template_directory_uri(); ?>/images/bottom-logo.png" alt="MClub LA"/></span>
-                </div>
-            </footer>
-        </div>
-    </body>
+
+	</div><!-- #main -->
+	</div><!-- #wrapper -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="footer-wrapper">
+			<span class="footer-logo"><img src="<?php bloginfo('template_directory') ?>/images/bottom-logo.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></span>
+		</div><!-- .footer-wrapper -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
 <?php wp_footer(); ?>
+
+</body>
 </html>
