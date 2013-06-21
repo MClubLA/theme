@@ -90,6 +90,10 @@ a img {
 	border: 0;
 }
 
+/* =Google Fonts Import
+----------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
 
 /* =Global
 ----------------------------------------------- */
@@ -559,14 +563,14 @@ a:active {
 }
 
 .layout-text-right .slide-title {
-	font: 'Times New Roman';
+	font: 'Droid Serif', serif;
 	border-bottom: 1px dashed #7f7f7f;
 	padding-bottom: 4%;
 	width: 57%;
 }
 
 .layout-text-right .slide-excerpt p {
-	font: 'Times New Roman';
+	font: 'Droid Serif', serif;
 	padding-top: 2%;
 	display: block;
 }
@@ -618,7 +622,7 @@ a:active {
 }
 
 .post .entry-title {
-	font: 1.4em 'Times New Roman';
+	font: 1.4em 'Droid Serif', serif;
 	background: url("images/border-bottom.jpg") repeat-x bottom center !important;
 	border: none !important;
 	padding: 0 0 3% 0;
@@ -704,7 +708,7 @@ a:active {
 	background: none repeat scroll 0 0 #333333;
 	color: #FFFFFF;
 	display: block;
-	font: 'Times New Roman';
+	font: 'Droid Serif', serif;
 	padding: 2% 0 3% 4%;
 	text-align: left;
 	-webkit-border-radius: 3px; 
