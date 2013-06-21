@@ -607,8 +607,9 @@ a:active {
 }
 
 .post .entry-summary {
+	display: block;
 	float: right;
-	width: 48%;
+	width: 60%;
 }
 
 .content-area {
