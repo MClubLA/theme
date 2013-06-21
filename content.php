@@ -5,6 +5,16 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<?php 
+	/**
+	 * Check for a post thumbnail to display
+	 */
+	if ( '' != get_the_post_thumbnail() ) {
+		echo get_the_post_thumbnail( $post_id, 'front-page-thumb', array('class' => 'post-thumbnail') );
+	} else {
+		// some fallback display...
+	}
+	?>
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
