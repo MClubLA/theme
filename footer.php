@@ -9,7 +9,7 @@
 ?>
 
 	</div><!-- #main -->
-
+	</div><!-- #wrapper -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'mclub_credits' ); ?>
