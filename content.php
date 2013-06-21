@@ -10,9 +10,14 @@
 	 * Check for a post thumbnail to display
 	 */
 	if ( '' != get_the_post_thumbnail() ) {
+		// Display the post featured image
 		echo get_the_post_thumbnail( $post_id, 'front-page-thumb', array('class' => 'post-thumbnail') );
+	} elseif ( '' != mclub_post_image_search() {
+		// Display first image in the post
+		echo mclub_post_image_search();
 	} else {
-		// some fallback display...
+		// No post thumbnail or image included in post, time for fallback
+		echo "<!--no thumbnail-->\n";
 	}
 	?>
 	<header class="entry-header">
