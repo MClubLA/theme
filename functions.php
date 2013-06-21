@@ -115,6 +115,26 @@ function mclub_scripts() {
 add_action( 'wp_enqueue_scripts', 'mclub_scripts' );
 
 /**
+ * Custom function to search for the first image in a post
+ * http://www.wprecipes.com/how-to-get-the-first-image-from-the-post-and-display-it
+ */
+function mclub_post_image_search() {
+  global $post, $posts;
+  $first_img = '';
+  ob_start();
+  ob_end_clean();
+  $output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+  $first_img = $matches [1] [0];
+
+/*  if(empty($first_img)){ //Defines a default image
+    $first_img = "/images/default.jpg";
+  } 
+*/
+  return $first_img;
+}
+
+
+/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
