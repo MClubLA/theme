@@ -392,6 +392,10 @@ a:active {
 	margin:0 auto; padding:0px; width:1144px;
 }
 
+body {
+	font-family: 'Droid Sans', 'Times New Roman', serif;
+}
+
 /* =MClub Header
 ----------------------------------------------- */
 
