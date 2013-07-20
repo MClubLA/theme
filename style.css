@@ -696,6 +696,15 @@ body {
 	padding-top: 57px;
 }
 
+/* =MClub Content */
+.single #content {
+	float: left;
+	margin-left: 14%;
+	width: 70%;
+	margin-top: 2%;
+}
+
+
 /* =Sidebar
 ----------------------------------------------- */
 
