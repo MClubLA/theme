@@ -704,6 +704,10 @@ body {
 	margin-top: 2%;
 }
 
+.single .content-area {
+	width: 100%;
+}
+
 
 /* =Sidebar
 ----------------------------------------------- */
