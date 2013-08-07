@@ -710,7 +710,18 @@ body {
 
 .single .entry-header {
 	width: 100%;
+	border: none;
 }
+
+.single .entry-title {
+	background: none !important;
+	clear: none;
+}
+
+.single .entry-meta {
+	
+}
+
 
 
 /* =Sidebar
