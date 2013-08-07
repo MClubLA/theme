@@ -707,7 +707,7 @@ body {
 .single .entry-header {
 	width: 100%;
 	border: none;
-	padding: 0 0 1em 0;
+	margin: 0 0 1em 0;
 	background: url("images/border-bottom.jpg") repeat-x bottom center !important;
 }
 
