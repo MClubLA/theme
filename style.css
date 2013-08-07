@@ -589,10 +589,6 @@ body {
 .byline {
 	display: none;
 }
-.single .byline,
-.group-blog .byline {
-	display: inline;
-}
 .entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
@@ -715,11 +711,13 @@ body {
 
 .single .entry-title {
 	background: none !important;
-	clear: none;
+	display: inline;
+	padding: 0 0.25em 0 0;
 }
 
 .single .entry-meta {
-	
+	display: inline;
+	padding: 0 0 0 0.25em;
 }
 
 
