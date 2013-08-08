@@ -730,7 +730,7 @@ body {
 /* =MClub Content Images
 ----------------------------------------------- */
 .single .wp-caption {
-	padding-top: 3%;
+	padding-bottom: 3%;
 	width: 100%; !important;
 }
 
