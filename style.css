@@ -756,7 +756,7 @@ body {
 	float: right;
 }
 
-.signle .wp-caption.alignright .wp-caption-text {
+.single .wp-caption.alignright .wp-caption-text {
 	float: left;
 	padding: 12% 4% 0 0;
 	width: 23%;
