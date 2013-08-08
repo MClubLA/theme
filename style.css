@@ -729,27 +729,38 @@ body {
 
 /* =MClub Content Images
 ----------------------------------------------- */
-.single .wp-caption.alignleft {
+.single .wp-caption {
 	padding-top: 3%;
 	width: 100%; !important;
 }
 
-.single .wp-caption.alignleft img {
+.single .wp-caption img {
 	display: inline-block;
-	width: 50%;
+}
+
+.single .wp-caption .wp-caption-text {
+	font-size: 1.4em;
+	font-style: italic;
+	line-height: 170%;
+	text-align: center;
+	color: #707070;
 }
 
 .single .wp-caption.alignleft .wp-caption-text {
 	float: right;
-	font-size: 1.9em;
-	font-style: italic;
-	line-height: 170%;
 	padding: 12% 8% 0 0;
-	text-align: center;
 	width: 32%;
-	color: #707070;
 }
 
+.single .wp-caption.alignright {
+	float: right;
+}
+
+.signle .wp-caption.alignright .wp-caption-text {
+	float: left;
+	padding: 12% 4% 0 0;
+	width: 23%;
+}
 
 
 /* =Sidebar
