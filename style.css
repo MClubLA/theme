@@ -722,6 +722,13 @@ body {
 	padding: 0 0 0 0.25em;
 }
 
+.single .entry-content {
+	float: left;
+	padding: 2% 0 13% 5%;
+	text-align: justify;
+	width: 92%;
+}
+
 
 
 /* =Sidebar
