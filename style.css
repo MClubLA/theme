@@ -727,6 +727,13 @@ body {
 	width: 92%;
 }
 
+.single blockquote {
+	font-size: 1.4em;
+	font-style: italic;
+	line-height: 170%;
+	color: #707070;
+}
+
 /* =MClub Content Images
 ----------------------------------------------- */
 .single .wp-caption {
