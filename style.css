@@ -737,22 +737,18 @@ body {
 /* =MClub Content Headers
 ----------------------------------------------- */
 .site-content article h1 {
-	font-size: 1.7em;
-	font-weight: bold;
+	font-size: 1.4em;
 }
 
 .site-content article h2 {
-	font-size: 1.5em;
-	font-weight: bold;
+	font-size: 1.3em;
 }
 
 .site-content article h3 {
-	font-size: 1.3em;
-	font-weight: bold;
+	font-size: 1.2em;
 }
 
 .site-content article h4 {
-	font-weight: bold;
 	font-size: 1.1em;
 }
 
