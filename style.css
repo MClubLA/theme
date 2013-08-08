@@ -730,11 +730,25 @@ body {
 /* =MClub Content Images
 ----------------------------------------------- */
 .single .wp-caption.alignleft {
-	display: inline-block;
 	padding-top: 3%;
-	width: 100%;
+	width: 100%; !important;
 }
 
+.single .wp-caption.alignleft img {
+	display: inline-block;
+	width: 50%;
+}
+
+.single .wp-caption.alignleft .wp-caption-text {
+	float: right;
+	font-size: 1.9em;
+	font-style: italic;
+	line-height: 170%;
+	padding: 12% 8% 0 0;
+	text-align: center;
+	width: 32%;
+	color: #707070;
+}
 
 
 
