@@ -126,6 +126,36 @@ function mclub_excerpt_more( $more ) {
 add_filter( 'excerpt_more', 'mclub_excerpt_more' );
 
 /**
+ * Modify image caption output
+ * Adapted from http://wpengineer.com/917/filter-caption-shortcode-in-wordpress/
+ */
+function mclub_img_caption_shortcode( $attr, $content = null ) {
+	// Allow plugins/themes to override the default caption template.
+	$output = apply_filters('img_caption_shortcode', '', $attr, $content);
+	if ( $output != '' )
+		return $output;
+
+	extract(shortcode_atts(array(
+		'id'	=> '',
+		'align'	=> 'alignnone',
+		'width'	=> '',
+		'caption' => ''
+	), $attr));
+
+	if ( 1 > (int) $width || empty($caption) )
+		return $content;
+
+	if ( $id ) $id = 'id="' . $id . '" ';
+
+	return '<dl ' . $id . 'class="wp-caption ' . $align . '><dt>'
+	. do_shortcode( $content ) . '</dt><dd class="wp-caption-text">' . $caption . '</dd></dl>';
+}
+if( is_single() ){
+	add_shortcode('wp_caption', 'mclub_img_caption_shortcode');
+	add_shortcode('caption', 'mclub_img_caption_shortcode');
+}
+
+/**
  * Custom function to search for the first image in a post
  * http://www.wprecipes.com/how-to-get-the-first-image-from-the-post-and-display-it
  */
