@@ -152,7 +152,7 @@ function mclub_img_caption_shortcode_filter($val, $attr, $content = null)
 	// Add itemprop="contentURL" to image - Ugly hack
 	$content = str_replace('<img', '<img itemprop="contentURL"', $content);
 
-	return '<figure id="' . $id . '" aria-describedby="figcaption_' . $id . '" class="wp-caption ' . esc_attr($align) . '" itemscope itemtype="http://schema.org/ImageObject" style="width: ' . (0 + (int) $width) . 'px">' . do_shortcode( $content ) . '<figcaption id="figcaption_'. $id . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption></figure>';
+	return '<figure id="' . $id . '" class="wp-caption ' . esc_attr($align) . '">' . do_shortcode( $content ) . '<figcaption id="figcaption_'. $id . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption></figure>';
 }
 add_filter( 'img_caption_shortcode', 'mclub_img_caption_shortcode_filter', 10, 3 );
 
