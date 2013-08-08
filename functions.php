@@ -126,12 +126,13 @@ function mclub_excerpt_more( $more ) {
 add_filter( 'excerpt_more', 'mclub_excerpt_more' );
 
 /**
- * Improves the caption shortcode with HTML5 figure & figcaption; microdata & wai-aria attributes
+ * Improves the caption shortcode with HTML5 figure & figcaption; microdata
  * 
  * @param  string $val     Empty
  * @param  array  $attr    Shortcode attributes
  * @param  string $content Shortcode content
  * @return string          Shortcode output
+ * https://gist.github.com/JoostKiens/4477366
  */
 function mclub_img_caption_shortcode_filter($val, $attr, $content = null)
 {
@@ -152,7 +153,7 @@ function mclub_img_caption_shortcode_filter($val, $attr, $content = null)
 	// Add itemprop="contentURL" to image - Ugly hack
 	$content = str_replace('<img', '<img itemprop="contentURL"', $content);
 
-	return '<figure id="' . $id . '" class="wp-caption ' . esc_attr($align) . '">' . do_shortcode( $content ) . '<figcaption id="figcaption_'. $id . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption></figure>';
+	return '<figure id="' . esc_attr($id) . '" class="wp-caption ' . esc_attr($align) . '">' . do_shortcode( $content ) . '<figcaption id="figcaption_'. esc_attr($id) . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption></figure>';
 }
 add_filter( 'img_caption_shortcode', 'mclub_img_caption_shortcode_filter', 10, 3 );
 
