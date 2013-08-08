@@ -150,10 +150,8 @@ function mclub_img_caption_shortcode( $attr, $content = null ) {
 	return '<dl ' . $id . 'class="wp-caption ' . $align . '><dt>'
 	. do_shortcode( $content ) . '</dt><dd class="wp-caption-text">' . $caption . '</dd></dl>';
 }
-if( is_single() ){
-	add_shortcode('wp_caption', 'mclub_img_caption_shortcode');
-	add_shortcode('caption', 'mclub_img_caption_shortcode');
-}
+add_shortcode('wp_caption', 'mclub_img_caption_shortcode');
+add_shortcode('caption', 'mclub_img_caption_shortcode');
 
 /**
  * Custom function to search for the first image in a post
