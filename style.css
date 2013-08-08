@@ -734,6 +734,33 @@ body {
 	color: #707070;
 }
 
+/* =MClub Content Headers
+----------------------------------------------- */
+.content article h1 {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.content article h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.content article h3 {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.content article h4 {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.content article h5 {
+	font-weight: bold;
+}
+
+
 /* =MClub Content Images
 ----------------------------------------------- */
 .single .wp-caption {
