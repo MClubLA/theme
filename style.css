@@ -706,9 +706,7 @@ body {
 
 .single .entry-header {
 	width: 100%;
-	border: none;
-	margin: 0 0 1em 0;
-	background: url("images/border-bottom.jpg") repeat-x bottom center !important;
+	border-bottom: 1px solid #000;
 }
 
 .single .entry-title {
@@ -724,7 +722,7 @@ body {
 
 .single .entry-content {
 	float: left;
-	padding: 2% 0 13% 5%;
+	padding: 0 0 13% 5%;
 	text-align: justify;
 	width: 92%;
 }
