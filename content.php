@@ -20,11 +20,11 @@
 	 */
 	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
 	<figure class="entry-thumbnail">
-		<?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?>
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
 	</figure>
 	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
 	<figure class="entry-thumbnail">
-		<img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" />
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
 	</figure>
 	<?php else : // fallback ?>
 	<!--no thumbnail-->
