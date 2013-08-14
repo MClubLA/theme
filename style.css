@@ -409,11 +409,11 @@ body {
 
 #masthead_wrapper {
 	width: 100% !important;
+	height: 81px;
 	background:url("images/header-bg.jpg") repeat-x;
 }
 
 .site-header {
-	float:left; 
 	width:1144px; margin:0 auto; padding:0px;
 }
 
