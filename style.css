@@ -407,11 +407,16 @@ body {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
+#masthead_wrapper {
+	width: 100% !important;
+	background:url("images/header-bg.jpg") repeat-x;
+	margin: 0 auto;
+	padding: 0px;
+}
+
 .site-header {
 	float:left; 
-	width:100%;
-	background:url("images/header-bg.jpg") repeat-x; margin: 0px -9999px 0px -9999px; 
-	padding: 0px 9999px 0px 9999px;
+	width:1144px;
 }
 
 .logo {
