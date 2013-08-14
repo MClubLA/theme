@@ -13,7 +13,7 @@
 		</div><!-- .entry-meta-header -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-	<?php if ( is_search() || is_home() ) : // Only display Excerpts on Search and Home Page ?>
+	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment ?>
 	<?php 
 	/**
 	 * Check for a post thumbnail to display
