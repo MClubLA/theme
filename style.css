@@ -601,7 +601,7 @@ body {
 	margin: 0 0 1.5em;
 }
 
-.home .site-content {
+.site-content {
 	border-right: 1px solid #d7d7d7;
 	padding-right: 5%;
 	margin-right: 5%;
@@ -707,6 +707,10 @@ body {
 	margin-left: 14%;
 	width: 70%;
 	margin-top: 2%;
+}
+
+.single .site-content{
+	border: none; !important;
 }
 
 .single .content-area {
