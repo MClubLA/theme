@@ -16,7 +16,7 @@
 <?php wp_head(); ?>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('site-header').scrollToFixed();
+		$('#masthead_wrapper').scrollToFixed();
 	});
 </script>
 </head>
