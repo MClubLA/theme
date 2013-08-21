@@ -18,6 +18,16 @@ get_header(); ?>
 	<?php endif; ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
+        
+        <?php /* display breadcrumbs on single pages */ 
+			if ( is_single() ) : ?>
+                <div class="breadcrumbs">
+	                <?php if(function_exists('bcn_display'))
+    		            {
+            			    bcn_display();
+                		}?>
+                </div>
+		<?php endif; ?>
 
 		<?php if ( have_posts() ) : ?>
 
