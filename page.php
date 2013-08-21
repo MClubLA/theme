@@ -13,6 +13,12 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
+        <div class="breadcrumbs">
+        <?php if(function_exists('bcn_display'))
+       	{
+			bcn_display();
+		}?>
+	    </div>
 		<div id="content" class="site-content" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
