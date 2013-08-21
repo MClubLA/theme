@@ -17,6 +17,13 @@ get_header(); ?>
 		}// end page top widget area ?>
 	<?php endif; ?>
 	<div id="primary" class="content-area">
+    <?php 
+	if( is_singular() ) {
+		print("Singular Page! From the index");
+	} else {
+		print("Singular is FALSE! From the index");
+	}
+	?>
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
