@@ -18,22 +18,20 @@ get_header(); ?>
 	<?php endif; ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-        
-        <?php /* display breadcrumbs on single pages */ 
-			if ( is_singular() ) : ?>
-                <div class="breadcrumbs">
-	                <?php if(function_exists('bcn_display'))
-    		            {
-            			    bcn_display();
-                		}?>
-                </div>
-		<?php endif; ?>
 
 		<?php if ( have_posts() ) : ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-
+				<?php /* display breadcrumbs on single pages */ 
+                    if ( is_singular() ) : ?>
+                        <div class="breadcrumbs">
+                            <?php if(function_exists('bcn_display'))
+                                {
+                                    bcn_display();
+                                }?>
+                        </div>
+                <?php endif; ?>
 				<?php
 					/* Include the Post-Format-specific template for the content.
 					 * If you want to overload this in a child theme then include a file
