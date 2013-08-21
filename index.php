@@ -20,7 +20,7 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
         
         <?php /* display breadcrumbs on single pages */ 
-			if ( is_single() ) : ?>
+			if ( is_singular() ) : ?>
                 <div class="breadcrumbs">
 	                <?php if(function_exists('bcn_display'))
     		            {
