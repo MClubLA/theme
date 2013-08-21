@@ -3,12 +3,6 @@
  * @package MClub LA
  */
 ?>
-<div class="breadcrumbs">
-    <?php if(function_exists('bcn_display'))
-    {
-        bcn_display();
-    }?>
-</div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
