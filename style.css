@@ -425,14 +425,14 @@ body {
 }
 
 /* Search Box */
-.search { 
+#masthead .search { 
 	float: right; 
 	width: 18.5%; 
 	margin-top: 2%;
 	background: #fff;
 }
 
-.search input.field {
+#masthead .search input.field {
 	line-height: 20px;
 	border: none;
 	background:#fff; 
@@ -444,7 +444,7 @@ body {
 	box-sizing: border-box;
 }
 
-.search input.submit {
+#masthead .search input.submit {
 	float: right;
 	border: none;
 	height:27px; 
