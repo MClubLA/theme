@@ -396,6 +396,14 @@ body {
 	font-family: 'Droid Sans', 'Times New Roman', serif;
 }
 
+/* Page Title Formatting */
+.page-title {
+	font: 1.8em 'Droid Serif', serif;
+	border-bottom: double;
+	margin: 0 0 3% 0;
+	padding: 0 0 1% 0;
+}
+
 /* =MClub Header
 ----------------------------------------------- */
 
@@ -452,13 +460,6 @@ body {
 	cursor: pointer;
 	padding: 0 0 0 23px !important; /* Fix for Internet Explorer */
 	background: transparent url("images/magnifier.png") no-repeat 0 3px;
-}
-
-.page-title {
-	font: 1.8em 'Droid Serif', serif;
-	border-bottom: double;
-	margin: 0 0 3% 0;
-	padding: 0 0 1% 0;
 }
 
 /* =Menu
