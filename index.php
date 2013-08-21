@@ -19,7 +19,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
     <?php 
 	if( is_singular() ) {
-		print("Singular Page! From the index");
+		print("Singular is TRUE! From the index");
 	} else {
 		print("Singular is FALSE! From the index");
 	}
