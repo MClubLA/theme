@@ -454,6 +454,12 @@ body {
 	background: transparent url("images/magnifier.png") no-repeat 0 3px;
 }
 
+.page-title {
+	font: 1.8em 'Droid Serif', serif;
+	border-bottom: double;
+	margin: 0 0 3% 0;
+	padding: 0 0 1% 0;
+}
 
 /* =Menu
 ----------------------------------------------- */
