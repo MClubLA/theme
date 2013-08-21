@@ -757,6 +757,13 @@ body {
 	color: #707070;
 }
 
+/* Breadcrumb Styling */
+.breadcrumbs a {
+	color: #b1b1b0;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
 /* =MClub Content Headers
 ----------------------------------------------- */
 .site-content article h1 {
