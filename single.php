@@ -24,8 +24,10 @@ get_header(); ?>
         </div> <!-- .site-main -->
         </div> <!-- .wrapper -->
         
-        <div class="leader-media">
-            <img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
+        <div id="leader-media">
+        	<div class="wrapper">
+            	<img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
+            </div> <!-- .wrapper -->
         </div> <!-- .leader-media -->
         
         <!-- restart divs to continue page display -->
