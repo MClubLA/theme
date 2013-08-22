@@ -4,6 +4,15 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<?php /* Display leader media (uses ACF) */
+	if( get_field('mclub_leader_image') ) : ?>
+    <div class="leader-media">
+    <?php 
+		$mclub_leader_image = get_field('mclub_leader_image');
+		var_dump( $mclub_leader_image );
+	?>
+    </div> <!-- .leader-media -->
+	endif; ?>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
