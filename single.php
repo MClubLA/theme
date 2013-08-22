@@ -19,12 +19,11 @@ get_header(); ?>
 			// image and/or external link attached to the post - which is selected?
 			switch( get_field('mclub_leader_image_or_video') ) {
 				case "Image":
-					echo "IMAGE SELECTED";
 					$mclub_leader_image = get_field('mclub_leader_image');
 					//var_dump( $mclub_leader_image );
+					$mclub_leader_code = '<img src="' . $mclub_leader_image["url"] . '" alt="' . $mclub_leader_image["alt"] . '" ./>';
 					break;
 				case "Video":
-					echo "VIDEO SELECTED";
 					$mclub_leader_code = get_field('mclub_leader_external');
 					break;
 			}
@@ -36,7 +35,7 @@ get_header(); ?>
         
         <div id="leader-media">
         	<div class="wrapper">
-            	<span class="leader-media-span"><img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" /></span>
+            	<span class="leader-media-span"><?php echo $mclub_leader_code; ?></span>
             </div> <!-- .wrapper -->
         </div> <!-- .leader-media -->
         
