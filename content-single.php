@@ -10,7 +10,7 @@
 		var_dump( $mclub_leader_image );
 	?>
     <div class="leader-media">
-    	<img src="<?php echo $mclub_leader_image["sizes"]["large"]; ?>" width="<?php echo $mclub_leader_image["sizes"]["large-width"]; ?>" height="<?php echo $mclub_leader_image["sizes"]["large-height"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
+    	<img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
     </div> <!-- .leader-media -->
 	<?php endif; // mclub_leader_image check ?>
 	<header class="entry-header">
