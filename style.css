@@ -597,12 +597,17 @@ body {
 	background: #898989;
 	width: 100%;
 	float: left;
+	margin-top: 11px;
 }
 
 .leader-media-span {
 	width: 100%;
 	text-align: center;
 	display: block;
+}
+
+.content-area-resume {
+	padding-top: 0px !important;
 }
 
 /* =Content

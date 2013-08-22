@@ -33,7 +33,7 @@ get_header(); ?>
         <!-- restart divs to continue page display -->
         <div class="wrapper">
         <div class="site-main">
-        <div class="content-area">
+        <div class="content-area content-area-resume">
         <?php endif; // mclub_leader_image check ?>
 		<div id="content" class="site-content" role="main">
 
