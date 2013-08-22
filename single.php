@@ -17,9 +17,10 @@ get_header(); ?>
 		<?php /* Display leader media (uses ACF) */
         if( get_field('mclub_leader_image') || get_field('mclub_leader_external') ) : 
 			// image and/or external link attached to the post - which is selected?
-			var_dump( get_field('mclub_leader_image' );
-			var_dump( get_field('mclub_leader_external' );
-			var_dump( get_field('mclub_leader_image_or_video' );
+			var_dump( get_field('mclub_leader_image') );
+			var_dump( get_field('mclub_leader_external') );
+			var_dump( get_field('mclub_leader_image_or_video') );
+
 			switch( get_field('mclub_leader_image_or_video') ) {
 				case "image":
 					echo "IMAGE SELECTED";
