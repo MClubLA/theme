@@ -14,6 +14,15 @@ get_header(); ?>
 			bcn_display();
 		}?>
 	    </div>
+		<?php /* Display leader media (uses ACF) */
+        if( get_field('mclub_leader_image') ) : 
+            $mclub_leader_image = get_field('mclub_leader_image');
+            //var_dump( $mclub_leader_image );
+        ?>
+        <div class="leader-media">
+            <img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
+        </div> <!-- .leader-media -->
+        <?php endif; // mclub_leader_image check ?>
 		<div id="content" class="site-content" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
