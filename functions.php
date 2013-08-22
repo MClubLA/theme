@@ -125,14 +125,6 @@ function mclub_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'mclub_excerpt_more' );
 
-/** 
- * Add oEmbed Filter to mclub_leader_external field type
- * See: http://www.advancedcustomfields.com/resources/filters/acfload_field/
- * Also: http://www.kevinleary.net/oembed-excerpts-custom-fields/
- */
-add_filter( 'acf/load_field/name=mclub_leader_external', array($GLOBALS['wp_embed'], 'autoembed'), 9 );
-
-
 /**
  * Improves the caption shortcode with HTML5 figure & figcaption; microdata
  * 

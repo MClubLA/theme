@@ -24,7 +24,8 @@ get_header(); ?>
 					$mclub_leader_code = '<img src="' . $mclub_leader_image["url"] . '" alt="' . $mclub_leader_image["alt"] . '" ./>';
 					break;
 				case "Video":
-					$mclub_leader_code = get_field('mclub_leader_external');
+					$mclub_leader_link = get_field('mclub_leader_external');
+					$mclub_leader_code = wp_oembed_get( $mclub_leader_link );
 					break;
 			}
         ?>
