@@ -15,9 +15,19 @@ get_header(); ?>
 		}?>
 	    </div>
 		<?php /* Display leader media (uses ACF) */
-        if( get_field('mclub_leader_image') ) : 
-            $mclub_leader_image = get_field('mclub_leader_image');
-            //var_dump( $mclub_leader_image );
+        if( get_field('mclub_leader_image') || get_field('mclub_leader_external') ) : 
+			// image and/or external link attached to the post - which is selected?
+			switch( get_field('mclub_leader_image_or_video') ) {
+				case "image":
+					echo "IMAGE SELECTED";
+					$mclub_leader_image = get_field('mclub_leader_image');
+					//var_dump( $mclub_leader_image );
+					break;
+				case "external":
+					echo "EXTERNAL SELECTED";
+					$mclub_leader_code = get_field('mclub_leader_external');
+					break;
+			}
         ?>
         <!-- break out of parent divs -->
         </div> <!-- .content-area -->
