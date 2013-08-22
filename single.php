@@ -19,9 +19,19 @@ get_header(); ?>
             $mclub_leader_image = get_field('mclub_leader_image');
             //var_dump( $mclub_leader_image );
         ?>
+        <!-- break out of parent divs -->
+        </div> <!-- .content-area -->
+        </div> <!-- .site-main -->
+        </div> <!-- .wrapper -->
+        
         <div class="leader-media">
             <img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
         </div> <!-- .leader-media -->
+        
+        <!-- restart divs to continue page display -->
+        <div class="wrapper">
+        <div class="site-main">
+        <div class="content-area">
         <?php endif; // mclub_leader_image check ?>
 		<div id="content" class="site-content" role="main">
 
