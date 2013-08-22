@@ -12,7 +12,7 @@
 		var_dump( $mclub_leader_image );
 	?>
     </div> <!-- .leader-media -->
-	endif; ?>
+	<?php endif; ?>
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 
