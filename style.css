@@ -599,6 +599,11 @@ body {
 	float: left;
 }
 
+.leader-media-span {
+	width: 100%;
+	text-align: center;
+	display: block;
+}
 
 /* =Content
 ----------------------------------------------- */

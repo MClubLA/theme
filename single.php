@@ -26,7 +26,7 @@ get_header(); ?>
         
         <div id="leader-media">
         	<div class="wrapper">
-            	<img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
+            	<span class="leader-media-span"><img src="<?php echo $mclub_leader_image["url"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" /></span>
             </div> <!-- .wrapper -->
         </div> <!-- .leader-media -->
         
