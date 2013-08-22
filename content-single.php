@@ -7,7 +7,7 @@
 	<?php /* Display leader media (uses ACF) */
 	if( get_field('mclub_leader_image') ) : 
 		$mclub_leader_image = get_field('mclub_leader_image');
-		// var_dump( $mclub_leader_image );
+		var_dump( $mclub_leader_image );
 	?>
     <div class="leader-media">
     	<img src="<?php echo $mclub_leader_image["sizes"]["large"]; ?>" width="<?php echo $mclub_leader_image["sizes"]["large-width"]; ?>" height="<?php echo $mclub_leader_image["sizes"]["large-height"]; ?>" alt="<?php echo $mclub_leader_image["alt"]; ?>" />
