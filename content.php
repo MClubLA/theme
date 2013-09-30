@@ -44,17 +44,7 @@
 	<?php endif; ?>
 
 	<footer class="entry-meta-footer">
-		<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
-			<?php
-				/* translators: used between list items, there is a space after the comma */
-				$categories_list = get_the_category_list( __( ', ', 'mclub' ) );
-				if ( $categories_list && mclub_categorized_blog() ) :
-			?>
-			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'mclub' ), $categories_list ); ?>
-			</span>
-			<?php endif; // End if categories ?>
-
+		<?php if ( 'post' == get_post_type() ) : // Hide tag text for pages on Search ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
 				$tags_list = get_the_tag_list( '<ul><li>', '</li><li>', '</li></ul>' );
