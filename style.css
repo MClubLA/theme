@@ -760,6 +760,7 @@ body {
 .single .entry-meta {
 	display: inline;
 	padding: 0 0 0 0.25em;
+	color: #blblb0;
 }
 
 .single .entry-content {
