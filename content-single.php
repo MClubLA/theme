@@ -52,7 +52,7 @@
 
 			/* Display the author name, if not the site admin */
 			if ( $author_id != "1" ) {
-				//$meta_text = $meta_text . '</br><strong>Author</strong>: ' . the_author();
+				$meta_text = $meta_text . '</br><strong>Author</strong>: ' . get_the_author();
 			}
 
 			printf(
