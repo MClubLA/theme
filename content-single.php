@@ -49,8 +49,8 @@
 			} // end check for categories on this blog
 
 			/* Display the author name, if not the site admin */
-			if ( the_author_meta( 'ID') != '1' ) {
-				$meta_text = $meta_text . '</br><strong>Author</strong>: ' . get_the_author();
+			if ( the_author_meta( 'ID') != "1" ) {
+				$meta_text = $meta_text . '</br><strong>Author</strong>: ' . the_author();
 			}
 
 			printf(
