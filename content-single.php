@@ -30,6 +30,8 @@
 			/* translators: used between list items, there is a space after the comma */
 			$tag_list = get_the_tag_list( '', __( ', ', 'mclub' ) );
 
+			$author_id = get_the_author_meta('ID');
+
 			if ( ! mclub_categorized_blog() ) {
 				// This blog only has 1 category so we just need to worry about tags in the meta text
 				if ( '' != $tag_list ) {
@@ -49,7 +51,7 @@
 			} // end check for categories on this blog
 
 			/* Display the author name, if not the site admin */
-			if ( get_the_author_meta( 'ID') != "1" ) {
+			if ( $author_id != "1" ) {
 				$meta_text = $meta_text . '</br><strong>Author</strong>: ' . the_author();
 			}
 
