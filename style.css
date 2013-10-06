@@ -763,6 +763,15 @@ body {
 	color: #b1b1b0;
 }
 
+.single .entry-meta a {
+	color: #b1b1b0;
+	text-decoration: none;
+}
+
+.single .entry-meta a:hover {
+	color: black;
+}
+
 .single .entry-content {
 	float: left;
 	padding: 0 0 13% 5%;
