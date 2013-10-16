@@ -4,7 +4,22 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('pure-g-r'); ?>>
-	<header class="entry-header pure-u-1">
+	/**
+	 * Check for a post thumbnail to display
+	 */
+	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
+	<figure class="entry-thumbnail pure-u-1-2">
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
+	</figure>
+	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
+	<figure class="entry-thumbnail pure-u-1-2">
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
+	</figure>
+	<?php else : // fallback ?>
+	<!--no thumbnail-->
+	<?php endif; ?>
+
+	<header class="entry-header pure-u-1-2">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta-header">
@@ -14,20 +29,7 @@
 	</header><!-- .entry-header -->
 	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment ?>
 	<?php 
-	/**
-	 * Check for a post thumbnail to display
-	 */
-	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
-	<figure class="entry-thumbnail">
-		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
-	</figure>
-	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
-	<figure class="entry-thumbnail">
-		<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
-	</figure>
-	<?php else : // fallback ?>
-	<!--no thumbnail-->
-	<?php endif; ?>
+
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
