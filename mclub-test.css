@@ -64,3 +64,68 @@
 	padding: 0 0 0 23px !important; /* Fix for Internet Explorer */
 	background: transparent url("images/magnifier.png") no-repeat 0 3px;
 }
+
+/* =Menu
+----------------------------------------------- */
+
+.navigation-main {
+	float: left;
+	width: 60%;
+}
+.navigation-main ul {
+	text-align: center;
+	display: block;
+	width: 100%
+}
+.navigation-main li {
+	background: url("images/nav-sep.jpg") no-repeat left center;
+	display:inline-block;
+	width:23%; 
+	*display:inline;
+	*zoom:1;
+}
+
+.navigation-main a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	line-height: 361%;
+	font-style: italic;
+	padding: 0 37%;
+}
+
+.navigation-main a:hover {
+	background: url("images/nav-bg.jpg") repeat-x 0 0;
+}
+
+.navigation-main ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	display: none;
+	float: left;
+	position: absolute;
+		top: 1.5em;
+		left: 0;
+	z-index: 99999;
+}
+.navigation-main ul ul ul {
+	left: 100%;
+	top: 0;
+}
+.navigation-main ul ul a {
+	width: 200px;
+}
+.navigation-main ul ul li {
+}
+.navigation-main li:hover > a {
+}
+.navigation-main ul ul :hover > a {
+}
+.navigation-main ul ul a:hover {
+}
+.navigation-main ul li:hover > ul {
+	display: block;
+}
+.navigation-main li.current_page_item a,
+.navigation-main li.current-menu-item a {
+	background: url("images/nav-bg.jpg") repeat-x 0 0;
+}
