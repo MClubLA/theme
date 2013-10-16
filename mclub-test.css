@@ -1,1 +1,4 @@
 /* Test CSS */
+.wrapper{
+	margin:0 auto; padding:0px; width:1144px;
+}
