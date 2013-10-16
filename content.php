@@ -4,6 +4,8 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('pure-g-r'); ?>>
+	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment TODO: Isn't singular on another template? ?>
+	<?php 
 	/**
 	 * Check for a post thumbnail to display
 	 */
@@ -19,7 +21,8 @@
 	<!--no thumbnail-->
 	<?php endif; ?>
 
-	<header class="entry-header pure-u-1-2">
+	<div class="pure-u-1-2">
+	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta-header">
@@ -27,13 +30,22 @@
 		</div><!-- .entry-meta-header -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment ?>
-	<?php 
-
+	
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
+	</div><!-- .pure-u-1-2 -->
 	<?php else : ?>
+
+	<header class="entry-header">
+		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<?php if ( 'post' == get_post_type() ) : ?>
+		<div class="entry-meta-header">
+			<?php mclub_posted_on(); ?>
+		</div><!-- .entry-meta-header -->
+		<?php endif; ?>
+	</header><!-- .entry-header -->
+	
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'mclub' ) ); ?>
 		<?php
