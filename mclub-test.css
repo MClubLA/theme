@@ -6,3 +6,61 @@
 .wrapper{
 	margin:0 auto; padding:0px; width:1144px;
 }
+
+/* =MClub Header
+----------------------------------------------- */
+
+/* Hide Site Title & Tagline */
+.site-title,
+.site-description {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+#masthead_wrapper {
+	width: 100% !important;
+	height: 81px;
+	background:url("images/header-bg.jpg") repeat-x;
+}
+
+.site-header {
+	width:1144px; margin:0 auto; padding:0px;
+}
+
+.logo {
+	float: left;
+	margin-top: 0.5%;
+	width: 13%;
+	margin-left: 0.5%;
+}
+
+/* Search Box */
+#masthead .search { 
+	float: right; 
+	width: 18.5%; 
+	margin-top: 2%;
+	background: #fff;
+}
+
+#masthead .search input.field {
+	line-height: 20px;
+	border: none;
+	background:#fff; 
+	float: left; 
+	color:#000; 
+	text-indent:8px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#masthead .search input.submit {
+	float: right;
+	border: none;
+	height:27px; 
+	width: 23px; 
+	cursor: pointer;
+	padding: 0 0 0 23px !important; /* Fix for Internet Explorer */
+	background: transparent url("images/magnifier.png") no-repeat 0 3px;
+}
