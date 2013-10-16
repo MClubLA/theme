@@ -98,6 +98,8 @@ function mclub_scripts() {
 
 	wp_enqueue_style( 'mclub-grid', get_template_directory_uri() . '/mclub-pure-grid.css' );
 
+	wp_enqueue_style( 'pure-base', "//yui.yahooapis.com/pure/0.3.0/base-min.css" );
+
 	//wp_enqueue_style( 'mclub-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'mclub-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
