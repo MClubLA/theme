@@ -42,4 +42,4 @@
 	</header><!-- #masthead -->
     </div><!-- #masthead_wrapper -->
 	<div class="wrapper">
-	<div id="main" class="site-main">
+	<div id="main" class="site-main pure-g-r">
