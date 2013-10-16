@@ -15,9 +15,9 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <?php wp_head(); ?>
 <script type="text/javascript">
-	$(document).ready(function() {
+/*	$(document).ready(function() {
 		$('#masthead_wrapper').scrollToFixed();
-	});
+	}); */
 </script>
 </head>
 
