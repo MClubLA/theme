@@ -10,7 +10,7 @@
 
 	</div><!-- #main -->
 	</div><!-- #wrapper -->
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer pure-g-r" role="contentinfo">
 		<div class="footer-wrapper">
 			<span class="footer-logo"><img src="<?php bloginfo('template_directory') ?>/images/bottom-logo.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></span>
 		</div><!-- .footer-wrapper -->
