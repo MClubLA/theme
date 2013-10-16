@@ -37,18 +37,18 @@
 	</div> <!-- .pure-u-2-5 -->
 
 	<div class="pure-u-2-5">
-	<header class="entry-header">
-		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta-header">
-			<?php mclub_posted_on(); ?>
-		</div><!-- .entry-meta-header -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-	
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+			<?php if ( 'post' == get_post_type() ) : ?>
+			<div class="entry-meta-header">
+				<?php mclub_posted_on(); ?>
+			</div><!-- .entry-meta-header -->
+			<?php endif; ?>
+		</header><!-- .entry-header -->
+		
+		<div class="entry-summary">
+			<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
 	</div><!-- .pure-u-2-5 -->
 	<?php else : ?>
 
@@ -60,7 +60,6 @@
 		</div><!-- .entry-meta-header -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'mclub' ) ); ?>
 		<?php
@@ -70,8 +69,6 @@
 			) );
 		?>
 	</div><!-- .entry-content -->
-	<?php endif; ?>
-
 	<footer class="entry-meta-footer">
 		<?php if ( 'post' == get_post_type() ) : // Hide tag text for pages on Search ?>
 			<?php
@@ -89,4 +86,5 @@
 		<?php endif; ?>
 		<?php edit_post_link( __( 'Edit', 'mclub' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta-footer -->
+	<?php endif; ?>
 </article><!-- #post-## -->
