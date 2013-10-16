@@ -10,16 +10,31 @@
 	 * Check for a post thumbnail to display
 	 */
 	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
-	<figure class="entry-thumbnail pure-u-2-5">
-		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
-	</figure>
-	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
-	<figure class="entry-thumbnail pure-u-2-5">
-		<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
-	</figure>
-	<?php else : // fallback ?>
-	<!--no thumbnail-->
-	<?php endif; ?>
+	<div class="pure-u-2-5">
+		<figure class="entry-thumbnail">
+			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
+		</figure>
+		<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
+		<figure class="entry-thumbnail">
+			<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
+		</figure>
+		<?php else : // fallback ?>
+		<!--no thumbnail-->
+		<?php endif; ?>
+
+		<footer class="entry-meta-footer">
+			<?php if ( 'post' == get_post_type() ) : // Hide tag text for pages on Search ?>
+				<?php
+					/* translators: used between list items, there is a space after the comma */
+					$tags_list = get_the_tag_list( '<ul><li>', '</li><li>', '</li></ul>' );
+					if ( $tags_list ) :
+				?>
+				<span class="tag-link-title">TAGS</span>
+				<span class="tags-links"><?php printf( __( '%1$s', 'mclub' ), $tags_list ); ?></span>
+				<?php endif; // End if $tags_list ?>
+			<?php endif; // End if 'post' == get_post_type() ?>
+		</footer><!-- .entry-meta-footer -->
+	</div> <!-- .pure-u-2-5 -->
 
 	<div class="pure-u-2-5">
 	<header class="entry-header">
