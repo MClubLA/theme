@@ -10,18 +10,18 @@
 	 * Check for a post thumbnail to display
 	 */
 	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
-	<figure class="entry-thumbnail pure-u-1-2">
+	<figure class="entry-thumbnail pure-u-2-5">
 		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
 	</figure>
 	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
-	<figure class="entry-thumbnail pure-u-1-2">
+	<figure class="entry-thumbnail pure-u-2-5">
 		<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
 	</figure>
 	<?php else : // fallback ?>
 	<!--no thumbnail-->
 	<?php endif; ?>
 
-	<div class="pure-u-1-2">
+	<div class="pure-u-2-5">
 	<header class="entry-header">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 		<?php if ( 'post' == get_post_type() ) : ?>
@@ -34,7 +34,7 @@
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
-	</div><!-- .pure-u-1-2 -->
+	</div><!-- .pure-u-2-5 -->
 	<?php else : ?>
 
 	<header class="entry-header">
@@ -45,7 +45,7 @@
 		</div><!-- .entry-meta-header -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
-	
+
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'mclub' ) ); ?>
 		<?php
