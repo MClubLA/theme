@@ -96,7 +96,7 @@ function mclub_scripts() {
 		wp_enqueue_script('jquery');
 	}
 
-	wp_enqueue_style( 'gfont-droidserif', 'http://fonts.googleapis.com/css?family=Droid+Serif' );
+	wp_enqueue_style( 'gfont-droidserif', '//fonts.googleapis.com/css?family=Droid+Serif', false, false, 'all' );
 
 	wp_enqueue_style( 'mclub-style', get_stylesheet_uri() );
 
