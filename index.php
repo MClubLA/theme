@@ -16,7 +16,7 @@ get_header(); ?>
 		<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) {
 		}// end page top widget area ?>
 	<?php endif; ?>
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area pure-u-4-5">
 		<div id="content" class="site-content" role="main">
 
 		<?php if ( have_posts() ) : ?>
