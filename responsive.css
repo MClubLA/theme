@@ -26,7 +26,7 @@
     
 }
 /* ============================= */
-/* ! Layout for mobile(lanscape) version   */
+/* ! Layout for mobile(landscape) version   */
 /* ============================= */
 @media only screen and (max-width: 767px) {
     .wrapper{width:100%;}
