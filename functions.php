@@ -117,7 +117,8 @@ function mclub_scripts() {
 add_action( 'wp_enqueue_scripts', 'mclub_scripts' );
 
 /**
- * add ie conditional html5 shim to header
+ * Add ie conditional html5shiv to header
+ * http://css-tricks.com/snippets/wordpress/html5-shim-in-functions-php/
  */
 function mclub_ie_html5_shim () {
     echo '<!--[if lt IE 9]>';
