@@ -25,7 +25,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php /* display breadcrumbs on single pages */ 
                     if ( is_singular() ) : ?>
-                        <div class="breadcrumbs">
+                        <div class="breadcrumbs pure-u-1">
                             <?php if(function_exists('bcn_display'))
                                 {
                                     bcn_display();
