@@ -516,10 +516,37 @@ body {
 
 /* Entries */
 
-.entry-title h1{
+.entry-title {
 	font-size: 0.9375em; /* 15px / 16px */
 }
 
+.entry-meta-header {
+	font-size: 0.8125em; /* 13px / 16px */
+}
+
+
+/*
+.site-content article h1 {
+	font-size: 1.4em;
+}
+
+.site-content article h2 {
+	font-size: 1.3em;
+}
+
+.site-content article h3 {
+	font-size: 1.2em;
+}
+
+.site-content article h4 {
+	font-size: 1.1em;
+}
+
+.site-content article h5 {
+	font-weight: bold;
+}
+
+*/
 
 
 .page-title {
@@ -874,27 +901,7 @@ body {
 	font-size: 0.7em;
 }
 
-/* =MClub Content Headers
------------------------------------------------ */
-.site-content article h1 {
-	font-size: 1.4em;
-}
 
-.site-content article h2 {
-	font-size: 1.3em;
-}
-
-.site-content article h3 {
-	font-size: 1.2em;
-}
-
-.site-content article h4 {
-	font-size: 1.1em;
-}
-
-.site-content article h5 {
-	font-weight: bold;
-}
 
 
 /* =MClub Content Images
