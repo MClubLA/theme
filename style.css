@@ -420,6 +420,16 @@ body {
 	width: 87.5%; /* 651px / 744px */
 }
 
+.post .entry-thumbnail {
+	width: 42.857142857142854%; /* 279px / 651px */
+}
+
+.post .entry-summary {
+	width: 52.84178187403994%; /* 344px / 651px */
+	display: block;
+	float: right;
+}
+
 .widget-area {
 	float: right;
 	margin: 57px 0;
@@ -666,12 +676,6 @@ body {
 .post .entry-thumbnail {
 	display: block;
 	float: left;
-}
-
-.post .entry-summary {
-	display: block;
-	float: right;
-	width: 60%;
 }
 
 .post .entry-header {

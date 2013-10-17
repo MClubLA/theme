@@ -22,17 +22,23 @@ Design Window Width: 1344px
 		(1051/1144)*100 = 91.87062937062937
 
 
-			Primary/Content Width (.site-content)
+			Primary/Content Width (.content-area)
 			=======
 			Total: 744px
 			Context: 1051px (#main)
 			(744/1051)*100 = 70.78972407231208
 
-				Total Excerpt Container Width
+				Total Main Container Width (.site-content)
 				====
 				Total: 651px
 				Context: 744px (primary)
 				(651/744)*100  = 87.5
+
+					Excerpt Image Widths (.entry-thumbnail)
+					====
+					Total: 279px
+					Context: 651px
+					(279/651)*100 = 42.857142857142854
 
 
 			Sidebar Width (.widget-area)
