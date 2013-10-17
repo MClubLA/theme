@@ -3,12 +3,20 @@
  * @package MClub LA
  */
 ?>
-<article id="post-<?php the_ID(); ?>" <?php post_class('pure-g-r'); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php
 	/**
 	 * Display for non-singular page types
 	 */
 	if ( !is_singular() ) : ?>
+		<header class="entry-header">
+			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+			<?php if ( 'post' == get_post_type() ) : ?>
+			<div class="entry-meta-header">
+				<?php mclub_posted_on(); ?>
+			</div><!-- .entry-meta-header -->
+			<?php endif; ?>
+		</header><!-- .entry-header -->
 		<?php 
 			/**
 			* Check for a post thumbnail to display
@@ -25,14 +33,9 @@
 			<!--no thumbnail-->
 		<?php endif; ?>
 
-		<header class="entry-header">
-			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-			<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta-header">
-				<?php mclub_posted_on(); ?>
-			</div><!-- .entry-meta-header -->
-			<?php endif; ?>
-		</header><!-- .entry-header -->
+		<div class="entry-summary">
+			<?php the_excerpt(); ?>
+		</div><!-- .entry-summary -->
 
 		<footer class="entry-meta-footer">
 			<?php if ( 'post' == get_post_type() ) : // Hide tag text for pages on Search ?>
@@ -46,11 +49,6 @@
 				<?php endif; // End if $tags_list ?>
 			<?php endif; // End if 'post' == get_post_type() ?>
 		</footer><!-- .entry-meta-footer -->
-
-		<div class="entry-summary">
-			<?php the_excerpt(); ?>
-		</div><!-- .entry-summary -->
-
 	<?php 
 		/**
 		 * (Fallback) display for singular content
