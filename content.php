@@ -4,12 +4,25 @@
  */
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('pure-g-r'); ?>>
+<<<<<<< HEAD
 	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment TODO: Isn't singular on another template? ?>
+=======
+	<header class="entry-header pure-u-1">
+		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<?php if ( 'post' == get_post_type() ) : ?>
+		<div class="entry-meta-header">
+			<?php mclub_posted_on(); ?>
+		</div><!-- .entry-meta-header -->
+		<?php endif; ?>
+	</header><!-- .entry-header -->
+	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment ?>
+>>>>>>> parent of 532afbb... updates
 	<?php 
 	/**
 	 * Check for a post thumbnail to display
 	 */
 	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
+<<<<<<< HEAD
 	<div class="pure-u-2-5">
 		<figure class="entry-thumbnail">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
@@ -60,6 +73,22 @@
 		</div><!-- .entry-meta-header -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
+=======
+	<figure class="entry-thumbnail">
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
+	</figure>
+	<?php elseif ( '' != mclub_post_image_search() ) : // Display first image in the post ?>
+	<figure class="entry-thumbnail">
+		<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="278" height="138" src="<?php echo mclub_post_image_search() ?>" /></a>
+	</figure>
+	<?php else : // fallback ?>
+	<!--no thumbnail-->
+	<?php endif; ?>
+	<div class="entry-summary">
+		<?php the_excerpt(); ?>
+	</div><!-- .entry-summary -->
+	<?php else : ?>
+>>>>>>> parent of 532afbb... updates
 	<div class="entry-content">
 		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'mclub' ) ); ?>
 		<?php
