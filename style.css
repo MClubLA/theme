@@ -471,14 +471,14 @@ body {
 .popular-posts ul {
 	float: left;
 	width: 100%;
-	padding: 0.875em 0 0 0; /* 14px / 16px */
+	padding:0  0 0 0; /* 14px / 16px */
 	margin: 0;
 }
 
 .popular-posts ul li {
 	float: left;
 	width: 100%;
-	padding: 0 0 0 0.875em; /* 14px / 16px */
+	padding: 0.875em 0 0 0.875em; /* 14px / 16px */
 	display: block;
 }
 
