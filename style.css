@@ -726,7 +726,7 @@ body {
 
 .content-area {
 	float: left;
-	width: 76%;
+	width: 57.44047619047619%; /* 772px / 1144px */
 	padding-top: 57px;
 }
 
@@ -857,7 +857,7 @@ body {
 .widget-area {
 	float: right;
 	margin: 57px 0;
-	width: 24%;
+	width: 24.388111888111887%; /* 279px / 1144px */
 /*	border-left: 1px solid #d7d7d7;
 	padding-left: 3%; */
 }
