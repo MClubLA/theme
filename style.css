@@ -415,9 +415,10 @@ a:active {
 }
 
 .logo {
-	width: 168px;
+	width: 168px; /* fixed width for now, no logo scaling TODO swap logos for small layout */
 	display: block;
 	float: left;
+	margin: 5px 0 0 0;
 }
 
 
