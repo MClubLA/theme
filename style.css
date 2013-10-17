@@ -436,9 +436,14 @@ body {
 	float: right;
 }
 
-.entry-meta-footer .tags-links {
+.post .entry-meta-footer {
+	float: left;
 	width: 42.857142857142854%; /* 279px / 651px */
-	padding-left: 4.301075268817205%; /* 28px / 651px */
+}
+
+.entry-meta-footer .tags-links {
+	margin-left: 10.03584229390681%; /* 28px / 279px */
+	
 }
 
 .entry-meta-footer .tags-links ul {
@@ -722,11 +727,6 @@ body {
 .post .entry-header a:hover {
 	text-decoration: none;
 	color: grey;
-}
-
-.post .entry-meta-footer {
-	float: left;
-	width: 40%;
 }
 
 .entry-meta-footer .tag-link-title,
