@@ -489,7 +489,12 @@ body {
 }
 
 .popular-posts .wpp-post-title {
-	float: left;
+	float: right;
+	width: 69.89247311827957%; /* 195px / 279px */
+}
+
+.popular-posts .wpp-date {
+	float: right;
 	width: 69.89247311827957%; /* 195px / 279px */
 }
 
