@@ -481,17 +481,16 @@ a:active {
 .popular-posts ul li img {
 	float: left;
 	width: 21.50537634408602%; /* 60px / 279px */
-	margin: 0 0.875em 0 0;
 }
 
 .popular-posts .wpp-post-title {
 	float: right;
-	width: 69.89247311827957%; /* 195px / 279px */
+	width: 75.26881720430107%; /* 210px / 279px */
 }
 
 .popular-posts .wpp-date {
 	float: right;
-	width: 69.89247311827957%; /* 195px / 279px */
+	width: 75.26881720430107%; /* 210px / 279px */
 }
 
 /* Layout Styling */
@@ -532,6 +531,14 @@ body {
 .entry-meta-footer .tag-link-title,
 .entry-meta-footer .tags-links {
 	font-size: 0.625em; /* 10px / 16px */
+}
+
+/* Sidebar */
+
+#secondary .widget-title,
+.popular-posts .wpp-post-title,
+.popular-posts .wpp-date {
+	font-size: 0.8125em; /* 13px / 16px */
 }
 
 
