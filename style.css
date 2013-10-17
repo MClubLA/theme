@@ -407,12 +407,19 @@ a:active {
 
 #masthead_wrapper {
 	width: 100% !important; /* this contains the background for the header - see below */
-	height: 81px;
+	height: 69px;
 }
 
-.site-header {
+#masthead {
 	width: 85.11904761904762%; margin:0 auto; padding:0px; /* 1144px / 1344px */
 }
+
+.logo {
+	width: 168px;
+	display: block;
+	float: left;
+}
+
 
 /* Main Body */
 
@@ -613,14 +620,6 @@ body {
 }
 
 
-
-
-.logo {
-	float: left;
-	margin-top: 0.5%;
-	width: 13%;
-	margin-left: 0.5%;
-}
 
 /* Search Box */
 #masthead .search { 

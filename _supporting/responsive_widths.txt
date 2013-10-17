@@ -4,6 +4,27 @@ Total Width: 1144px (logo edge to edge)
 Design Window Width: 1344px
 (1144/1344)*100 = 85.11904761904762
 
+
+	Masthead Wrapper (background container)
+	=======
+	Total: 100%
+	Height: 69px
+
+		Masthead
+		======
+		Total: 1144px
+		Context: 1344
+		(1144/1344)*100 = 85.11904761904762
+
+		Logo
+		======
+		Width: 168px
+		Scale: None -- do responsive image switch later!
+
+
+
+
+
 	Wrapper
 	=======
 	Total Width: 1144px
@@ -77,7 +98,7 @@ Design Window Width: 1344px
 				Context: 279px
 				(60/279)*100 = 21.50537634408602
 
-				Sidebar PP Titles
+				Sidebar PP Titles + Dates
 				=====
 				Total: 210px
 				Context: 279px
