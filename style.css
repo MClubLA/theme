@@ -405,12 +405,7 @@ body {
 }
 
 
-/* Nifty Layout Goodness
------------------------------------------------ */
-
-/* Header */
-
-/* Below Slider */
+/* Nifty Layout Goodness */
 #main {
 	width: 91.87062937062937%; /* 1051px / 1144px */
 }
@@ -418,13 +413,11 @@ body {
 .content-area {
 	float: left;
 	width: 70.78972407231208%; /* 744px /1051px */
-	padding-top: 57px;
+	margin-top: 57px;
 }
 
 .site-content {
-	/* width: 87.5%; 651px / 744px */
-	width: 100%;
-	margin-right: 12.5%;
+	width: 87.5%; /* 651px / 744px */
 }
 
 .post .entry-header {
@@ -507,7 +500,7 @@ body {
 
 
 /* Layout Styling */
-.site-content {
+.content-area {
 	border-right: 1px solid #d7d7d7;
 }
 
