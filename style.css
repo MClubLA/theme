@@ -524,6 +524,10 @@ body {
 	font-size: 0.8125em; /* 13px / 16px */
 }
 
+.entry-summary,
+.entry-content {
+	font-size: 0.8125em; /* 13px / 16px */
+}
 
 /*
 .site-content article h1 {
