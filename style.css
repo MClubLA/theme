@@ -392,13 +392,9 @@ a:active {
 	margin:0 auto; padding:0px; width: 85.11904761904762%; /* 1144px / 1344px */
 }
 
-body {
-	font-family: 'Droid Serif', 'Times New Roman', serif;
-}
 
 /* Page Title Formatting */
 .page-title {
-	font: 1.8em 'Droid Serif', serif;
 	border-bottom: double;
 	margin: 0 0 3% 0;
 	padding: 0 0 1% 0;
@@ -498,11 +494,34 @@ body {
 	width: 69.89247311827957%; /* 195px / 279px */
 }
 
-
 /* Layout Styling */
 .content-area {
 	border-right: 1px solid #d7d7d7;
 }
+
+/* Font Work 
+----------------------------------------------- */
+body {
+	font-family: 'Droid Serif', 'Times New Roman', serif;
+}
+
+/* Slider */
+.layout-text-right .slide-title {
+	font: 0.9375em 'Droid Serif', serif; /* 15px / 16px */
+}
+
+.layout-text-right .slide-excerpt p {
+	font: 0.8125emem 'Droid Serif', serif; /* 13px / 16px */
+}
+
+
+
+
+
+.page-title {
+	font: 1.8em 'Droid Serif', serif;
+}
+
 
 
 /* =MClub Header
@@ -680,14 +699,12 @@ body {
 }
 
 .layout-text-right .slide-title {
-	font: 1em 'Droid Serif', serif;
 	border-bottom: 1px dashed #7f7f7f;
 	padding-bottom: 4%;
 	width: 57%;
 }
 
 .layout-text-right .slide-excerpt p {
-	font: 1em 'Droid Serif', serif;
 	padding-top: 2%;
 	display: block;
 }
