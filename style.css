@@ -404,6 +404,27 @@ body {
 	padding: 0 0 1% 0;
 }
 
+
+/* Nifty Layout Goodness */
+#main {
+	width: 91.87062937062937%; /* 1051px / 1144px */
+}
+
+.content-area {
+	float: left;
+	width: 70.78972407231208%; /* 744px /1051px */
+	padding-top: 57px;
+}
+
+.widget-area {
+	float: right;
+	margin: 57px 0;
+	width: 26.54614652711703%; /* 279px / 1051px */
+/*	border-left: 1px solid #d7d7d7;
+	padding-left: 3%; */
+}
+
+
 /* =MClub Header
 ----------------------------------------------- */
 
@@ -724,11 +745,7 @@ body {
 	border-radius:3px;
 }
 
-.content-area {
-	float: left;
-	width: 57.44047619047619%; /* 772px / 1144px */
-	padding-top: 57px;
-}
+
 
 /* =MClub Content */
 .single #content {
@@ -853,14 +870,6 @@ body {
 
 /* =Sidebar
 ----------------------------------------------- */
-
-.widget-area {
-	float: right;
-	margin: 57px 0;
-	width: 24.388111888111887%; /* 279px / 1144px */
-/*	border-left: 1px solid #d7d7d7;
-	padding-left: 3%; */
-}
 
 #secondary .widget-title {
 	background: none repeat scroll 0 0 #333333;
