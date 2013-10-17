@@ -42,4 +42,8 @@
 	</header><!-- #masthead -->
     </div><!-- #masthead_wrapper -->
 	<div class="wrapper">
+		<?php if ( is_home() ) : ?>
+			<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) {
+			}// end page top widget area ?>
+		<?php endif; ?>
 	<div id="main" class="site-main">

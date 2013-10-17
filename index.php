@@ -12,10 +12,6 @@
  */
 
 get_header(); ?>
-	<?php if ( is_home() ) : ?>
-		<?php if ( ! dynamic_sidebar( 'sidebar-2' ) ) {
-		}// end page top widget area ?>
-	<?php endif; ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
