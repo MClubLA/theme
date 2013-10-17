@@ -529,6 +529,7 @@ body {
 
 /* Header */
 .navigation-main a {
+	font-style: italic;
 	font-size: 0.9375em; /* 15px / 16px */
 }
 
@@ -676,7 +677,6 @@ body {
 	text-decoration: none;
 	color: #fff;
 	line-height: 361%;
-	font-style: italic;
 	padding: 0 37%;
 }
 
