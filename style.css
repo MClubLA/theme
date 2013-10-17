@@ -516,7 +516,7 @@ body {
 
 /* Entries */
 
-.entry-title {
+.entry-title h1{
 	font-size: 0.9375em; /* 15px / 16px */
 }
 
