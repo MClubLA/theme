@@ -528,11 +528,13 @@ body {
 }
 
 /* Header */
-
+.navigation-main a {
+	font-size: 0.9375em; /* 15px / 16px */
+}
 
 /* Slider */
 .layout-text-right .slide-title {
-	font: 0.9375em; /* 15px / 16px */
+	font-size: 0.9375em; /* 15px / 16px */
 }
 
 .layout-text-right .slide-excerpt p {
