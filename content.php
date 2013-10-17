@@ -51,7 +51,7 @@
 				if ( $tags_list ) :
 			?>
 			<span class="tag-link-title">TAGS</span>
-			<span class="tags-links"><?php printf( __( '%1$s', 'mclub' ), $tags_list ); ?></span>
+			<div class="tags-links"><?php printf( __( '%1$s', 'mclub' ), $tags_list ); ?></div>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
 
