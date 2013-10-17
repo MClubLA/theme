@@ -655,29 +655,20 @@ body {
 /* =Menu
 ----------------------------------------------- */
 
-.navigation-main {
-	float: left;
-	width: 60%;
-}
+
 .navigation-main ul {
 	text-align: center;
 	display: block;
-	width: 100%
 }
 .navigation-main li {
 	background: url("images/nav-sep.jpg") no-repeat left center;
 	display:inline-block;
-	width:23%; 
-	*display:inline;
-	*zoom:1;
 }
 
 .navigation-main a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
-	line-height: 361%;
-	padding: 0 37%;
 }
 
 .navigation-main a:hover {
@@ -693,13 +684,7 @@ body {
 		left: 0;
 	z-index: 99999;
 }
-.navigation-main ul ul ul {
-	left: 100%;
-	top: 0;
-}
-.navigation-main ul ul a {
-	width: 200px;
-}
+
 .navigation-main ul ul li {
 }
 .navigation-main li:hover > a {
