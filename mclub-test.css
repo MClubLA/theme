@@ -129,3 +129,8 @@
 .navigation-main li.current-menu-item a {
 	background: url("images/nav-bg.jpg") repeat-x 0 0;
 }
+
+/* TESTING */
+.left_test {
+	float: left;
+}
