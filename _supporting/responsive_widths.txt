@@ -1,0 +1,42 @@
+Page Total Width (#wrapper, .site-header)
+=======
+Total Width: 1144px (logo edge to edge)
+Design Window Width: 1344px
+(1144/1344)*100 = 85.11904761904762
+
+	Wrapper
+	=======
+	Total Width: 1144px
+
+		Slider Width
+		=======
+		Total Width: 1144px
+		Context: 1144px
+		(1144/1144) = 100%
+
+
+		Content+Sidebar Width (#main)
+		=======
+		Total Width: 1051px
+		Container: 1144px
+		(1051/1144)*100 = 91.87062937062937
+
+
+			Primary/Content Width (.site-content)
+			=======
+			Total: 744px
+			Context: 1051px (#main)
+			(744/1051)*100 = 70.78972407231208
+
+				Total Excerpt Container Width
+				====
+				Total: 651px
+				Context: 744px (primary)
+				(651/744)*100  = 87.5
+
+
+			Sidebar Width (.widget-area)
+			=======
+			Total: 279px
+			Context: 1051px (#main)
+			(279/1051)*100  = 26.54614652711703

@@ -416,12 +416,19 @@ body {
 	padding-top: 57px;
 }
 
+.site-content {
+	width: 87.5%; /* 651px / 744px */
+}
+
 .widget-area {
 	float: right;
 	margin: 57px 0;
 	width: 26.54614652711703%; /* 279px / 1051px */
-/*	border-left: 1px solid #d7d7d7;
-	padding-left: 3%; */
+}
+
+/* Layout Styling */
+.content-area {
+	border-right: 1px solid #d7d7d7;
 }
 
 
@@ -649,12 +656,6 @@ body {
 .page-links {
 	clear: both;
 	margin: 0 0 1.5em;
-}
-
-.site-content {
-	border-right: 1px solid #d7d7d7;
-	padding-right: 5%;
-	margin-right: 5%;
 }
 
 .post {
