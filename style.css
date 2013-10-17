@@ -468,10 +468,29 @@ body {
 	width: 26.54614652711703%; /* 279px / 1051px */
 }
 
+.popular-posts ul {
+	float: left;
+	width: 100%;
+	padding: 0 0 0 0;
+	margin: 0;
+}
+
+.popular-posts ul li {
+	float: left;
+	width: 100%;
+	padding: 0 0;
+	display: block;
+}
+
 .popular-posts ul li img {
 	float: left;
 	width: 21.50537634408602%; /* 60px / 279px */
 	padding: 0 3% 0 0;
+}
+
+.popular-posts .wpp-post-title {
+	float: left;
+	width: 75.26881720430107%; /* 210px / 279px */
 }
 
 
@@ -905,30 +924,10 @@ body {
 	border-radius:3px;
 }
 
-.popular-posts ul {
-	float: left;
-	width: 100%;
-	padding: 3% 0 23% 0;
-	margin: 0;
-}
-
 .popular-posts ul li {
-	float: left;
-	width: 100%;
 	border-bottom: #f4f4f4 1px solid;
-	padding: 2% 0;
-	display: block;
 }
 
-
-
-.popular-posts .wpp-post-title {
-	float: left;
-	width: 70%;
-}
-
-.popular-posts .wpp-date {
-}
 
 /* =Asides
 ----------------------------------------------- */
