@@ -74,8 +74,8 @@ function mclub_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Main Page Top Area', 'mclub' ),
 		'id'            => 'sidebar-2',
-		'before_widget' => '<div class="pure-g-r"><div class="pure-u-1">',
-		'after_widget'  => '</div></div>',
+		'before_widget' => '<div class="pure-u-1">',
+		'after_widget'  => '</div>',
 		'before_title'  => '',
 		'after_title'   => '',
 	) );
