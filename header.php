@@ -31,9 +31,7 @@
 		</div>
 		<a class="logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"><img src="<?php bloginfo('template_directory') ?>/images/logo.jpg" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
 		<nav id="site-navigation" class="navigation-main" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'mclub' ); ?></h1>
 			<div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'mclub' ); ?>"><?php _e( 'Skip to content', 'mclub' ); ?></a></div>
-
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 		<div class="search">
