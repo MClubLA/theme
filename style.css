@@ -471,21 +471,21 @@ body {
 .popular-posts ul {
 	float: left;
 	width: 100%;
-	padding: 0 0 0 0;
+	padding: 0.875em 0 0 0; /* 14px / 16px */
 	margin: 0;
 }
 
 .popular-posts ul li {
 	float: left;
 	width: 100%;
-	padding: 0 0;
+	padding: 0 0 0 0.875em; /* 14px / 16px */
 	display: block;
 }
 
 .popular-posts ul li img {
 	float: left;
 	width: 21.50537634408602%; /* 60px / 279px */
-	padding: 0 3% 0 0;
+	margin: 0 0.875em 0 0;
 }
 
 .popular-posts .wpp-post-title {

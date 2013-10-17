@@ -71,8 +71,14 @@ Design Window Width: 1344px
 			Context: 1051px (#main)
 			(279/1051)*100  = 26.54614652711703
 
-				Sidebar Thumbnails (.wpp-thumbnail)
+				Sidebar Popular Post Thumbnails (.popular-posts ul li img)
 				=====
 				Total: 60px
 				Context: 279px
 				(60/279)*100 = 21.50537634408602
+
+				Sidebar PP Titles
+				=====
+				Total: 210px
+				Context: 279px
+				(210/279)*100 = 75.26881720430107
