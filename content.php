@@ -5,8 +5,11 @@
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('pure-g-r'); ?>>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment TODO: Isn't singular on another template? ?>
 =======
+=======
+>>>>>>> parent of 532afbb... updates
 	<header class="entry-header pure-u-1">
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 		<?php if ( 'post' == get_post_type() ) : ?>
@@ -16,12 +19,16 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 	<?php if ( !is_singular() ) : // Display excerpts everywhere except 'single' type data - page/post/attachment ?>
+<<<<<<< HEAD
+>>>>>>> parent of 532afbb... updates
+=======
 >>>>>>> parent of 532afbb... updates
 	<?php 
 	/**
 	 * Check for a post thumbnail to display
 	 */
 	if ( '' != get_the_post_thumbnail() ) : // Display the post featured image ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 	<div class="pure-u-2-5">
 		<figure class="entry-thumbnail">
@@ -74,6 +81,8 @@
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 =======
+=======
+>>>>>>> parent of 532afbb... updates
 	<figure class="entry-thumbnail">
 		<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_post_thumbnail( $post_id, 'front-page-thumb' ); ?></a>
 	</figure>
