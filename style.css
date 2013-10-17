@@ -529,6 +529,12 @@ body {
 	font-size: 0.8125em; /* 13px / 16px */
 }
 
+.entry-meta-footer .tag-link-title,
+.entry-meta-footer .tags-links {
+	font-size: 0.625em; /* 10px / 16px */
+}
+
+
 /*
 .site-content article h1 {
 	font-size: 1.4em;
