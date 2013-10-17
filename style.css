@@ -402,6 +402,20 @@ a:active {
 
 
 /* Nifty Layout Goodness */
+
+/* Header */
+
+#masthead_wrapper {
+	width: 100% !important; /* this contains the background for the header - see below */
+	height: 81px;
+}
+
+.site-header {
+	width: 85.11904761904762%; margin:0 auto; padding:0px; /* 1144px / 1344px */
+}
+
+/* Main Body */
+
 #main {
 	width: 91.87062937062937%; /* 1051px / 1144px */
 }
@@ -415,6 +429,8 @@ a:active {
 .site-content {
 	width: 87.5%; /* 651px / 744px */
 }
+
+/* Post Excerpt Listing */
 
 .post .entry-header {
 	float: right;
@@ -458,6 +474,8 @@ a:active {
 	padding: 0 0.875em 0 0.875em; /* 14px / 16px */
 }
 
+/* Sidebar */
+
 #secondary {
 	float: right;
 	margin: 57px 0;
@@ -494,6 +512,11 @@ a:active {
 }
 
 /* Layout Styling */
+
+#masthead_wrapper {
+	background:url("images/header-bg.jpg") repeat-x;
+}
+
 .content-area {
 	border-right: 1px solid #d7d7d7;
 }
@@ -503,6 +526,9 @@ a:active {
 body {
 	font-family: 'Droid Serif', 'Times New Roman', serif;
 }
+
+/* Header */
+
 
 /* Slider */
 .layout-text-right .slide-title {
@@ -583,15 +609,8 @@ body {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-#masthead_wrapper {
-	width: 100% !important;
-	height: 81px;
-	background:url("images/header-bg.jpg") repeat-x;
-}
 
-.site-header {
-	width: 85.11904761904762%; margin:0 auto; padding:0px; /* 1144px / 1344px */
-}
+
 
 .logo {
 	float: left;
@@ -696,6 +715,7 @@ body {
 }
 
 /* Small menu */
+/*
 .menu-toggle {
 	display: none;
 	cursor: pointer;
@@ -715,6 +735,7 @@ body {
 		display: none;
 	}
 }
+*/
 
 /* =Slider
 ----------------------------------------------- */
