@@ -451,6 +451,14 @@ a:active {
 	height: 68px;
 }
 
+#masthead .search input.field {
+	line-height: 1.25em; /* 20px / 16px */
+	width: 100%;
+	border: none;
+	background:#fff; 
+	float: left;
+}
+
 
 
 /* Main Body */
@@ -654,19 +662,6 @@ body {
 
 
 /* Search Box */
-
-
-#masthead .search input.field {
-	line-height: 1.25em; /* 20px / 16px */
-	border: none;
-	background:#fff; 
-	float: left; 
-	color:#000; 
-	text-indent:1em;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
 #masthead .search input.submit {
 	float: right;
