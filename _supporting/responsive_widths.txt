@@ -21,12 +21,21 @@ Design Window Width: 1344px
 		Width: 168px
 		Scale: None -- do responsive image switch later!
 
-		Buttons
+		Button Container
 		======
-		Width: 176px
+		Width: 697px
 		Context: 1144px
-		(176/1144)*100 = 15.38461538461538
+		(697/1144px)*100 = 60.92657342657343
 
+			Buttons
+			======
+			Width: 176px
+			Context: 697px
+			(176/697)*100 = 25.25107604017217
+			Height: 69px
+		
+		Search
+		======
 
 
 	Wrapper
