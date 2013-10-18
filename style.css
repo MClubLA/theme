@@ -852,6 +852,7 @@ body {
 	color: #FFFFFF;
 	display: block;
 	text-align: center;
+	text-decoration: none;
 	-webkit-border-radius: 3px; 
 	-moz-border-radius: 3px; 
 	-o-border-radius: 3px;
