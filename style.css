@@ -453,11 +453,13 @@ a:active {
 
 #masthead .search input.field {
 	line-height: 1.25em; /* 20px / 16px */
-	width: 100%;
+	width: 83.17757009345794%; /* 178px / 214px */
 	border: none;
 	background:#fff; 
 	float: left;
 }
+
+#masthead .search 
 
 
 
