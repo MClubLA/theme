@@ -429,8 +429,9 @@ a:active {
 
 #masthead .menu .menu-item {
 	width: 25.25107604017217%; /* 176px  / 697px */
-	height: 69px;
-	display: inline-block;
+	height: 68px;
+	display: table-cell;
+	vertical-align: middle;
 } 
 
 #masthead .menu .menu-item a {
