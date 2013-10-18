@@ -424,7 +424,8 @@ a:active {
 #masthead .navigation-main {
 	height: 69px;
 	width: 60.92657342657343%; /* 697px / 1144px */
-	display: block;
+	display: inline-block;
+	float: left;
 }
 
 #masthead .menu .menu-item {
@@ -673,9 +674,6 @@ body {
 ----------------------------------------------- */
 
 
-.navigation-main ul {
-	text-align: center;
-}
 .navigation-main li {
 	background: url("images/nav-sep.jpg") no-repeat left center;
 }
