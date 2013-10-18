@@ -21,7 +21,11 @@ Design Window Width: 1344px
 		Width: 168px
 		Scale: None -- do responsive image switch later!
 
-
+		Buttons
+		======
+		Width: 176px
+		Context: 1144px
+		(176/1144)*100 = 15.38461538461538
 
 
 

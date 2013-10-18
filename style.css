@@ -421,6 +421,12 @@ a:active {
 	margin: 5px 0 0 0;
 }
 
+#masthead .menu .menu-item {
+	width: 15.38461538461538%; /* 176px  / 1144px */
+	height: 100%;
+	display: inline-block;
+} 
+
 
 /* Main Body */
 
