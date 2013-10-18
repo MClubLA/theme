@@ -421,6 +421,11 @@ a:active {
 	margin: 5px 0 0 0;
 }
 
+#masthead .navigation-main {
+	height: 100%;
+	display: inline-block;
+}
+
 #masthead .menu {
 	display: block;
 	width: 60.92657342657343%; /* 697px / 1144px */
@@ -668,15 +673,12 @@ body {
 
 .navigation-main ul {
 	text-align: center;
-	display: block;
 }
 .navigation-main li {
 	background: url("images/nav-sep.jpg") no-repeat left center;
-	display:inline-block;
 }
 
 .navigation-main a {
-	display: block;
 	text-decoration: none;
 	color: #fff;
 }
