@@ -428,6 +428,10 @@ a:active {
 	float: left;
 }
 
+#masthead ul.menu {
+	margin: 0; /* clear reset value */
+}
+
 #masthead .menu .menu-item {
 	width: 25.25107604017217%; /* 176px  / 697px */
 	height: 68px;
