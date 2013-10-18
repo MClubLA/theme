@@ -430,6 +430,7 @@ a:active {
 
 #masthead ul.menu {
 	margin: 0; /* clear reset value */
+	list-style: none;
 }
 
 #masthead .menu .menu-item {
@@ -685,6 +686,7 @@ body {
 .navigation-main a {
 	text-decoration: none;
 	color: #fff;
+	text-align: center;
 }
 
 .navigation-main a:hover {
