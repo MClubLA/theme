@@ -427,7 +427,7 @@ a:active {
 	display: block;
 }
 
-#masthead .menu .menu-item {
+#masthead .menu .menu-item a{
 	width: 25.25107604017217%; /* 176px  / 697px */
 	height: 69px;
 	display: inline-block;
