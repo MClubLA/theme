@@ -578,6 +578,10 @@ a:active {
 	border-right: 1px solid #d7d7d7;
 }
 
+.single .content-area {
+	border: none; /* remove border on single pages (no sidebar) */
+}
+
 /* Font Work 
 ----------------------------------------------- */
 body {
