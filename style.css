@@ -681,64 +681,21 @@ body {
 
 /* Form submit button */
 #masthead .searchform button {
-    overflow: visible;
-    position: relative;
-    float: right;
-    border: 0;
-    padding: 0;
-    cursor: pointer;
-    height: 40px;
-    width: 110px;
-    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
-    color: #fff;
-    text-transform: uppercase;
-    background: #d83c3c;
-    border-radius: 0 3px 3px 0;      
-    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
-}   
-   
-#masthead .searchform button:hover{     
-    background: #e54040;
-}   
-   
-#masthead .searchform button:active,
-#masthead .searchform button:focus{   
-    background: #c42f2f;
-    outline: 0;   
-}
- 
-#masthead .searchform button:before { /* left arrow */
-    content: '';
-    position: absolute;
-    border-width: 8px 8px 8px 0;
-    border-style: solid solid solid none;
-    border-color: transparent #d83c3c transparent;
-    top: 12px;
-    left: -6px;
-}
- 
-#masthead .searchform button:hover:before{
-    border-right-color: #e54040;
-}
- 
-#masthead .searchform button:focus:before,
-#masthead .searchform button:active:before{
-        border-right-color: #c42f2f;
+	overflow: visible;
+	position: relative;
+	float: right;
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 1.25em;
+	width: 23px;
+	color: transparent;
+	background:transparent url("images/magnifier.png");
 }      
  
 #masthead .searchform button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
     border: 0;
     padding: 0;
-}    
-
-#masthead .search input.submit {
-	float: right;
-	border: none;
-	height:27px; 
-	width: 23px; 
-	cursor: pointer;
-	padding: 0 0 0 23px !important; /* Fix for Internet Explorer */
-	background: transparent url("images/magnifier.png") no-repeat 0 3px;
 }
 
 /* =Menu
