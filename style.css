@@ -450,6 +450,7 @@ a:active {
 	float: right; 
 	width: 18.70629370629371%; /* 214px / 1144px */
 	height: 100%;
+	padding-top: 1.25em;
 }
 
 #masthead .search input.field {
@@ -684,6 +685,7 @@ body {
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
 	border-radius: 0;
+	border: 0;
 }
 
 
