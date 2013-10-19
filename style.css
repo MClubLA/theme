@@ -678,8 +678,6 @@ body {
 /* =Menu
 ----------------------------------------------- */
 
-.navigation-main ul.menu {
-}
 
 .navigation-main li {
 	background: url("images/nav-sep.jpg") no-repeat left center;
@@ -689,8 +687,6 @@ body {
 	text-decoration: none;
 	color: #fff;
 	text-align: center;
-	padding-left: 2px; 
-	margin-right: 1px; /* fix overlap of button border */
 }
 
 .navigation-main a:hover {
