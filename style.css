@@ -443,7 +443,7 @@ a:active {
 	display: block;
 	width: 100%;
 	line-height: 400%;
-	padding-left: 2px;
+	margin-left: 2px;
 }
 
 #masthead .search {
