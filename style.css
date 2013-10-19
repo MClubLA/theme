@@ -442,7 +442,8 @@ a:active {
 #masthead .menu .menu-item a {
 	display: block;
 	width: 100%;
-	height: 100%;
+	line-height: 400%;
+	padding-left: 2px;
 }
 
 #masthead .search {
@@ -458,9 +459,6 @@ a:active {
 	background:#fff; 
 	float: left;
 }
-
-#masthead .search 
-
 
 
 /* Main Body */
