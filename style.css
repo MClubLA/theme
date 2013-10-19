@@ -458,6 +458,15 @@ a:active {
 	border: none;
 	background:#fff; 
 	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#masthead .search button {
+	line-height: 1.25em; /* 20px / 16px */
+	width: 16.82242990654206%; /* 36px / 214px */
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -663,40 +672,15 @@ body {
 
 /* Search Box */
 
-/* see http://speckyboy.com/2012/02/15/how-to-build-a-stylish-css3-search-box/ */
-#masthead .searchform:before,
-#masthead .searchform:after {
-	content: "";
-	display: table;
-} 
-
-#masthead .searchform:after {
-	clear: both;
-}
-
-#masthead .searchform {
-	zoom: 1;
-
-}
-
-/* Form submit button */
-#masthead .searchform button {
-	overflow: visible;
-	position: relative;
-	float: right;
-	border: 0;
-	padding: 0;
-	cursor: pointer;
-	height: 1.25em;
-	width: 23px;
+#masthead .search button {
 	color: transparent;
-	background:transparent url("images/magnifier.png");
-}      
- 
-#masthead .searchform button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
-    border: 0;
-    padding: 0;
+	background: white url("images/magnifier.png") no-repeat center center;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
 }
+
+
 
 /* =Menu
 ----------------------------------------------- */
