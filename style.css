@@ -1132,6 +1132,10 @@ object {
 
 /* move popular posts to bottom */
 @media screen and (max-width: 800px) {
+	#main {
+		width: 100%;
+	}
+
 	.content-area {
 		float: none;
 		width: 100%;
@@ -1145,6 +1149,29 @@ object {
 }
 
 /* phone size */
-@media screen and (max-width: ) {
+@media screen and (max-width: 600px) {
+	.wrapper {
+		width: 95%;
+	}
 
+	#main,
+	.site-content {
+		width: 100%;
+	}
+
+	.post .entry-header {
+		float: none;
+		width: 100%;
+	}
+
+	.post .entry-thumbnail {
+		float: none;
+		width: 100%;
+
+	}
+
+	.post .entry-summary {
+		float: none;
+		width: 100%;
+	}
 }
