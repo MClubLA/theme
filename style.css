@@ -605,6 +605,7 @@ body {
 
 /* Entries */
 
+.entry-category,
 .entry-title {
 	font-size: 0.9375em; /* 15px / 16px */
 }
