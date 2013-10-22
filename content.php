@@ -10,6 +10,13 @@
 	 */
 	if ( !is_singular() ) : ?>
 		<header class="entry-header">
+			<?php
+				// See if we should display the category (first only)
+				$mclub_category = get_the_category();
+
+				if( $mclub_category[0] && ( $mclub_category[0]->name != "Uncategorized" ) ): ?>
+					<h2 class="entry-category"><a href="<?php echo get_category_link( $mclub_category[0]->term_id ); ?>"><?php echo $mclub_category[0]->name; ?>
+			<?php endif; ?>
 			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta-header">
@@ -55,6 +62,7 @@
 		 */
 		else : ?>
 		<header class="entry-header">
+
 			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			<?php if ( 'post' == get_post_type() ) : ?>
 			<div class="entry-meta-header">
