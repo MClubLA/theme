@@ -96,6 +96,8 @@ function mclub_scripts() {
 		wp_enqueue_script('jquery');
 	}
 
+	wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css', false, '3.2.1' );
+
 	wp_enqueue_style( 'mclub-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'mclub-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
@@ -115,6 +117,18 @@ function mclub_scripts() {
 	remove_action('wp_head', 'wlwmanifest_link'); // get rid of live writer
 }
 add_action( 'wp_enqueue_scripts', 'mclub_scripts' );
+
+/**
+ * Add IE7 support for fontawesome
+ * http://fontawesome.io/get-started/
+ */
+function mclub_fontawesome_ie7_support() {
+	echo '<!--[if IE 7]>';
+	echo '<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">';
+	echo '<![endif]-->';
+}
+add_action('wp_head', 'mclub_fontawesome_ie7_support')
+
 
 /**
  * Add ie conditional html5shiv to header
