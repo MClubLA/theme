@@ -1122,8 +1122,29 @@ object {
 
 /* =Magic Pixie Dust
 ----------------------------------------------- */
+
+/* Hide the search bar */
 @media screen and (max-width: 1000px) {
 	.search {
 		display: none; /* hide search temporarily */
 	}
+}
+
+/* move popular posts to bottom */
+@media screen and (max-width: 800px) {
+	.content-area {
+		float: none;
+		width: 100%;
+		border-right: none;
+	}
+
+	#secondary {
+		float: none;
+		width: 100%;
+	}
+}
+
+/* phone size */
+@media screen and (max-width: ) {
+
 }
