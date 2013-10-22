@@ -1119,3 +1119,11 @@ object {
 .infinity-end.neverending .site-footer {
 	display: block;
 }
+
+/* =Magic Pixie Dust
+----------------------------------------------- */
+@media screen and (max-width: 1000px) {
+	.search {
+		display: none; /* hide search temporarily */
+	}
+}
