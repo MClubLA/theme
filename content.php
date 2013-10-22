@@ -15,7 +15,7 @@
 				$mclub_category = get_the_category();
 
 				if( $mclub_category[0] && ( $mclub_category[0]->name != "Uncategorized" ) ): ?>
-					<h2 class="entry-category"><a href="<?php echo get_category_link( $mclub_category[0]->term_id ); ?>"><?php echo $mclub_category[0]->name; ?>
+					<h2 class="entry-category"><a href="<?php echo get_category_link( $mclub_category[0]->term_id ); ?>"><?php echo $mclub_category[0]->name; ?></a>:
 			<?php endif; ?>
 			<h1 class="entry-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 			<?php if ( 'post' == get_post_type() ) : ?>
