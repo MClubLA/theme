@@ -907,6 +907,7 @@ body {
 .single .entry-meta {
 	padding: 0 0 0 0.25em;
 	color: #b1b1b0;
+	display: inline;
 }
 
 .single .entry-meta a {
