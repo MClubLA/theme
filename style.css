@@ -790,6 +790,7 @@ body {
 	width: 100%;
 	text-align: center;
 	display: block;
+	line-height: 0.8;
 }
 
 .content-area-resume {
