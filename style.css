@@ -673,8 +673,6 @@ body {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-
-
 /* Search Box */
 
 #masthead .search input.field {
@@ -688,9 +686,8 @@ body {
 	-webkit-border-radius: 0;
 	border-radius: 0;
 	border: 0;
+	background-color: white;
 }
-
-
 
 /* =Menu
 ----------------------------------------------- */
