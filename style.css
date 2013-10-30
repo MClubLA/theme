@@ -482,7 +482,7 @@ a:active {
 
 .wooslider .slides {
 	width: 95.1048951048951%; /* 1088/1144 */
-	margin: 0 auto;
+	margin: 1em auto !important;
 
 }
 
