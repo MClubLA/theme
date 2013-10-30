@@ -96,7 +96,7 @@ function mclub_scripts() {
 		wp_enqueue_script('jquery');
 	}
 
-	wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css' );
+	//wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css' );
 
 	wp_enqueue_style( 'mclub-style', get_stylesheet_uri() );
 
@@ -127,7 +127,7 @@ function mclub_fontawesome_ie7_support() {
 	echo '<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">';
 	echo '<![endif]-->';
 }
-add_action('wp_head', 'mclub_fontawesome_ie7_support');
+//add_action('wp_head', 'mclub_fontawesome_ie7_support');
 
 
 /**
