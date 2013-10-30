@@ -728,7 +728,8 @@ body {
 	border: 0;
 	background-color: white;
 	color: grey;
-	background: url("images/search.png") no-repeat center center;
+	background-size: 100%;
+	background: url("images/search.png") no-repeat;
 }
 
 #masthead .search .tt-hint {
