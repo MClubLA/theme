@@ -478,6 +478,7 @@ a:active {
 
 .wooslider {
 	width: 100%;
+	margin-top: 80px;
 }
 
 .wooslider .slides {
