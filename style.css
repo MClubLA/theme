@@ -483,6 +483,7 @@ a:active {
 .wooslider .slides {
 	width: 95.1048951048951%; /* 1088/1144 */
 	margin: 0 auto;
+
 }
 
 .wooslider .slides .layout-text-right img {
@@ -790,17 +791,6 @@ body {
 	 -o-box-shadow: none; 
 	 box-shadow: none; 
 	 zoom: 1;
-}
-
-.layout-text-right img {
-	float: left;
-	width: 65%;
-}
-
-.layout-text-right .slide-excerpt {
-	float: right;
-	padding: 1% 2% 0 3px;
-	width: 31%;
 }
 
 .layout-text-right .slide-title {
