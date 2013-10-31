@@ -694,6 +694,17 @@ body {
 	font: 1.8em 'Droid Serif', serif;
 }
 
+/* Breadcrumb Styling */
+.breadcrumbs,
+.breadcrumbs a {
+	color: #b1b1b0;
+	text-decoration: none;
+	font-size: 0.7em;
+}
+
+.breadcrumbs .current-item {
+	color: #363636;
+}
 
 
 /* =MClub Header
@@ -965,12 +976,7 @@ body {
 	color: #707070;
 }
 
-/* Breadcrumb Styling */
-.breadcrumbs a {
-	color: #b1b1b0;
-	text-decoration: none;
-	font-size: 0.7em;
-}
+
 
 
 
