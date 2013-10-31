@@ -467,9 +467,9 @@ a:active {
 }
 
 #masthead .search button {
-	height: 22px;
-	width: 16.82242990654206%; /* 36px / 214px */
-	margin-top: -1%;
+	height: 31px;
+	width: 31px; /* 36px / 214px = 16.82242990654206%*/
+	margin-top: -2%;
 	padding: 0;
 	float: right;
 }
@@ -721,15 +721,19 @@ body {
 	background-color: #fff;
 }
 
-#masthead .search button {
+#masthead #searchsubmit {
 	-moz-border-radius: 0;
 	-webkit-border-radius: 0;
+	vertical-align: middle;
+	cursor: pointer;
+	line-height: 100%;
 	border-radius: 0;
 	border: 0;
 	background-color: white;
-	color: grey;
-	background-size: 22px auto;
-	background: url("images/search.png");
+	color: transparent;
+	background-image: url("images/search.png");
+	background-position: 0 0;
+
 }
 
 #masthead .search .tt-hint {
