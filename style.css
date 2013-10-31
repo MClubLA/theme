@@ -835,7 +835,7 @@ body {
 }
 
 .leader-media-span {
-	width: 100%;
+	width: 78.84615384615385%; /* 902/1144 */
 	text-align: center;
 	display: block;
 	line-height: 0.8;
