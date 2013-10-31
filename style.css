@@ -695,8 +695,7 @@ body {
 }
 
 /* Breadcrumb Styling */
-.breadcrumbs,
-.breadcrumbs a {
+.breadcrumbs {
 	color: #b1b1b0;
 	text-decoration: none;
 	font-size: 0.7em;
