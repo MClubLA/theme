@@ -395,7 +395,6 @@ a:active {
 
 /* Page Title Formatting */
 .page-title {
-	border-bottom: double;
 	margin: 0 0 3% 0;
 	padding: 0 0 1% 0;
 }
