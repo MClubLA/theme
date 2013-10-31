@@ -839,6 +839,7 @@ body {
 	text-align: center;
 	display: block;
 	line-height: 0.8;
+	margin: 0 auto;
 }
 
 .content-area-resume {
