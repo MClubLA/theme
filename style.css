@@ -703,7 +703,7 @@ body {
 .breadcrumbs a {
 	color: #b1b1b0;
 	text-decoration: none;
-	font-size: 0.7em;
+	font-size: 1em;
 }
 
 .breadcrumbs .current-item {
