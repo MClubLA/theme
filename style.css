@@ -665,6 +665,11 @@ body {
 	font-size: 0.8125em; /* 13px / 16px */
 }
 
+/* Single Pages */
+
+.single .entry-title {
+	font-style: bold;
+}
 
 /*
 .site-content article h1 {
