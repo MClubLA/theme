@@ -989,7 +989,7 @@ body {
 
 .single .entry-content {
 	float: left;
-	padding: 0 0 13% 5%;
+	padding: 0 0 5% 5%;
 	text-align: justify;
 	width: 92%;
 }
@@ -1001,7 +1001,9 @@ body {
 	color: #707070;
 }
 
-
+.single footer .addthis_toolbox {
+	padding-top: 1em;
+}
 
 
 
