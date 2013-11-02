@@ -650,6 +650,7 @@ body {
 .entry-summary,
 .entry-content {
 	font-size: 0.8125em; /* 13px / 16px */
+	line-height: 1.4615384615384615em; /* 19px / 13px */
 }
 
 .entry-meta-footer .tag-link-title,
