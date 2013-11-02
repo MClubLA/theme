@@ -1203,6 +1203,16 @@ object {
 		width: 100%;
 	}
 
+	.wooslider .slides .layout-text-right img {
+		float: none;
+		width 100%;
+	}
+
+	.wooslider .slides .layout-text-right .slide-excerpt {
+		float: none;
+		width: 100%;
+	}
+
 	.content-area,
 	.leader-media-span,
 	.content-area-resume {
