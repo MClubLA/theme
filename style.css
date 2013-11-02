@@ -828,7 +828,7 @@ body {
 	 -o-box-shadow: none; 
 	 box-shadow: none; 
 	 zoom: 1;
-	 margin: 0;
+	 margin-bottom: 0;
 }
 
 .layout-text-right .slide-title {
