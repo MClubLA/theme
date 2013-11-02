@@ -672,7 +672,7 @@ body {
 }
 
 .single .entry-meta .entry-date {
-	font-size: 0.8125em; /* 15px / 16px */
+	font-size: 0.5625em; /* 9px / 16px */
 }
 
 .single footer.entry-meta,
@@ -723,6 +723,7 @@ body {
 
 .breadcrumbs .current-item {
 	color: #363636;
+	font-weight: bold;
 }
 
 
@@ -968,12 +969,12 @@ body {
 
 .single .entry-meta {
 	padding: 0 0 0 0.25em;
-	color: #b1b1b0;
+	color: #363636;
 	display: inline;
 }
 
 .single .entry-meta a {
-	color: #b1b1b0;
+	color: #363636;
 	text-decoration: none;
 }
 
