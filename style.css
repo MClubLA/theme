@@ -673,6 +673,7 @@ body {
 
 .single .entry-meta .entry-date {
 	font-size: 0.5625em; /* 9px / 16px */
+	vertical-align: middle;
 }
 
 .single footer.entry-meta,
