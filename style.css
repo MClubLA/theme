@@ -1205,7 +1205,12 @@ object {
 
 	.wooslider .slides .layout-text-right img {
 		float: none;
-		width 100%;
+		width: 100%;
+	}
+
+	.wooslider .slides .layout-text-right .slide-title {
+		padding-top: 1em;
+		width: 100%;
 	}
 
 	.wooslider .slides .layout-text-right .slide-excerpt {
