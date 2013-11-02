@@ -51,8 +51,8 @@
 					$tags_list = get_the_tag_list( '<ul><li>', '</li><li>', '</li></ul>' );
 					if ( $tags_list ) :
 				?>
-				<span class="tag-link-title">TAGS</span>
-				<span class="tags-links"><?php printf( __( '%1$s', 'mclub' ), $tags_list ); ?></span>
+				<span class="tag-link-title">TAGS:</span>
+				<div class="tags-links"><?php printf( __( '%1$s', 'mclub' ), $tags_list ); ?></span>
 				<?php endif; // End if $tags_list ?>
 			<?php endif; // End if 'post' == get_post_type() ?>
 		</footer><!-- .entry-meta-footer -->
