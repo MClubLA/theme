@@ -66,16 +66,17 @@
 
 		<?php edit_post_link( __( 'Edit', 'mclub' ), '<span class="edit-link">', '</span>' ); ?>
 
-		<!-- AddThis Button BEGIN -->
-		<div class="addthis_toolbox addthis_default_style ">
-		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-		<a class="addthis_button_tweet"></a>
-		<a class="addthis_button_pinterest_pinit" pi:pinit:layout="horizontal"></a>
-		<a class="addthis_counter addthis_pill_style"></a>
-		</div>
-		<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5251d9df6c41413e"></script>
-		<!-- AddThis Button END -->
+	<!-- AddThis Button BEGIN -->
+	<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+	<a class="addthis_button_facebook"></a>
+	<a class="addthis_button_twitter"></a>
+	<a class="addthis_button_reddit"></a>
+	<a class="addthis_button_google_plusone_share"></a>
+	<a class="addthis_button_thefancy"></a>
+	<a class="addthis_button_stumbleupon"></a>
+	</div>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5282a1c712d0f020"></script>
+	<!-- AddThis Button END -->
 
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
