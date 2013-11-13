@@ -20,10 +20,6 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
-/* =Google Fonts Import
------------------------------------------------ */
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
-
 /* =Reset
 -------------------------------------------------------------- */
 
@@ -610,7 +606,7 @@ a:active {
 /* Font Work 
 ----------------------------------------------- */
 body {
-	font-family: 'Droid Serif', 'Times New Roman', serif;
+	font-family: 'Times New Roman', serif;
 }
 
 /* Header */
@@ -706,7 +702,7 @@ body {
 
 
 .page-title {
-	font: 1.8em 'Droid Serif', serif;
+	font: 1.8em 'Times New Roman', serif;
 }
 
 /* Breadcrumb Styling */
