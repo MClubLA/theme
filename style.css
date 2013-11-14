@@ -673,9 +673,12 @@ body {
 /* Sidebar */
 
 #secondary .widget-title,
-.popular-posts .wpp-post-title,
-.popular-posts .wpp-date {
+.popular-posts .wpp-post-title {
 	font-size: 0.75em; /* 12px / 16px */
+}
+
+.popular-posts .wpp-date {
+	font-size: 0.9em;
 }
 
 /* Single Pages */
