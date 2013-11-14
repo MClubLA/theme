@@ -1036,6 +1036,11 @@ body {
 
 /* =MClub Content Images
 ----------------------------------------------- */
+
+.single .entry-content img {
+	width: 100%;
+}
+
 .single .wp-caption {
 	padding-bottom: 3%;
 	width: 100%; !important;
