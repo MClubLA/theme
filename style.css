@@ -1048,7 +1048,7 @@ body {
 }
 
 .single .wp-caption img {
-	display: inline-block;
+	display: table-cell;
 }
 
 .single .wp-caption.alignleft img,
