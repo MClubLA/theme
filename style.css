@@ -647,8 +647,7 @@ body {
 	font-size: 0.8125em; /* 13px / 16px */
 }
 
-.entry-summary,
-.entry-content {
+.entry-summary {
 	font-size: 0.8125em; /* 13px / 16px */
 	line-height: 1.4615384615384615em; /* 19px / 13px */
 }
@@ -670,6 +669,12 @@ body {
 
 .single .entry-title {
 	font-weight: bold;
+}
+
+.single .entry-content {
+	font-size: 1.1666666666666667em; /* 14pt/12pt */
+	line-height: 1.4615384615384615em; /* 19px/13px */
+	letter-spacing: 0.041666666666666664em; /* 0.5pt/12pt */
 }
 
 .single .entry-meta .entry-date {
