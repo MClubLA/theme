@@ -659,6 +659,11 @@ body {
 }
 
 .entry-summary {
+	color: #555555;
+}
+
+.entry-summary,
+.entry-content {
 	font-size: 0.8125em; /* 13px / 16px */
 	line-height: 1.4615384615384615em; /* 19px / 13px */
 }
@@ -684,8 +689,7 @@ body {
 }
 
 .single .entry-content {
-	font-size: 0.9375em; /* 15px / 16px */
-	line-height: 1.4615384615384615em; /* 19px/13px */
+	color: #363636;
 }
 
 .single .entry-meta .entry-date {
