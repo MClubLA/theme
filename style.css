@@ -675,7 +675,7 @@ body {
 #secondary .widget-title,
 .popular-posts .wpp-post-title,
 .popular-posts .wpp-date {
-	font-size: 0.8125em; /* 13px / 16px */
+	font-size: 0.6875em; /* 11px / 16px */
 }
 
 /* Single Pages */
