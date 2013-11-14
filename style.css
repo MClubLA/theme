@@ -1052,7 +1052,7 @@ body {
 
 .single .wp-caption.alignleft .wp-caption-text,
 .single .wp-caption.alignright .wp-caption-text {
-	width: 50%;
+	width: 35%;
 }
 
 .single .wp-caption .wp-caption-text {
@@ -1074,8 +1074,7 @@ body {
 
 .single .wp-caption.alignright .wp-caption-text {
 	float: left;
-	padding: 12% 4% 0 0;
-	width: 23%;
+	/*padding: 12% 4% 0 0;*/
 }
 
 
