@@ -672,13 +672,13 @@ body {
 }
 
 .single .entry-content {
-	font-size: 1.1666666666666667em; /* 14pt/12pt */
+	font-size: 0.9375em; /* 15px / 16px */
 	line-height: 1.4615384615384615em; /* 19px/13px */
-	letter-spacing: 0.041666666666666664em; /* 0.5pt/12pt */
 }
 
 .single .entry-meta .entry-date {
 	font-size: 0.5625em; /* 9px / 16px */
+	color: #363636;
 }
 
 .single footer.entry-meta,
