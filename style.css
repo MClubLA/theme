@@ -948,7 +948,7 @@ body {
 
 .entry-meta-footer .tags-links a {
 	background: none repeat scroll 0 0 #333333;
-	color: #FFFFFF;
+	color: #999;
 	display: block;
 	text-align: center;
 	text-decoration: none;
@@ -956,6 +956,10 @@ body {
 	-moz-border-radius: 3px; 
 	-o-border-radius: 3px;
 	border-radius:3px;
+}
+
+.entry-meta-footer .tags-links a:hover {
+	color: #7d7d7d;
 }
 
 
