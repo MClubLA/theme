@@ -630,10 +630,16 @@ body {
 /* Slider */
 .layout-text-right .slide-title {
 	font-size: 0.9375em; /* 15px / 16px */
+	color: #555555;
+}
+
+.layout-text-right .slide-title a {
+	color: #555555;
 }
 
 .layout-text-right .slide-excerpt p {
 	font-size: 0.8125em; /* 13px / 16px */
+	color: #555555;
 }
 
 /* Entries */
