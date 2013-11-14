@@ -1053,7 +1053,7 @@ body {
 
 .single .wp-caption.alignleft img,
 .single .wp-caption.alignright img {
-	width: 50%;
+	/*width: 50%;*/
 }
 
 .single .wp-caption.alignleft .wp-caption-text,
