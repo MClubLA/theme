@@ -1053,11 +1053,13 @@ body {
 .single .wp-caption.alignleft img,
 .single .wp-caption.alignright img {
 	width: 50%;
+	vertical-align: middle;
 }
 
 .single .wp-caption.alignleft .wp-caption-text,
 .single .wp-caption.alignright .wp-caption-text {
 	width: 35%;
+	display: table;
 }
 
 .single .wp-caption .wp-caption-text {
