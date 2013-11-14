@@ -603,7 +603,7 @@ a:active {
 	border: none; /* remove border on single pages (no sidebar) */
 }
 
-.single footer .entry-meta {
+.single footer.entry-meta {
 	padding-left: 0 !important;
 }
 
