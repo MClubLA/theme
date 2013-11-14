@@ -652,14 +652,11 @@ body {
 .entry-category,
 .entry-title {
 	font-size: 0.9375em; /* 15px / 16px */
+	color: #555555;
 }
 
 .entry-meta-header {
 	font-size: 0.8125em; /* 13px / 16px */
-}
-
-.entry-summary {
-	color: #555555;
 }
 
 .entry-summary,
@@ -934,8 +931,7 @@ body {
 	color: grey;
 }
 
-.entry-meta-footer .tag-link-title,
-.entry-meta-footer .tags-links{
+.entry-meta-footer .tag-link-title {
 	font-variant: small-caps;
 }
 
