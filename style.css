@@ -542,6 +542,10 @@ a:active {
 	margin: 0;
 }
 
+.entry-meta-footer .tag-link-title {
+	display: none;
+}
+
 .entry-meta-footer .tags-links ul li {
 	float: left;
 	margin: 0 0.4375em 0.4375em 0; /* 7px / 16px */
