@@ -1075,15 +1075,6 @@ body {
 	padding-left: 5%;
 }
 
-.single .wp-caption.alignright {
-	/*float: right;*/
-}
-
-.single .wp-caption.alignright .wp-caption-text {
-	float: left;
-	/*padding: 12% 4% 0 0;*/
-}
-
 
 /* =Sidebar
 ----------------------------------------------- */
