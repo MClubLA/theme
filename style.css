@@ -537,7 +537,8 @@ a:active {
 }
 
 .entry-meta-footer .tags-links ul {
-	display: block;
+	/*display: block;*/
+	display: none;
 	margin: 0;
 }
 
