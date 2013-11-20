@@ -178,7 +178,22 @@ function mclub_img_caption_shortcode_filter($val, $attr, $content = null)
 	// Add itemprop="contentURL" to image - Ugly hack
 	$content = str_replace('<img', '<img itemprop="contentURL"', $content);
 
-	return '<figure id="' . esc_attr($id) . '" class="wp-caption ' . esc_attr($align) . '">' . do_shortcode( $content ) . '<figcaption id="figcaption_'. esc_attr($id) . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption></figure>';
+	/* For the MClub Template, we want to place alignleft/alignright captions vertically 
+	   centered to the left/right of the image. Currently doing this with CSS Tables -
+	   but the order of the caption/figure needs to be swapped depinging on which side
+	   of the image (which "cell") the caption falls:
+	   		=Left Image=> Image First, Caption Second
+	   		=Right Image=> Caption First, Image Second
+
+	   The default code works for alignleft and aligncenter, we only need to capture alignright
+	*/
+
+	if( $align = 'alignright' ) {
+		return '<figure id="' . esc_attr($id) . '" class="wp-caption ' . esc_attr($align) . '"><figcaption id="figcaption_'. esc_attr($id) . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption>' . do_shortcode( $content ) . '</figure>';
+	} else {
+		return '<figure id="' . esc_attr($id) . '" class="wp-caption ' . esc_attr($align) . '">' . do_shortcode( $content ) . '<figcaption id="figcaption_'. esc_attr($id) . '" class="wp-caption-text" itemprop="description">' . $caption . '</figcaption></figure>';
+	}
+
 }
 add_filter( 'img_caption_shortcode', 'mclub_img_caption_shortcode_filter', 10, 3 );
 

@@ -1072,12 +1072,11 @@ body {
 }
 
 .single .wp-caption.alignleft .wp-caption-text {
-	/*float: right; */
-	/*padding: 12% 8% 0 0;*/
+	padding-left: 5%;
 }
 
 .single .wp-caption.alignright {
-	float: right;
+	/*float: right;*/
 }
 
 .single .wp-caption.alignright .wp-caption-text {
