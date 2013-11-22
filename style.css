@@ -643,6 +643,20 @@ a:active {
 
 }
 
+.footer-column ul {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.footer-column ul li {
+	float: left;
+	width: 100%;
+	padding: 0.4375em 0 0.4375em 0; /* 7px / 16px */
+	display: block;
+}
+
 #footer-col-email {
 
 }
@@ -793,6 +807,18 @@ body {
 	font-weight: bold;
 }
 
+/* Footer Fonts */
+
+#colophon .footer-column,
+#colophon .footer-column a,
+#colophon .footer-column a:visited {
+	color: #a1a1a1;
+	font-size: 0.9166666666666666em; /* 11/12pt */
+}
+
+#colophon .footer-col-header {
+	color: #fff;
+}
 
 /* =MClub Header
 ----------------------------------------------- */
