@@ -54,7 +54,7 @@ function mclub_custom_background_cb() {
 	}
 ?>
 <style type="text/css">
-	#colophon .footer-wrapper { <?php echo trim( $style ); ?> }
+	#colophon { <?php echo trim( $style ); ?> background-size: cover; }
 </style>
 <?php
 }
