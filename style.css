@@ -612,6 +612,39 @@ a:active {
 	padding-left: 0 !important;
 }
 
+/* Footer */
+
+#colophon {
+	float: left;
+	background: #333333;
+	width: 100%;
+}
+
+.footer-wrapper {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 85.11904761904762%; /* 1144px / 1344px */
+}
+
+#footer-banner {
+
+}
+
+.footer-column {
+	float: left;
+	width: 13.81118881118881%; /* 158px / 1144px */
+	padding-left: 2.4475524475524475%;
+}
+
+#footer-col-email {
+
+}
+
+#footer-col-social-buttons {
+	
+}
+
+
 /* Font Work 
 ----------------------------------------------- */
 body {
@@ -1187,20 +1220,6 @@ object {
 /* Search widget */
 .widget_search .submit {
 	display: none;
-}
-
-/* =Footer
------------------------------------------------ */
-#colophon {
-	float: left;
-	background: #333333;
-	width: 100%;
-}
-
-.footer-wrapper {
-	margin: 0 auto;
-	padding: 0 auto;
-	width: 85.11904761904762%; /* 1144px / 1344px */
 }
 
 
