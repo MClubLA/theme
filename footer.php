@@ -12,7 +12,7 @@
 	</div><!-- #wrapper -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="footer-wrapper">
-			<div id="footer-banner"><img src="images/footer-banner.png" alt="MClub LA - Motorsports is Life" /></div>
+			<div id="footer-banner"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-banner.png" alt="MClub LA - Motorsports is Life" /></div>
 			<div id="footer-col-1" class="footer-column">
 				<ul>
 					<li class="footer-col-header">Help</li>
