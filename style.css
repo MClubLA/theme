@@ -654,6 +654,7 @@ a:active {
 	float: left;
 	width: 100%;
 	display: block;
+	line-height: 1em;
 }
 
 #footer-col-email {
