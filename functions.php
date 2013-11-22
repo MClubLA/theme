@@ -49,7 +49,6 @@ function mclub_setup() {
 	 */
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'mclub' ),
-		'footer' => __( 'Footer Menu', 'mclub'),
 	) );
 
 	/**
@@ -80,6 +79,30 @@ function mclub_widgets_init() {
 		'before_title'  => '',
 		'after_title'   => '',
 	) );
+	register_sidebar( array(
+		'name'			=> __( 'Footer Column 1', 'mclub' ),
+		'id'            => 'footer-col-1',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	));
+	register_sidebar( array(
+		'name'			=> __( 'Footer Column 2', 'mclub' ),
+		'id'            => 'footer-col-2',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	));
+	register_sidebar( array(
+		'name'			=> __( 'Footer Column 3', 'mclub' ),
+		'id'            => 'footer-col-3',
+		'before_widget' => '',
+		'after_widget'  => '',
+		'before_title'  => '',
+		'after_title'   => '',
+	));
 }
 add_action( 'widgets_init', 'mclub_widgets_init' );
 
