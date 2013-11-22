@@ -11,6 +11,54 @@
 if ( ! isset( $content_width ) )
 	$content_width = 900; /* pixels */
 
+
+/**
+ * Custom function to repurpose custom-background functionality to our footer
+ * http://wp.tutsplus.com/articles/tips-articles/modifying-custom-background-feature-for-any-html-element-you-want/
+ */
+
+function mclub_custom_background_cb() {
+	$background = get_background_image();
+	$color = get_background_color();
+
+	if ( ! $background && ! $color )
+		return;
+
+	$style = $color ? "background-color: #$color;" : '';
+
+	if ( $background ) {
+		$image = " background-image: url('$background');";
+
+		$repeat = get_theme_mod( 'background_repeat', 'repeat' );
+
+		if ( ! in_array( $repeat, array( 'no-repeat', 'repeat-x', 'repeat-y', 'repeat' ) ) )
+			$repeat = 'repeat';
+
+		$repeat = " background-repeat: $repeat;";
+
+		$position = get_theme_mod( 'background_position_x', 'left' );
+
+		if ( ! in_array( $position, array( 'center', 'right', 'left' ) ) )
+			$position = 'left';
+
+		$position = " background-position: top $position;";
+
+		$attachment = get_theme_mod( 'background_attachment', 'scroll' );
+
+		if ( ! in_array( $attachment, array( 'fixed', 'scroll' ) ) )
+			$attachment = 'scroll';
+
+		$attachment = " background-attachment: $attachment;";
+
+		$style .= $image . $repeat . $position . $attachment;
+	}
+?>
+<style type="text/css">
+	#colophon .footer-wrapper { <?php echo trim( $style ); ?> }
+</style>
+<?php
+}
+
 if ( ! function_exists( 'mclub_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -56,52 +104,6 @@ function mclub_setup() {
 	 */
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
-	/**
-	 * Custom function to repurpose custom-background functionality to our footer
-	 * http://wp.tutsplus.com/articles/tips-articles/modifying-custom-background-feature-for-any-html-element-you-want/
-	 */
-
-	function mclub_custom_background_cb() {
-		$background = get_background_image();
-		$color = get_background_color();
-
-		if ( ! $background && ! $color )
-			return;
-
-		$style = $color ? "background-color: #$color;" : '';
-
-		if ( $background ) {
-			$image = " background-image: url('$background');";
-
-			$repeat = get_theme_mod( 'background_repeat', 'repeat' );
-
-			if ( ! in_array( $repeat, array( 'no-repeat', 'repeat-x', 'repeat-y', 'repeat' ) ) )
-				$repeat = 'repeat';
-
-			$repeat = " background-repeat: $repeat;";
-
-			$position = get_theme_mod( 'background_position_x', 'left' );
-
-			if ( ! in_array( $position, array( 'center', 'right', 'left' ) ) )
-				$position = 'left';
-
-			$position = " background-position: top $position;";
-
-			$attachment = get_theme_mod( 'background_attachment', 'scroll' );
-
-			if ( ! in_array( $attachment, array( 'fixed', 'scroll' ) ) )
-				$attachment = 'scroll';
-
-			$attachment = " background-attachment: $attachment;";
-
-			$style .= $image . $repeat . $position . $attachment;
-		}
-	?>
-	<style type="text/css">
-		#colophon .footer-wrapper { <?php echo trim( $style ); ?> }
-	</style>
-	<?php
-	}
 	add_theme_support( 'custom-background', array( 'wp-head-callback', 'mclub_custom_background_cb' ) );
 
 }
