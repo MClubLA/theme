@@ -817,6 +817,10 @@ body {
 	text-transform: uppercase;
 }
 
+#colophon .footer-column a:hover {
+	color: #fff;
+}
+
 #colophon .footer-col-header {
 	color: #fff;
 	font-size: 0.8125em; /* 13/16px */
