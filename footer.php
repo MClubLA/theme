@@ -21,11 +21,12 @@
 					<li><a href="#">xxx</a></li>
 				</ul>
 			</div>
-			<div id="footer-col-2" class="footer-column"></div>
+			<div id="footer-col-2" class="footer-column">
 				<ul>
 					<li class="footer-col-header">Company</li>
 					<li><a href="#">xxx</a></li>
 				</ul>
+			</div>
 			<div id="footer-col-3" class="footer-column">
 				<ul>
 					<li class="footer-col-header">Site Tools</li>
