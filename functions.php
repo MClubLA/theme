@@ -18,6 +18,7 @@ if ( ! isset( $content_width ) )
  */
 
 function mclub_custom_background_cb() {
+	echo 'called custom background!';
 	$background = get_background_image();
 	$color = get_background_color();
 
