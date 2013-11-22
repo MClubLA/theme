@@ -814,10 +814,14 @@ body {
 #colophon .footer-column a:visited {
 	color: #a1a1a1;
 	font-size: 0.9166666666666666em; /* 11/12pt */
+	text-decoration: none;
+	font-variant: small-caps;
 }
 
 #colophon .footer-col-header {
 	color: #fff;
+	font-size: 0.9166666666666666em; /* 11/12pt */
+	font-variant: small-caps;
 }
 
 /* =MClub Header
