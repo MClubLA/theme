@@ -92,16 +92,16 @@ function mclub_widgets_init() {
 		'id'            => 'footer-col-2',
 		'before_widget' => '',
 		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => '',
+		'before_title'  => '<span class="footer-col-header">',
+		'after_title'   => '</span>',
 	));
 	register_sidebar( array(
 		'name'			=> __( 'Footer Column 3', 'mclub' ),
 		'id'            => 'footer-col-3',
 		'before_widget' => '',
 		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => '',
+		'before_title'  => '<span class="footer-col-header">',
+		'after_title'   => '</span>',
 	));
 }
 add_action( 'widgets_init', 'mclub_widgets_init' );
