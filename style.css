@@ -640,7 +640,7 @@ a:active {
 .footer-column {
 	float: left;
 	width: 13.81118881118881%; /* 158px / 1144px */
-
+	padding-bottom: 5em;
 }
 
 .footer-column ul {
