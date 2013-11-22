@@ -65,7 +65,7 @@ add_action( 'after_setup_theme', 'mclub_setup' );
 function mclub_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Right Sidebar', 'mclub' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar-right',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
@@ -73,7 +73,7 @@ function mclub_widgets_init() {
 	) );
 	register_sidebar( array(
 		'name'          => __( 'Main Page Top Area', 'mclub' ),
-		'id'            => 'sidebar-2',
+		'id'            => 'homepage-top',
 		'before_widget' => '',
 		'after_widget'  => '',
 		'before_title'  => '',
