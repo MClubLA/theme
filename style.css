@@ -628,14 +628,19 @@ a:active {
 
 #footer-banner {
 	width: 100%;
-	padding-top: 28.859060402684566%;
-	margin: 0 auto;
+	padding-top: 43px;
+	text-align: center;
+}
+
+#footer-banner img {
+	width: 100%;
+	height: auto;
 }
 
 .footer-column {
 	float: left;
 	width: 13.81118881118881%; /* 158px / 1144px */
-	padding-left: 2.4475524475524475%;
+
 }
 
 #footer-col-email {
