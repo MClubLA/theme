@@ -18,7 +18,6 @@ if ( ! isset( $content_width ) )
  */
 
 function mclub_custom_background_cb() {
-	echo 'called custom background!';
 	$background = get_background_image();
 	$color = get_background_color();
 
@@ -51,7 +50,7 @@ function mclub_custom_background_cb() {
 
 		$attachment = " background-attachment: $attachment;";
 
-		$style .= $image . $repeat . $position . $attachment;
+		$style .= $image . $repeat . $position; //. $attachment;
 	}
 ?>
 <style type="text/css">
