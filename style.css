@@ -653,7 +653,6 @@ a:active {
 .footer-column ul li {
 	float: left;
 	width: 100%;
-	padding: 0.4375em 0 0.4375em 0; /* 7px / 16px */
 	display: block;
 }
 
