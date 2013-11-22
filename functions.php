@@ -286,7 +286,7 @@ function change_custom_background_cb() {
 </style>
 <?php
 }
-if ( is_wp_version( '3.4' ) ) {
+if ( version_compare( $wp_version, '3.4', '>=' ) ) {
 	add_theme_support( 'custom-background', array( 'wp-head-callback', 'change_custom_background_cb' ) );
 }
 else {
