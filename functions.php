@@ -245,7 +245,7 @@ function mclub_post_image_search() {
  * http://wp.tutsplus.com/articles/tips-articles/modifying-custom-background-feature-for-any-html-element-you-want/
  */
 
-function change_custom_background_cb() {
+function _custom_background_cb() {
 	$background = get_background_image();
 	$color = get_background_color();
 
@@ -286,13 +286,7 @@ function change_custom_background_cb() {
 </style>
 <?php
 }
-if ( version_compare( $wp_version, '3.4', '>=' ) ) {
-	add_theme_support( 'custom-background', array( 'wp-head-callback', 'change_custom_background_cb' ) );
-}
-else {
-	add_custom_background('change_custom_background_cb');
-}
-
+add_theme_support( 'custom-background', array( 'wp-head-callback', '_custom_background_cb' ) );
 
 
 /**
