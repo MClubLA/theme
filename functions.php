@@ -84,8 +84,8 @@ function mclub_widgets_init() {
 		'id'            => 'footer-col-1',
 		'before_widget' => '',
 		'after_widget'  => '',
-		'before_title'  => '',
-		'after_title'   => '',
+		'before_title'  => '<span class="footer-col-header">',
+		'after_title'   => '</span>',
 	));
 	register_sidebar( array(
 		'name'			=> __( 'Footer Column 2', 'mclub' ),
