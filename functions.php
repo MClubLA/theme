@@ -45,10 +45,11 @@ function mclub_setup() {
 	add_image_size( 'front-page-thumb', 278, 185, true );
 
 	/**
-	 * This theme uses wp_nav_menu() in one location.
+	 * This theme uses wp_nav_menu() in two locations.
 	 */
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'mclub' ),
+		'footer' => __( 'Footer Menu', 'mclub'),
 	) );
 
 	/**
