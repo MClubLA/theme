@@ -12,7 +12,28 @@
 	</div><!-- #wrapper -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="footer-wrapper">
-			<span class="footer-logo"><img src="<?php bloginfo('template_directory') ?>/images/bottom-logo.png" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></span>
+			<div id="footer-banner">[banner]</div>
+			<div id="footer-col-1" class="footer-column">
+				<ul>
+					<li class="footer-col-header">Help</li>
+					<li><a href="#">xxx</a></li>
+					<li><a href="#">xxx</a></li>
+					<li><a href="#">xxx</a></li>
+				</ul>
+			</div>
+			<div id="footer-col-2" class="footer-column"></div>
+				<ul>
+					<li class="footer-col-header">Company</li>
+					<li><a href="#">xxx</a></li>
+				</ul>
+			<div id="footer-col-3" class="footer-column">
+				<ul>
+					<li class="footer-col-header">Site Tools</li>
+					<li><a href="#">xxx</a></li>
+					<li><a href="#">xxx</a></li>
+			</div>
+			<div id="footer-col-email"></div>
+			<div id="footer-col-social-buttons"></div>
 		</div><!-- .footer-wrapper -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
