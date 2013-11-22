@@ -627,7 +627,7 @@ a:active {
 }
 
 #footer-banner {
-
+	background-image: url("images/footer-banner.png" no-repeat center);
 }
 
 .footer-column {
@@ -641,7 +641,7 @@ a:active {
 }
 
 #footer-col-social-buttons {
-	
+
 }
 
 

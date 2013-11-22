@@ -12,7 +12,7 @@
 	</div><!-- #wrapper -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="footer-wrapper">
-			<div id="footer-banner">[banner]</div>
+			<div id="footer-banner"></div>
 			<div id="footer-col-1" class="footer-column">
 				<ul>
 					<li class="footer-col-header">Help</li>
