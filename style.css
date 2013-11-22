@@ -622,7 +622,6 @@ a:active {
 
 .footer-wrapper {
 	margin: 0 auto;
-	padding: 0 auto;
 	width: 85.11904761904762%; /* 1144px / 1344px */
 }
 
@@ -641,6 +640,7 @@ a:active {
 	float: left;
 	width: 13.81118881118881%; /* 158px / 1144px */
 	padding-bottom: 5em;
+	padding-top: 1em;
 }
 
 .footer-column ul {
