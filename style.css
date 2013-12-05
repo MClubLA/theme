@@ -1309,15 +1309,15 @@ object {
 }
 .mc-embedded-subscribe:after {
     content:"";
-    width:18px;
-    height:18px;
+    width:16px;
+    height:16px;
     background-color: #638ac8;
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     display:block;
     position:absolute;
     top:3px;
-    left:-10px;
+    left:-9px;
     border:1px solid #638ac8;
 }
 
