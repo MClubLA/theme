@@ -1281,7 +1281,7 @@ object {
     font-family: 'Times New Roman';
     font-style: italic;
 }
-#mc-embedded-subscribe {
+.mc-embedded-subscribe {
     padding:4px 2em;
     font-size:12px;
     float:left;
@@ -1296,10 +1296,10 @@ object {
     border-radius: 0;
     text-shadow: none;
 }
-#mc-embedded-subscribe {
+.mc-embedded-subscribe {
     background-color: #638ac8;
 }
-#mc-embedded-subscribe:after {
+.mc-embedded-subscribe:after {
     content:"";
     width:18px;
     height:18px;
@@ -1312,18 +1312,6 @@ object {
     left:-10px;
     z-index:-1;
     border:1px solid #638ac8;
-}
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    #mc-embedded-subscribe:after {
-        width:16px;
-        height:16px;
-        top:3px;
-        left:-9px;
-    }
-    #mc-embedded-subscribe:before {
-        top:9px;
-        left:-5px;
-    }
 }
 
 /* =Infinite Scroll
@@ -1422,4 +1410,19 @@ object {
 		margin-left: 0;
 		width: 100%;
 	}
+}
+
+
+/* email form */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .mc-embedded-subscribe:after {
+        width:16px;
+        height:16px;
+        top:3px;
+        left:-9px;
+    }
+    .mc-embedded-subscribe:before {
+        top:9px;
+        left:-5px;
+    }
 }
