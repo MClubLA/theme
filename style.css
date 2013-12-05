@@ -1324,7 +1324,7 @@ object {
 /* =Footer Social Buttons
 ----------------------------------------------- */
 .footer-social {
-
+	padding-right: 0.75em;
 }
 
 #social-button-facebook {
