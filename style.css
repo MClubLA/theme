@@ -872,6 +872,7 @@ body {
 	color: transparent;
 	background: url("images/search.png") no-repeat;
 	background-position: 0 0;
+	box-shadow: none;	
 }
 
 #masthead .search .tt-hint {
