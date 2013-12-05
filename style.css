@@ -658,7 +658,10 @@ a:active {
 }
 
 #footer-col-email {
-
+	float: left;
+	width: 26.835664335664333%; /* 307px / 1144px */
+	padding-top: 1em;
+	padding-bottom: 5em;
 }
 
 #footer-col-social-buttons {
