@@ -463,7 +463,7 @@ a:active {
 
 #masthead .search button {
 	height: 31px;
-	width: 31px; /* 36px / 214px = 16.82242990654206%*/
+	width: 14.485981308411214%; /* 31px / 214px = 14.485981308411214%*/
 	margin-top: -2%;
 	padding: 0;
 	float: right;
