@@ -13,10 +13,12 @@
         <div class="mc-field-group">
             <input type="email" value="" placeholder="email address" name="EMAIL" class="required email" id="mce-EMAIL">
         </div>
-        <div id="mce-responses" class="clear">
+        <?php /*
+        <div id="mce-responses">
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>
         </div>
+        */?>
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;">
             <input type="text" name="b_23657158bd06328e132cdada8_846779040b" value="">
