@@ -1277,7 +1277,6 @@ object {
     display: inline-block;
     float:left;
     border: none;
-    margin-top: 5px;
     font-family: 'Times New Roman';
     font-style: italic;
     border-radius: 0;
@@ -1287,7 +1286,7 @@ object {
     font-size: 0.75em; /* 12px / 16px */
     float:left;
     display: inline-block;
-    margin-left:14px;
+    margin-left:0;
     position:relative;
     font-family: 'Times New Roman';
     color:#fff;
