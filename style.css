@@ -1323,20 +1323,17 @@ object {
 
 /* =Footer Social Buttons
 ----------------------------------------------- */
-.footer-social {
+.footer-social a {
 	padding-right: 0.75em;
+	color: white;
+	text-decoration: none;
 }
 
-#social-button-facebook {
-
-}
-
-#social-button-twitter {
-
-}
-
-#social-button-instagram {
-
+.footer-social a:visited,
+.footer-social a:focus,
+.footer-social a:active {
+	color: white;
+	text-decoration: none;
 }
 
 /* =Infinite Scroll
