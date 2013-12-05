@@ -7,6 +7,6 @@
  * @package MClub LA
  */
 ?>
-<a class="footer-social social-button-facebook" href="https://www.facebook.com/MClubLA" target="_blank"></a>
-<a class="footer-social social-button-twitter" href="https://twitter.com/MClubLA" target="_blank"></a>
-<a class="footer-social social-button-instagram" href="https://instagram.com/MClubLA/" target="_blank"></a>
+<a id="social-button-facebook" class="footer-social" href="https://www.facebook.com/MClubLA" target="_blank"></a>
+<a id="social-button-twitter" class="footer-social" href="https://twitter.com/MClubLA" target="_blank"></a>
+<a id="social-button-instagram" class="footer-social" href="https://instagram.com/MClubLA/" target="_blank"></a>
