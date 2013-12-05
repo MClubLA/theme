@@ -1324,10 +1324,11 @@ object {
 /* =Footer Social Buttons
 ----------------------------------------------- */
 .footer-social {
-	padding-right: 0.75em;
+	padding-right: 0.5em;
 	color: white;
 	text-decoration: none;
 	font-size: 1.625em; /* 26px/16px */
+	line-height: 1;
 }
 
 .footer-social:visited,
