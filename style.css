@@ -1295,9 +1295,10 @@ object {
     box-shadow: none !important;
     border-radius: 0;
     text-shadow: none;
-}
-.mc-embedded-subscribe {
     background-color: #638ac8;
+}
+.mc-embedded-subscribe:hover {
+    border-color: #638ac8;
 }
 .mc-embedded-subscribe:after {
     content:"";
