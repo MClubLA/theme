@@ -1283,6 +1283,7 @@ object {
     font-style: italic;
     border-radius: 0;
     width: 69.70684039087948%; /* 214px / 307px */
+    height: 20px; /* 26px - 2*3px padding */
 }
 .mc-embedded-subscribe {
     padding: 6px; 
