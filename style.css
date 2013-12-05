@@ -1323,16 +1323,16 @@ object {
 
 /* =Footer Social Buttons
 ----------------------------------------------- */
-.footer-social a {
+.footer-social {
 	padding-right: 0.75em;
 	color: white;
 	text-decoration: none;
 	font-size: 1.625em; /* 26px/16px */
 }
 
-.footer-social a:visited,
-.footer-social a:focus,
-.footer-social a:active {
+.footer-social:visited,
+.footer-social:focus,
+.footer-social:active {
 	color: white;
 	text-decoration: none;
 }
