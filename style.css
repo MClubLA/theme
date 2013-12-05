@@ -1283,7 +1283,7 @@ object {
 }
 .mc-embedded-subscribe {
     padding:4px 2em;
-    font-size:12px;
+    font-size: 0.75em; /* 12px / 16px */
     float:left;
     display: inline-block;
     margin-left:14px;
@@ -1297,8 +1297,10 @@ object {
     text-shadow: none;
     background-color: #638ac8;
 }
-.mc-embedded-subscribe:hover {
+.mc-embedded-subscribe:hover, 
+.mc-embedded-subscribe:focus {
     border-color: #638ac8;
+    box-shadow: none;
 }
 .mc-embedded-subscribe:after {
     content:"";
