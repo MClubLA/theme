@@ -41,10 +41,8 @@
 				</ul>
 				<?php endif; ?>
 			</div>
-			<div id="footer-col-email">
-				<?php get_template_part( 'newsletter-form' ); ?>
-			</div>
-			<div id="footer-col-social-buttons"></div>
+			<div id="footer-col-email"><?php get_template_part( 'footer', 'newsletter-form' ); ?></div>
+			<div id="footer-col-social-buttons"><?php get_template_part( 'footer', 'social-buttons' ); ?></div>
 		</div><!-- .footer-wrapper -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
