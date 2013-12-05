@@ -666,7 +666,11 @@ a:active {
 }
 
 #footer-col-social-buttons {
-
+	float: left;
+	width: 9.79020979020979%; /* 112px / 1144px */
+	padding-top: 1em;
+	padding-bottom: 5em;
+	margin-left: 3.9335664335664338%; /* 45px / 1144px */
 }
 
 
