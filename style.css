@@ -1270,9 +1270,6 @@ object {
 
 /* =MailChimp Email Form
 ----------------------------------------------- */
-#mc_embed_signup {
-    background-color: white;
-}
 #mce-EMAIL {
     display: inline-block;
     float:left;
