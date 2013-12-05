@@ -1332,7 +1332,8 @@ object {
 
 .footer-social:visited,
 .footer-social:focus,
-.footer-social:active {
+.footer-social:active,
+.footer-social:hover {
 	color: white;
 	text-decoration: none;
 }
