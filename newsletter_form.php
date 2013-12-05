@@ -23,8 +23,7 @@
         <div style="position: absolute; left: -5000px;">
             <input type="text" name="b_23657158bd06328e132cdada8_846779040b" value="">
         </div>
-        <div class="clear">
-            <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button">join</div>
+        <button type="submit" name="subscribe" id="mc-embedded-subscribe">join</button>
     </form>
 </div>
 <!--End mc_embed_signup-->
