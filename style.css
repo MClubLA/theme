@@ -1282,7 +1282,7 @@ object {
     font-style: italic;
 }
 .mc-embedded-subscribe {
-    padding: 0.375em 2em; 
+    padding: 6px 2em; 
     font-size: 0.75em; /* 12px / 16px */
     float:left;
     display: inline-block;
