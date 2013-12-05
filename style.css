@@ -1292,6 +1292,9 @@ object {
     color:#fff;
     border:1px solid #638ac8;
     border-left:0;
+    box-shadow: none !important;
+    border-radius: 0;
+    text-shadow: none;
 }
 #mc-embedded-subscribe {
     background-color: #638ac8;
