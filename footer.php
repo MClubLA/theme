@@ -42,7 +42,7 @@
 				<?php endif; ?>
 			</div>
 			<div id="footer-col-email">
-				<?php get_template_part( 'newsletter_form' ); ?>
+				<?php get_template_part( 'newsletter-form' ); ?>
 			</div>
 			<div id="footer-col-social-buttons"></div>
 		</div><!-- .footer-wrapper -->
