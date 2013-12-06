@@ -90,7 +90,7 @@ function mclub_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	/* Add home page thumbnail size */
-	add_image_size( 'front-page-thumb', 278, 185, true );
+	add_image_size( 'front-page-thumb', 400, 260, true );
 
 	/**
 	 * This theme uses wp_nav_menu() in two locations.
