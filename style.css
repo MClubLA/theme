@@ -892,7 +892,15 @@ body {
 
 
 .navigation-main li {
+	background: #3e3e3e;
 	background: url("images/nav-sep.jpg") no-repeat left center;
+	background: -moz-linear-gradient(top,  #3e3e3e 0%, #000000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3e3e3e), color-stop(100%,#000000));
+	background: -webkit-linear-gradient(top,  #3e3e3e 0%,#000000 100%);
+	background: -o-linear-gradient(top,  #3e3e3e 0%,#000000 100%);
+	background: -ms-linear-gradient(top,  #3e3e3e 0%,#000000 100%);
+	background: linear-gradient(to bottom,  #3e3e3e 0%,#000000 100%);
+	padding-left: 1px;
 }
 
 .navigation-main a {
