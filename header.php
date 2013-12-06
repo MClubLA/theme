@@ -16,7 +16,7 @@
 <?php wp_head(); ?>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('#masthead_wrapper').scrollToFixed( { top: 0, limit: $('#colophon').offset().top + $(window).height() - 20 } ) ;
+		$('#masthead_wrapper').scrollToFixed( { top: 0, limit: $('#colophon').offset().top + ($(window).height() - 20) } ) ;
 	});
 </script>
 </head>
