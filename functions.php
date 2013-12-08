@@ -239,6 +239,13 @@ function mclub_excerpt_more( $more ) {
 add_filter( 'excerpt_more', 'mclub_excerpt_more' );
 
 /**
+ * Breadcrumb Type Filter to fix classes
+ */
+function mclub_bnc_types( $content = null ) {
+	return str_replace('post post-post ', '', $content);
+}
+add_filter( 'bcn_breadcrumb_types', 'mclub_bcn_types' );
+/**
  * Improves the caption shortcode with HTML5 figure & figcaption; microdata
  * 
  * @param  string $val     Empty
