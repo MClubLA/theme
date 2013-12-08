@@ -160,6 +160,21 @@ function mclub_widgets_init() {
 add_action( 'widgets_init', 'mclub_widgets_init' );
 
 /**
+ * Filter js urls to add async loading
+ * http://stackoverflow.com/questions/18944027/how-do-i-defer-or-async-this-wordpress-javascript-snippet-to-load-lastly-for-fas
+ */
+add_filter( 'clean_url', function( $url )
+{
+    if ( FALSE === strpos( $url, '.js' ) )
+    { // not our file
+        return $url;
+    }
+    // Must be a ', not "!
+    return "$url' defer='defer";
+}, 11, 1 );
+
+
+/**
  * Enqueue scripts and styles
  */
 function mclub_scripts() {
