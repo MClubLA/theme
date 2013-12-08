@@ -66,17 +66,7 @@
 
 		<?php edit_post_link( __( 'Edit', 'mclub' ), '<span class="edit-link">', '</span>' ); ?>
 
-	<!-- AddThis Button BEGIN -->
-	<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
-	<a class="addthis_button_facebook"></a>
-	<a class="addthis_button_twitter"></a>
-	<a class="addthis_button_reddit"></a>
-	<a class="addthis_button_google_plusone_share"></a>
-	<a class="addthis_button_thefancy"></a>
-	<a class="addthis_button_stumbleupon"></a>
-	</div>
-	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5282a1c712d0f020"></script>
-	<!-- AddThis Button END -->
+		<div id="post-social-buttons"><?php get_template_part( 'content', 'social-buttons' ); ?></div>
 
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->

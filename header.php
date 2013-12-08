@@ -19,9 +19,19 @@
 		$('#masthead_wrapper').scrollToFixed() ;
 	});
 </script>
+<?php // Only include FB JavaScript SDK on single pages (where the social buttons are used)
+	if( is_singular() ) {
+		echo '<script>(function(e,t,n){var r,i=e.getElementsByTagName(t)[0];if(e.getElementById(n))return;r=e.createElement(t);r.id=n;r.src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=563087663768939";i.parentNode.insertBefore(r,i)})(document,"script","facebook-jssdk")</script>';
+	}
+?>
 </head>
 
 <body <?php body_class(); ?>>
+<?php // Only insert the FB root div on singular pages (where social buttons are used)
+	if( is_singular() ) {
+		echo '<div id="fb-root"></div>';
+	}
+?>
 <div id="page" class="hfeed site">
 	<div id="masthead_wrapper">
 	<header id="masthead" class="site-header" role="banner">
