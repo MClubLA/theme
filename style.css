@@ -1287,6 +1287,9 @@ object {
 	display: inline-block;
 }
 
+#post-social-buttons {
+	padding-top: 1em;
+}
 
 /* =MailChimp Email Form
 ----------------------------------------------- */
