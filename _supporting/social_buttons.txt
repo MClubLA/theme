@@ -1,0 +1,31 @@
+Social Sharing Buttons
+======================
+
+	==Facebook==
+		Icon: FontAwesome => class="fa-facebook-square"
+		Site: https://developers.facebook.com/docs/reference/plugins/like/
+
+	==Twitter==
+		Icon: FontAwesome => class="fa fa-twitter-square"
+		Site: https://about.twitter.com/resources/buttons
+
+	==Reddit==
+		Icon: FontAwesome => none
+		Site: http://www.reddit.com/buttons/
+
+	==Google+==
+		Icon: FontAwesome => class="fa fa-google-plus-square"
+		Site: https://developers.google.com/+/web/+1button/
+
+	==Fancy==
+		Icon: FontAwesome => none
+		Site: http://fancy.com/resources/buttons
+
+	==StumbleUpon==
+		Icon: FontAwesome => none
+		Site: http://www.stumbleupon.com/dt/badges/create
+
+Notes- button placement code is in content-social-buttons.php
+JS as needed is enqueued in functions.php
+Some buttons are modified
+Will need to add async plugin for faster loading
