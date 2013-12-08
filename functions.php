@@ -199,6 +199,7 @@ function mclub_scripts() {
 		wp_enqueue_script( 'facebook-jssdk', '//connect.facebook.net/en_US/all.js#xfbml=1&appId=563087663768939', false, null ); // Facebook JSSDK
 		wp_enqueue_script( 'twitter-wjs', '//platform.twitter.com/widgets.js', false, null ); // Twitter Widget JS
 		wp_enqueue_script( 'gplusone', '//apis.google.com/js/plusone.js', false, null ); // Google+ JS
+		wp_enqueue_script( 'stumbleupon', '//platform.stumbleupon.com/1/widgets.js', false, null ); // StumbleUpon JS
 	}
 
 	remove_action('wp_head', 'wlwmanifest_link'); // get rid of live writer
