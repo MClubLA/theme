@@ -241,10 +241,10 @@ add_filter( 'excerpt_more', 'mclub_excerpt_more' );
 /**
  * Breadcrumb Type Filter to fix classes
  */
-function mclub_bnc_types( $content ) {
-	return array_diff($content, array('post'));
+function mclub_bnc_types( $bnc_content, $bnc_id ) {
+	return array_diff($bnc_content, array('post'));
 }
-add_filter( 'bcn_breadcrumb_types','mclub_bcn_types' );
+add_filter( 'bcn_breadcrumb_types','mclub_bcn_types', 11, 2 );
 
 /**
  * Improves the caption shortcode with HTML5 figure & figcaption; microdata
