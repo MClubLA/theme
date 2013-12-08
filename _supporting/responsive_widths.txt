@@ -116,3 +116,39 @@ Design Window Width: 1344px
 				Total: 210px
 				Context: 279px
 				(210/279)*100 = 75.26881720430107
+
+Footer (#colophon / .site-footer)
+=======
+Total: 100%
+
+	Footer Wrapper   ---- contains bg image
+	======
+	Total: 1144px
+	Context: 1344
+	(1144/1344)*100 = 85.11904761904762
+
+		Three Columns
+		====
+		Total: 158px
+		Context: 1144px
+		(158/1144)*100 = 13.81118881118881
+
+			Padding
+			==
+			Total: 28px
+			Context: 1144
+			(28/1144)*100 = 2.4475524475524475
+
+
+
+
+==SINGLE==
+.content-area = 1144
+  .
+
+  0.3505586592178771
+
+  ========
+  padding top footer banner= 43px 
+  height banner  = 149px
+  rel = 28.859060402684566
