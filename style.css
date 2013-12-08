@@ -1281,6 +1281,12 @@ object {
 	display: none;
 }
 
+/* =Post Social Buttons
+----------------------------------------------- */
+#post-social-buttons > div {
+	display: inline-block;
+}
+
 
 /* =MailChimp Email Form
 ----------------------------------------------- */
