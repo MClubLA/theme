@@ -1285,6 +1285,7 @@ object {
 ----------------------------------------------- */
 #post-social-buttons > div {
 	display: inline-block;
+	vertical-align: baseline !important;
 }
 
 
