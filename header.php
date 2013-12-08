@@ -22,6 +22,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+<?php // Only insert the FB root div on singular pages (where social buttons are used)
+	if( is_singular() ) {
+		echo '<div id="fb-root"></div>';
+	}
+?>
 <div id="page" class="hfeed site">
 	<div id="masthead_wrapper">
 	<header id="masthead" class="site-header" role="banner">
