@@ -242,7 +242,10 @@ add_filter( 'excerpt_more', 'mclub_excerpt_more' );
  * Breadcrumb Type Filter to fix classes
  */
 function mclub_bnc_types( $content, $id ) {
-	return $content;
+	return array_diff($content, array(
+		'post', 'post-post'
+		)
+	);
 }
 add_filter( 'bcn_breadcrumb_types','mclub_bcn_types',10,2 );
 /**
