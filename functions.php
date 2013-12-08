@@ -173,7 +173,7 @@ function mclub_scripts() {
 		wp_enqueue_script('jquery');
 	}
 
-	wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' );
+	wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', false, null );
 
 	wp_enqueue_style( 'mclub-style', get_stylesheet_uri() );
 
@@ -191,6 +191,15 @@ function mclub_scripts() {
 		wp_enqueue_script( 'mclub-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
 	
+	/**
+	 * Enqueue social sharing scripts if singular page
+	 */
+
+	if ( is_singular() ) {
+		wp_enqueue_script( 'facebook-jssdk', '//connect.facebook.net/en_US/all.js#xfbml=1&appId=563087663768939', false, null ); // Facebook JSSDK
+
+	}
+
 	remove_action('wp_head', 'wlwmanifest_link'); // get rid of live writer
 }
 add_action( 'wp_enqueue_scripts', 'mclub_scripts' );
