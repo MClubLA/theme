@@ -314,6 +314,100 @@ function mclub_post_image_search() {
 
 
 /**
+ * PHP Export of ACF Fields for Theme
+ */
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_post-leader-media',
+		'title' => 'Post Leader Media',
+		'fields' => array (
+			array (
+				'key' => 'field_5215b36bdca38',
+				'label' => 'Post Leader: Image or Video',
+				'name' => 'mclub_leader_image_or_video',
+				'type' => 'radio',
+				'instructions' => 'Chose to upload an image for the leader, or insert a video',
+				'choices' => array (
+					'Image' => 'Image',
+					'Video' => 'Video',
+					'None' => 'None',
+				),
+				'other_choice' => 0,
+				'save_other_choice' => 0,
+				'default_value' => 'Image',
+				'layout' => 'horizontal',
+			),
+			array (
+				'key' => 'field_521597c945b10',
+				'label' => 'Post Leader Image',
+				'name' => 'mclub_leader_image',
+				'type' => 'image',
+				'instructions' => 'Insert a desired leader image. This will appear above the post title on the post view page.',
+				'conditional_logic' => array (
+					'status' => 1,
+					'rules' => array (
+						array (
+							'field' => 'field_5215b36bdca38',
+							'operator' => '==',
+							'value' => 'Image',
+						),
+					),
+					'allorany' => 'all',
+				),
+				'save_format' => 'object',
+				'preview_size' => 'medium',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_5215b2f31961f',
+				'label' => 'Post Leader Video',
+				'name' => 'mclub_leader_external',
+				'type' => 'text',
+				'instructions' => 'Paste YouTube or Vimeo URL here. This will appear above the post title on the post view page.',
+				'conditional_logic' => array (
+					'status' => 1,
+					'rules' => array (
+						array (
+							'field' => 'field_5215b36bdca38',
+							'operator' => '==',
+							'value' => 'Video',
+						),
+					),
+					'allorany' => 'all',
+				),
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'none',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'acf_after_title',
+			'layout' => 'default',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
+
+/**
  * Custom template tags for this theme.
  */
 require get_template_directory() . '/inc/template-tags.php';
