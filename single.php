@@ -20,7 +20,7 @@ get_header(); ?>
 			switch( get_field('mclub_leader_image_or_video') ) {
 				case "Image":
 					$mclub_leader_image = get_field('mclub_leader_image');
-					var_dump( $mclub_leader_image );
+					//var_dump( $mclub_leader_image );
 					//$mclub_leader_code = '<img src="' . $mclub_leader_image["url"] . '" alt="' . $mclub_leader_image["alt"] . '" ./>';
 					$mclub_leader_code = '<img src="' . $mclub_leader_image['sizes']['post-leader-image'] . '" alt="' . $mclub_leader_image["alt"] . '" ./>';
 					break;
