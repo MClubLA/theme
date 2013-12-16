@@ -315,6 +315,14 @@ function mclub_post_image_search() {
 
 
 /**
+ * Remove wooslider oembed mods
+ */
+if(function_exists("wooslider")) {
+	remove_filter( 'oembed_result', array($wooslider, 'oembed_video_output'), 11 );
+}
+
+
+/**
  * PHP Export of ACF Fields for Theme
  */
 if(function_exists("register_field_group"))
