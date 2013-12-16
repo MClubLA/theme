@@ -317,9 +317,9 @@ function mclub_post_image_search() {
 /**
  * Remove wooslider oembed mods
  */
-if(function_exists("wooslider")) {
+/*if(function_exists("wooslider")) {
 	remove_filter( 'oembed_result', array($wooslider, 'oembed_video_output') );
-}
+}*/
 
 
 /**
