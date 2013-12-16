@@ -89,8 +89,9 @@ function mclub_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
-	/* Add home page thumbnail size */
-	add_image_size( 'front-page-thumb', 400, 260, true );
+	/* Add custom image sizes */
+	add_image_size( 'front-page-thumb', 400, 260, true ); // homepage thumbnail
+	add_image_size( 'post-leader-image', 1000, 9999, false ); // used for leader image
 
 	/**
 	 * This theme uses wp_nav_menu() in two locations.
@@ -102,7 +103,7 @@ function mclub_setup() {
 	/**
 	 * Enable support for Post Formats
 	 */
-	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
+	//add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
 	add_theme_support( 'custom-background', array(
 		'wp-head-callback' => 'mclub_custom_background_cb',
