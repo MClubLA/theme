@@ -27,6 +27,7 @@ get_header(); ?>
 				case "Video":
 					$mclub_leader_link = get_field('mclub_leader_external');
 					$mclub_leader_code = wp_oembed_get( $mclub_leader_link );
+					var_dump( $wp_filter );
 					break;
 			}
         ?>
