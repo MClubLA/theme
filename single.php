@@ -21,7 +21,8 @@ get_header(); ?>
 				case "Image":
 					$mclub_leader_image = get_field('mclub_leader_image');
 					//var_dump( $mclub_leader_image );
-					$mclub_leader_code = '<img src="' . $mclub_leader_image["url"] . '" alt="' . $mclub_leader_image["alt"] . '" ./>';
+					//$mclub_leader_code = '<img src="' . $mclub_leader_image["url"] . '" alt="' . $mclub_leader_image["alt"] . '" ./>';
+					$mclub_leader_code = wp_get_attachment_image( $mclub_leader_image, 'post-leader-image' );
 					break;
 				case "Video":
 					$mclub_leader_link = get_field('mclub_leader_external');
